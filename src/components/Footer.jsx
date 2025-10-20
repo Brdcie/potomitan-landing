@@ -15,13 +15,13 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Applications</h4>
           <div className="footer-links">
-            <a href="https://potomitan.io/app" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.potomitan.io" target="_blank" rel="noopener noreferrer">
               App complète
             </a>
-            <a href="https://potomitan.io/phrases" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.potomitan.io/phrases" target="_blank" rel="noopener noreferrer">
               Urgence
             </a>
-            <a href="https://potomitan.io/traducteur" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.potomitan.io/traducteur" target="_blank" rel="noopener noreferrer">
               Traducteur
             </a>
             <a href="https://famibelle.github.io/KreyolKeyb/" target="_blank" rel="noopener noreferrer">
@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Contribuer</h4>
           <div className="footer-links">
-            <a href="https://potomitan.io/contribuer" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.potomitan.io/contribuer" target="_blank" rel="noopener noreferrer">
               Validation transcriptions
             </a>
             <a href="https://vwakreol.potomitan.io" target="_blank" rel="noopener noreferrer">

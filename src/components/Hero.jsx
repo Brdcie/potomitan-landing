@@ -11,10 +11,10 @@ const Hero = () => {
           Une solution d'inclusion linguistique au service de l'égalité territoriale.
         </p>
         <div className="hero-cta">
-          <a href="https://potomitan.io/app" className="btn btn-primary">
+          <a href="https://app.potomitan.io" className="btn btn-primary">
             Utiliser l'application
           </a>
-          <a href="https://potomitan.io/contribuer" className="btn btn-secondary">
+          <a href="https://app.potomitan.io/contribuer" className="btn btn-secondary">
             Contribuer
           </a>
         </div>

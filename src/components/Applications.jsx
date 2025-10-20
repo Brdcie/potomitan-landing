@@ -8,7 +8,7 @@ const Applications = () => {
       description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
       icon: <AlertCircle size={32} color="white" />,
       iconBg: 'orange',
-      link: 'https://potomitan.io/app',
+      link: 'https://app.potomitan.io',
       badge: null
     },
     {
@@ -16,7 +16,7 @@ const Applications = () => {
       description: 'Accès rapide aux phrases d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
       icon: <AlertCircle size={32} color="white" />,
       iconBg: 'orange',
-      link: 'https://potomitan.io/phrases',
+      link: 'https://app.potomitan.io/phrases',
       badge: null
     },
     {
@@ -24,7 +24,7 @@ const Applications = () => {
       description: 'Traducteur français ↔ créole guadeloupéen standalone avec API dédiée. Plus de 1805 phrases validées.',
       icon: <Type size={32} color="white" />,
       iconBg: 'blue',
-      link: 'https://potomitan.io/traducteur',
+      link: 'https://app.potomitan.io/traducteur',
       badge: { text: 'Bientôt disponible', type: 'soon' }
     },
     {
@@ -43,7 +43,7 @@ const Applications = () => {
       description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
       icon: <Mic size={32} color="white" />,
       iconBg: 'blue',
-      link: 'https://potomitan.io/contribuer',
+      link: 'https://app.potomitan.io/contribuer',
       badge: { text: 'Auth requise', type: 'auth' }
     },
     {
