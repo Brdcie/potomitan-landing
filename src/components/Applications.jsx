@@ -21,11 +21,11 @@ const Applications = () => {
     },
     {
       title: 'Traducteur',
-      description: 'Traducteur français ↔ créole guadeloupéen standalone avec API dédiée. Plus de 1805 phrases validées.',
+      description: 'Traducteur français ↔ créole guadeloupéen standalone avec API dédiée. Plus de 1818 phrases validées.',
       icon: <Type size={32} color="white" />,
       iconBg: 'blue',
-      link: 'https://app.potomitan.io/traducteur',
-      badge: { text: 'Bientôt disponible', type: 'soon' }
+      link: 'https://traducteur.potomitan.io',
+      badge: { text: 'Déjà disponible', type: 'soon' }
     },
     {
       title: 'Klavyé Kréyòl',
