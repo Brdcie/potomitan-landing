@@ -1,5 +1,5 @@
 import React from 'react';
-import { AlertCircle, Type, Keyboard, Mic, Users } from 'lucide-react';
+import { AlertCircle, Type, Keyboard, Mic, Users, BookOpen } from 'lucide-react';
 
 const Applications = () => {
   const userApps = [
@@ -30,11 +30,11 @@ const Applications = () => {
     {
     title: 'Catalogue',
     description: 'Parcourez les 1818 phrases avec filtres par catégorie et urgence.',
-    icon: <BookOpen size={32} color="white" />,  // Vous devrez importer BookOpen
+    icon: <BookOpen size={32} color="white" />,
     iconBg: 'blue',
     link: 'https://traducteur.potomitan.io#catalogue',
     badge: null
-  }
+  },
     {
       title: 'Klavyé Kréyòl',
       description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
