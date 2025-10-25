@@ -1,20 +1,19 @@
-import React from 'react';
-import { AlertCircle, Type, Keyboard, Mic, Users, BookOpen } from 'lucide-react';
+import { BookOpen, Edit, Mic } from 'lucide-react';
 
 const Applications = () => {
   const userApps = [
     {
       title: 'Application complète',
       description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
-      icon: <AlertCircle size={32} color="white" />,
-      iconBg: 'orange',
+      icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
+      iconBg: 'green',
       link: 'https://traducteur.potomitan.io',
       badge: null
     },
     {
       title: 'Urgence',
       description: 'Accès rapide aux phrases d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
-      icon: <AlertCircle size={32} color="white" />,
+      icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'orange',
       link: 'https://traducteur.potomitan.io#urgence',
       badge: null
@@ -22,16 +21,21 @@ const Applications = () => {
     {
     title: 'Catalogue',
     description: 'Parcourez les 1818 phrases avec filtres par catégorie et urgence.',
-    icon: <BookOpen size={32} color="white" />,
-    iconBg: 'blue',
+    icon: (
+      <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
+        <BookOpen size={64} color="white" />
+        <img src="/logo-potomitan.svg" alt="Logo" style={{ width: 100, height: 60 }} />
+      </div>
+    ),
+    iconBg: 'transparent',
     link: 'https://traducteur.potomitan.io#catalogue',
     badge: null
   },
     {
       title: 'Klavyé Kréyòl',
       description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
-      icon: <Keyboard size={32} color="white" />,
-      iconBg: 'green',
+      icon: <img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />,
+      iconBg: 'transparent',
       link: 'https://famibelle.github.io/KreyolKeyb/',
       badge: { text: 'Tests en cours', type: 'soon' }
     }
@@ -41,16 +45,26 @@ const Applications = () => {
     {
       title: 'Validation transcriptions',
       description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
-      icon: <Mic size={32} color="white" />,
-      iconBg: 'blue',
+      icon: (
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
+          <Edit size={64} color="white" />
+          <img src="/logo-potomitan.svg" alt="Logo" style={{ width: 100, height: 60 }} />
+        </div>
+      ),
+      iconBg: 'transparent',
       link: 'https://app.potomitan.io/contribuer',
       badge: { text: 'Auth requise', type: 'auth' }
     },
     {
       title: 'VwaKréyòl',
       description: 'Enrichissez le corpus audio et proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
-      icon: <Users size={32} color="white" />,
-      iconBg: 'yellow',
+      icon: (
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--yellow)', padding: '1rem', borderRadius: '8px' }}>
+          <Mic size={64} color="white" />
+          <img src="/logo-potomitan.svg" alt="Logo" style={{ width: 100, height: 32 }} />
+        </div>
+      ),
+      iconBg: 'transparent',
       link: 'https://vwakreol.potomitan.io',
       badge: { text: 'Libre accès', type: 'open' }
     }

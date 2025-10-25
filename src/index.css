@@ -209,14 +209,14 @@ html {
 
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
 }
 
 .app-card {
   background-color: var(--white);
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   text-decoration: none;
@@ -255,6 +255,15 @@ html {
 
 .app-icon.yellow {
   background-color: var(--yellow);
+}
+
+.app-icon.transparent {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .app-card h4 {
