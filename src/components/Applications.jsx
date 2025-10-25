@@ -8,7 +8,7 @@ const Applications = () => {
       description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
       icon: <AlertCircle size={32} color="white" />,
       iconBg: 'orange',
-      link: 'https://app.potomitan.io',
+      link: 'https://traducteur.potomitan.io',
       badge: null
     },
     {
@@ -16,7 +16,7 @@ const Applications = () => {
       description: 'Accès rapide aux phrases d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
       icon: <AlertCircle size={32} color="white" />,
       iconBg: 'orange',
-      link: 'https://app.potomitan.io/phrases',
+      link: 'https://traducteur.potomitan.io#urgence',
       badge: null
     },
     {
@@ -27,6 +27,14 @@ const Applications = () => {
       link: 'https://traducteur.potomitan.io',
       badge: { text: 'Déjà disponible', type: 'soon' }
     },
+    {
+    title: 'Catalogue',
+    description: 'Parcourez les 1818 phrases avec filtres par catégorie et urgence.',
+    icon: <BookOpen size={32} color="white" />,  // Vous devrez importer BookOpen
+    iconBg: 'blue',
+    link: 'https://traducteur.potomitan.io#catalogue',
+    badge: null
+  }
     {
       title: 'Klavyé Kréyòl',
       description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
