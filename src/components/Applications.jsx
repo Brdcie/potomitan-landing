@@ -20,14 +20,6 @@ const Applications = () => {
       badge: null
     },
     {
-      title: 'Traducteur',
-      description: 'Traducteur français ↔ créole guadeloupéen standalone avec API dédiée. Plus de 1818 phrases validées.',
-      icon: <Type size={32} color="white" />,
-      iconBg: 'blue',
-      link: 'https://traducteur.potomitan.io',
-      badge: { text: 'Déjà disponible', type: 'soon' }
-    },
-    {
     title: 'Catalogue',
     description: 'Parcourez les 1818 phrases avec filtres par catégorie et urgence.',
     icon: <BookOpen size={32} color="white" />,
@@ -35,6 +27,14 @@ const Applications = () => {
     link: 'https://traducteur.potomitan.io#catalogue',
     badge: null
   },
+   {
+      title: 'VwaKréyòl',
+      description: 'Enrichissez le corpus audio et proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
+      icon: <Users size={32} color="white" />,
+      iconBg: 'yellow',
+      link: 'https://vwakreol.potomitan.io',
+      badge: { text: 'Libre accès', type: 'open' }
+    }
     {
       title: 'Klavyé Kréyòl',
       description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
@@ -54,14 +54,7 @@ const Applications = () => {
       link: 'https://app.potomitan.io/contribuer',
       badge: { text: 'Auth requise', type: 'auth' }
     },
-    {
-      title: 'VwaKréyòl',
-      description: 'Enrichissez le corpus audio et proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
-      icon: <Users size={32} color="white" />,
-      iconBg: 'yellow',
-      link: 'https://vwakreol.potomitan.io',
-      badge: { text: 'Libre accès', type: 'open' }
-    }
+   
   ];
 
   return (
