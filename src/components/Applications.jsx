@@ -4,7 +4,7 @@ import { AlertCircle, Type, Keyboard, Mic, Users, BookOpen } from 'lucide-react'
 const Applications = () => {
   const userApps = [
     {
-      title: 'App complète',
+      title: 'Application complète',
       description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
       icon: <AlertCircle size={32} color="white" />,
       iconBg: 'orange',
@@ -27,14 +27,6 @@ const Applications = () => {
     link: 'https://traducteur.potomitan.io#catalogue',
     badge: null
   },
-   {
-      title: 'VwaKréyòl',
-      description: 'Enrichissez le corpus audio et proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
-      icon: <Users size={32} color="white" />,
-      iconBg: 'yellow',
-      link: 'https://vwakreol.potomitan.io',
-      badge: { text: 'Libre accès', type: 'open' }
-    }
     {
       title: 'Klavyé Kréyòl',
       description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
@@ -54,7 +46,14 @@ const Applications = () => {
       link: 'https://app.potomitan.io/contribuer',
       badge: { text: 'Auth requise', type: 'auth' }
     },
-   
+    {
+      title: 'VwaKréyòl',
+      description: 'Enrichissez le corpus audio et proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
+      icon: <Users size={32} color="white" />,
+      iconBg: 'yellow',
+      link: 'https://vwakreol.potomitan.io',
+      badge: { text: 'Libre accès', type: 'open' }
+    }
   ];
 
   return (
