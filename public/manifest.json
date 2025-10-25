@@ -1,0 +1,21 @@
+{
+  "name": "Potomitan™ - Traduction Créole Guadeloupéen",
+  "short_name": "Potomitan™",
+  "description": "Traduction français ↔ créole guadeloupéen pour les urgences sociétales",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2C3E50",
+  "theme_color": "#2ECC71",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo-potomitan.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities"],
+  "lang": "fr",
+  "dir": "ltr"
+}
