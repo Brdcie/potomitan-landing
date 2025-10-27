@@ -52,8 +52,8 @@ const Applications = () => {
         </div>
       ),
       iconBg: 'transparent',
-      link: 'https://potomitan.io/',
-      badge: { text: 'Bientôt disponible', type: 'auth' }
+      link: 'https://app.potomitan.io/contribuer',
+      badge: { text: 'Disponible', type: 'auth' }
     },
     {
       title: 'VwaKréyòl',
