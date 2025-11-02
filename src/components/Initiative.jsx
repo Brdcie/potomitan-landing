@@ -13,7 +13,7 @@ const Initiative = () => {
           <h3>La Problématique</h3>
           <p>
             Lors d'urgences en Guadeloupe, <strong>75% des personnes en situation de stress 
-            communiquent principalement en créole</strong>, leur langue maternelle naturelle. 
+            communiquent principalement en créole</strong>, leur langue maternelle. 
             Cette réalité crée un obstacle critique pour les services d'urgence.
           </p>
           <p style={{ marginTop: '1rem' }}>
@@ -26,9 +26,8 @@ const Initiative = () => {
         <div className="initiative-block">
           <h3>Notre Solution</h3>
           <p>
-            Architecture hybride combinant une base de données validée de <strong>1805 phrases 
-            d'urgence</strong> traduites par des locuteurs natifs et une IA spécialisée (fine-tuning 
-            NLLB-200 Meta) pour le créole guadeloupéen.
+            Architecture hybride combinant une base de données validée de <strong>+1800 expressions 
+            d'urgence</strong> traduites par des locuteurs natifs et une IA spécialisée pour le créole guadeloupéen.
           </p>
           <p style={{ marginTop: '1rem' }}>
             <strong>Fonctionnement offline</strong> crucial pour les connexions instables, 
@@ -48,8 +47,8 @@ const Initiative = () => {
               <div className="stat-label">Gagnées par intervention</div>
             </div>
             <div className="stat">
-              <div className="stat-number">1805</div>
-              <div className="stat-label">Phrases validées</div>
+              <div className="stat-number">+1800</div>
+              <div className="stat-label">Expressions validées</div>
             </div>
           </div>
           <p style={{ marginTop: '1.5rem' }}>

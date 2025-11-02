@@ -4,7 +4,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Brigitte Démocrite',
-      role: 'Fondatrice & PM',
+      role: 'Fondatrice & Experte IA',
       description: 'Développeuse principale et spécialiste IA. À l\'initiative de Potomitan, elle a développé la majeure partie de l\'application et le traducteur bidirectionnel.'
     },
     {
@@ -20,7 +20,7 @@ const Team = () => {
     {
       name: 'Julien Noyer',
       role: 'Développeur Full-stack & UX',
-      description: 'Développeur de la partie transcription et responsable du revamping de l\'interface utilisateur.'
+      description: 'Développeur du module de transcription.'
     }
   ];
 

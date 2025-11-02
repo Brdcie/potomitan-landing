@@ -30,34 +30,13 @@ const Applications = () => {
     iconBg: 'transparent',
     link: 'https://traducteur.potomitan.io#catalogue',
     badge: null
-  },
-    {
-      title: 'Klavyé Kréyòl',
-      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
-      icon: <img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />,
-      iconBg: 'transparent',
-      link: 'https://famibelle.github.io/KreyolKeyb/',
-      badge: { text: 'Tests en cours', type: 'soon' }
-    }
+  }
   ];
 
   const contributorApps = [
-    {
-      title: 'Validation transcriptions',
-      description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
-      icon: (
-        <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
-          <Edit size={64} color="white" />
-          <img src="/logo-potomitan.svg" alt="Logo" style={{ width: 100, height: 60 }} />
-        </div>
-      ),
-      iconBg: 'transparent',
-      link: 'https://app.potomitan.io/contribuer',
-      badge: { text: 'Disponible', type: 'auth' }
-    },
-    {
+     {
       title: 'VwaKréyòl',
-      description: 'Enrichissez le corpus audio et proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
+      description: 'Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
       icon: (
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--yellow)', padding: '1rem', borderRadius: '8px' }}>
           <Mic size={64} color="white" />
@@ -67,7 +46,29 @@ const Applications = () => {
       iconBg: 'transparent',
       link: 'https://vwakreol.potomitan.io',
       badge: { text: 'Libre accès', type: 'open' }
+    },
+    {
+      title: 'Valider les transcriptions',
+      description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
+      icon: (
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
+          <Edit size={64} color="white" />
+          <img src="/logo-potomitan.svg" alt="Logo" style={{ width: 100, height: 60 }} />
+        </div>
+      ),
+      iconBg: 'transparent',
+      link: 'https://transcrire.potomitan.io',
+      badge: { text: 'Disponible', type: 'auth' }
+    },
+     {
+      title: 'Klavyé Kréyòl',
+      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
+      icon: (<img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />),
+      iconBg: 'transparent',
+      link: 'https://famibelle.github.io/KreyolKeyb/beta_onboarding.html',
+      badge: { text: 'Rejoindre les testeuses et testeurs maintenant', type: 'open' }
     }
+   
   ];
 
   return (

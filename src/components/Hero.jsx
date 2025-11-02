@@ -14,7 +14,7 @@ const Hero = () => {
           <a href="https://traducteur.potomitan.io" className="btn btn-primary">
             Utiliser l'application
           </a>
-          <a href="https://app.potomitan.io/contribuer" className="btn btn-secondary">
+          <a href="https://vwakreol.potomitan.io" className="btn btn-secondary">
             Contribuer
           </a>
         </div>

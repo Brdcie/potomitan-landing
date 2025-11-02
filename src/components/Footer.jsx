@@ -11,20 +11,16 @@ const Footer = () => {
             L'inclusion linguistique au service de l'égalité territoriale.
           </p>
         </div>
-
         <div className="footer-section">
-          <h4>Applications</h4>
+          <h4>Nos Applications</h4>
           <div className="footer-links">
-            <a href="https://app.potomitan.io" target="_blank" rel="noopener noreferrer">
-              App complète
-            </a>
-            <a href="https://app.potomitan.io/phrases" target="_blank" rel="noopener noreferrer">
+            <a href="https://traducteur.potomitan.io#urgence" target="_blank" rel="noopener noreferrer">
               Urgence
             </a>
-            <a href="https://app.potomitan.io/traducteur" target="_blank" rel="noopener noreferrer">
-              Traducteur
+            <a href="https://traducteur.potomitan.io" target="_blank" rel="noopener noreferrer">
+              Traducteur bidirectionnel
             </a>
-            <a href="https://famibelle.github.io/KreyolKeyb/" target="_blank" rel="noopener noreferrer">
+            <a href="https://famibelle.github.io/KreyolKeyb/beta_onboarding.html" target="_blank" rel="noopener noreferrer">
               Klavyé Kréyòl
             </a>
           </div>
@@ -33,11 +29,11 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Contribuer</h4>
           <div className="footer-links">
-            <a href="https://app.potomitan.io/contribuer" target="_blank" rel="noopener noreferrer">
-              Validation transcriptions
-            </a>
             <a href="https://vwakreol.potomitan.io" target="_blank" rel="noopener noreferrer">
-              VwaKréyòl
+              VwaKréyòl : Enregistrer des voix créole
+            </a>
+            <a href="https://transcrire.potomitan.io" target="_blank" rel="noopener noreferrer">
+              Valider les transcriptions
             </a>
           </div>
         </div>
