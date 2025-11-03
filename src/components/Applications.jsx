@@ -3,7 +3,7 @@ import { BookOpen, Edit, Mic } from 'lucide-react';
 const Applications = () => {
   const userApps = [
     {
-      title: 'Application complète',
+      title: 'Irjans sosyétal Kréyòl',
       description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'green',
@@ -11,7 +11,7 @@ const Applications = () => {
       badge: null
     },
     {
-      title: 'Urgence',
+      title: 'Urgence Irjans',
       description: 'Accès rapide aux phrases d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'orange',
@@ -20,7 +20,7 @@ const Applications = () => {
     },
     {
     title: 'Catalogue',
-    description: 'Parcourez les 1818 phrases avec filtres par catégorie et urgence.',
+    description: 'Parcourez + 1800 expressions et filtrez par catégorie et urgence.',
     icon: (
       <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
         <BookOpen size={64} color="white" />
@@ -48,7 +48,7 @@ const Applications = () => {
       badge: { text: 'Libre accès', type: 'open' }
     },
     {
-      title: 'Valider les transcriptions',
+      title: 'Maké Kréyòl a sa ou ka tann',
       description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
       icon: (
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
@@ -73,13 +73,13 @@ const Applications = () => {
 
   return (
     <section id="applications" className="section applications">
-      <h2 className="section-title">Nos Applications</h2>
+      <h2 className="section-title">Notre écosystème</h2>
       <p className="section-subtitle">
-        Un écosystème complet pour utiliser et enrichir le créole guadeloupéen
+        Un écosystème complet pour utiliser et enrichir le créole guadeloupéen au quotidien
       </p>
 
       <div className="apps-category">
-        <h3>Utiliser Potomitan</h3>
+        <h3>Utilisez Potomitan</h3>
         <div className="apps-grid">
           {userApps.map((app, index) => (
             <a 
