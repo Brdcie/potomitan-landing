@@ -12,10 +12,10 @@ const Hero = () => {
         </p>
         <div className="hero-cta">
           <a href="https://traducteur.potomitan.io" className="btn btn-primary">
-            Utiliser l'application
+            Utilisez Urgences Potomitan !
           </a>
           <a href="https://vwakreol.potomitan.io" className="btn btn-secondary">
-            Contribuer
+            Contribuez pour aujour'hui et pour demain
           </a>
         </div>
       </div>
