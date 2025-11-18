@@ -65,8 +65,8 @@ const Applications = () => {
       description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
       icon: (<img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />),
       iconBg: 'transparent',
-      link: 'https://famibelle.github.io/KreyolKeyb/beta_onboarding.html',
-      badge: { text: 'Rejoindre les testeuses et testeurs maintenant', type: 'open' }
+      link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
+      badge: null
     }
    
   ];
