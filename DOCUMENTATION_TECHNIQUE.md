@@ -43,14 +43,22 @@ dev.potomitan.io → DigitalOcean (209.38.106.147)
 ```
 potomitan-landing/
 ├── public/
-│   └── logo-potomitan.svg           # Logo avec fond blanc arrondi
+│   ├── logo-potomitan.svg           # Logo avec fond blanc arrondi
+│   ├── banniereklavyie1024x500.png  # Bannière Klavyé Kréyòl
+│   ├── google-play-badge-fr.svg     # Badge Google Play officiel français
+│   ├── photo-brigitte.jpg           # Photo Brigitte Démocrite
+│   ├── photo-monique.jpeg           # Photo Monique Famibelle
+│   ├── photo-medhi.jpeg             # Photo Médhi Famibelle
+│   ├── photo-julien.jpg             # Photo Julien Noyer
+│   ├── icon-192.png                 # Icône PWA 192x192
+│   └── icon-512.png                 # Icône PWA 512x512
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx               # Navigation avec logo
 │   │   ├── Hero.jsx                 # Section d'accueil
 │   │   ├── Applications.jsx         # 6 applications (4 utilisateurs + 2 contributeurs)
 │   │   ├── Initiative.jsx           # Présentation de l'initiative
-│   │   ├── Team.jsx                 # 4 membres de l'équipe
+│   │   ├── Team.jsx                 # 4 membres de l'équipe avec photos
 │   │   └── Footer.jsx               # Pied de page avec liens
 │   ├── App.jsx                      # Composant principal
 │   ├── main.jsx                     # Point d'entrée
@@ -81,6 +89,17 @@ potomitan-landing/
 --yellow: #F1C40F            /* Accent */
 --red: #E74C3C               /* Alerte */
 ```
+
+### Système de badges
+Les applications peuvent avoir des badges de type :
+- **Texte** : `{ text: 'Disponible', type: 'auth' }` - Badge avec texte coloré
+- **Image** : `{ type: 'google-play', image: '/google-play-badge-fr.svg' }` - Badge avec image (ex: Google Play)
+
+Types de badges texte disponibles :
+- `badge-auth` : Rouge (#E74C3C) - Authentification requise
+- `badge-soon` : Jaune (#F1C40F) - Bientôt disponible
+- `badge-open` : Vert (#2ECC71) - Libre accès
+- `badge-google-play` : Transparent - Pour les images (Google Play, App Store, etc.)
 
 ---
 
@@ -209,9 +228,9 @@ systemctl reload nginx
    - Badge : "Bientôt disponible"
    - Traducteur standalone basé sur API existante
    
-4. **Klavyé Kréyòl** → https://famibelle.github.io/KreyolKeyb/
-   - Badge : "Tests en cours"
-   - Tests Android, développement iOS en cours
+4. **Klavyé Kréyòl** → https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard
+   - Badge : Badge Google Play Store officiel (image SVG)
+   - Disponible sur Android, développement iOS à venir
 
 **CONTRIBUER (2 apps) :**
 5. **Validation transcriptions** → https://app.potomitan.io/contribuer
@@ -227,10 +246,11 @@ systemctl reload nginx
 - Impact : 2,5-5 M€ économies annuelles, vies sauvées
 
 **4. L'Équipe**
-- Brigitte Démocrite - Fondatrice & PM, Développeuse, Spécialiste IA
-- Monique Famibelle - Ambassadrice & Communication
-- Médhi Famibelle - Expert IA, Développeur Klavyé Kréyòl
-- Julien Noyer - Développeur Full-stack, Transcription & UX
+- Brigitte Démocrite - Fondatrice & Experte IA (avec photo)
+- Monique Famibelle - Ambassadrice & Communication (avec photo)
+- Médhi Famibelle - Expert IA, Développeur Klavyé Kréyòl (avec photo)
+- Julien Noyer - Développeur Full-stack & UX (avec photo)
+- Photos circulaires (150px) avec bordure verte
 
 **5. Footer**
 - Liens vers toutes les applications
@@ -274,8 +294,16 @@ git push origin feature/nouvelle-fonctionnalite
 ### Modifier le contenu
 
 **Équipe :** Éditer `src/components/Team.jsx`
+- Ajouter des photos dans `public/` (format: photo-prenom.jpg ou .jpeg)
+- Référencer les photos dans le tableau `teamMembers`
+- Style des photos : `.team-member-photo` dans `src/index.css`
+
 **Applications :** Éditer `src/components/Applications.jsx`
+- Pour ajouter un badge texte : `badge: { text: 'Mon texte', type: 'open' }`
+- Pour ajouter un badge image : `badge: { type: 'mon-type', image: '/mon-badge.svg' }`
+
 **Initiative :** Éditer `src/components/Initiative.jsx`
+
 **Couleurs :** Éditer `src/index.css` (variables CSS en haut)
 
 ---
@@ -434,6 +462,9 @@ systemctl reload nginx
 
 | Date | Changement | Auteur |
 |------|------------|--------|
+| 18/11/2025 | Ajout photos membres de l'équipe (Team.jsx) | Brigitte Démocrite |
+| 18/11/2025 | Badge Google Play pour Klavyé Kréyòl | Brigitte Démocrite |
+| 18/11/2025 | Mise à jour lien Klavyé Kréyòl vers Google Play Store | Brigitte Démocrite |
 | 20/10/2025 | Création site vitrine + déploiement Vercel | Brigitte Démocrite |
 | 20/10/2025 | Migration potomitan.io → Vercel | Brigitte Démocrite |
 | 20/10/2025 | Création app.potomitan.io sur DigitalOcean | Brigitte Démocrite |
@@ -456,4 +487,4 @@ systemctl reload nginx
 
 **Fin de la documentation technique**
 
-*Dernière mise à jour : 20 octobre 2025*
+*Dernière mise à jour : 18 novembre 2025*
