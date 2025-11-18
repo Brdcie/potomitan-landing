@@ -66,7 +66,7 @@ const Applications = () => {
       icon: (<img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />),
       iconBg: 'transparent',
       link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
-      badge: null
+      badge: { type: 'google-play', image: '/google-play-badge-fr.svg' }
     }
    
   ];
@@ -96,7 +96,11 @@ const Applications = () => {
               <p>{app.description}</p>
               {app.badge && (
                 <span className={`app-badge badge-${app.badge.type}`}>
-                  {app.badge.text}
+                  {app.badge.image ? (
+                    <img src={app.badge.image} alt="Badge" />
+                  ) : (
+                    app.badge.text
+                  )}
                 </span>
               )}
             </a>
@@ -125,7 +129,11 @@ const Applications = () => {
               <p>{app.description}</p>
               {app.badge && (
                 <span className={`app-badge badge-${app.badge.type}`}>
-                  {app.badge.text}
+                  {app.badge.image ? (
+                    <img src={app.badge.image} alt="Badge" />
+                  ) : (
+                    app.badge.text
+                  )}
                 </span>
               )}
             </a>

@@ -303,6 +303,18 @@ html {
   color: var(--white);
 }
 
+.badge-google-play {
+  background-color: transparent;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.badge-google-play img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
 /* Initiative Section */
 .initiative {
   background-color: var(--white);

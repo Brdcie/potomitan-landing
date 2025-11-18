@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="60" viewBox="0 0 155 60">
+  <defs>
+    <linearGradient id="a" x1="61.35%" x2="26.89%" y1="4.95%" y2="71.86%">
+      <stop offset="0%" stop-color="#00A0FF"/>
+      <stop offset="1%" stop-color="#00A1FF"/>
+      <stop offset="26%" stop-color="#00BEFF"/>
+      <stop offset="51%" stop-color="#00D2FF"/>
+      <stop offset="76%" stop-color="#00DFFF"/>
+      <stop offset="100%" stop-color="#00E3FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="155" height="60" fill="#000000" rx="5"/>
+  <text x="52" y="14" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="8" font-weight="400">Disponible sur</text>
+  <text x="52" y="30" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="500">Google Play</text>
+  <path d="M10,15 L10,45 L20,30 Z" fill="url(#a)"/>
+  <path d="M20,30 L30,25 L15,12 L10,15 Z" fill="#FFD900"/>
+  <path d="M20,30 L30,35 L15,48 L10,45 Z" fill="#FF3A00"/>
+  <path d="M30,25 L30,35 L37,30 Z" fill="#00E676"/>
+</svg>
