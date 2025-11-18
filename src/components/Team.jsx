@@ -5,22 +5,26 @@ const Team = () => {
     {
       name: 'Brigitte Démocrite',
       role: 'Fondatrice & Experte IA',
-      description: 'Développeuse principale et spécialiste IA. À l\'initiative de Potomitan, elle a développé la majeure partie de l\'application et le traducteur bidirectionnel.'
+      description: 'Développeuse principale et spécialiste IA. À l\'initiative de Potomitan, elle a développé la majeure partie de l\'application et le traducteur bidirectionnel.',
+      photo: '/photo-brigitte.jpg'
     },
     {
       name: 'Monique Famibelle',
       role: 'Ambassadrice & Communication',
-      description: 'Ambassadrice officielle de Potomitan, elle porte la voix du projet auprès des communautés et partenaires.'
+      description: 'Ambassadrice officielle de Potomitan, elle porte la voix du projet auprès des communautés et partenaires.',
+      photo: '/photo-monique.jpeg'
     },
     {
       name: 'Médhi Famibelle',
       role: 'Expert IA',
-      description: 'Développeur du Klavyé Kréyòl et expert en intelligence artificielle appliquée au créole guadeloupéen.'
+      description: 'Développeur du Klavyé Kréyòl et expert en intelligence artificielle appliquée au créole guadeloupéen.',
+      photo: '/photo-medhi.jpeg'
     },
     {
       name: 'Julien Noyer',
       role: 'Développeur Full-stack & UX',
-      description: 'Développeur du module de transcription.'
+      description: 'Développeur du module de transcription.',
+      photo: '/photo-julien.jpg'
     }
   ];
 
@@ -34,6 +38,13 @@ const Team = () => {
       <div className="team-grid">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
+            {member.photo && (
+              <img
+                src={member.photo}
+                alt={member.name}
+                className="team-member-photo"
+              />
+            )}
             <h4>{member.name}</h4>
             <p className="role">{member.role}</p>
             <p>{member.description}</p>
