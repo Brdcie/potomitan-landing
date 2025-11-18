@@ -3,7 +3,7 @@ import { BookOpen, Edit, Mic } from 'lucide-react';
 const Applications = () => {
   const userApps = [
     {
-      title: 'Irjans sosyétal Kréyòl',
+      title: 'Irjans sosyétal Kréyòl / Urgences sociétales créoles',
       description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'green',
@@ -11,7 +11,7 @@ const Applications = () => {
       badge: null
     },
     {
-      title: 'Urgence Irjans',
+      title: 'Urgences / Irjans',
       description: 'Accès rapide aux phrases d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'orange',
@@ -19,7 +19,7 @@ const Applications = () => {
       badge: null
     },
     {
-    title: 'Catalogue',
+    title: 'Catalogue / Katalog',
     description: 'Parcourez + 1800 expressions et filtrez par catégorie et urgence.',
     icon: (
       <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
@@ -48,7 +48,7 @@ const Applications = () => {
       badge: { text: 'Libre accès', type: 'open' }
     },
     {
-      title: 'Maké Kréyòl a sa ou ka tann',
+      title: 'Transcriver le créole - Maké Kréyòl a sa ou tann',
       description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
       icon: (
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
@@ -62,7 +62,7 @@ const Applications = () => {
     },
      {
       title: 'Klavyé Kréyòl',
-      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Tests utilisateurs en cours sur Android, développement iOS en cours.',
+      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android, développement iOS à venir.',
       icon: (<img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />),
       iconBg: 'transparent',
       link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
