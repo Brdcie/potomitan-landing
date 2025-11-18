@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="https://traducteur.potomitan.io" target="_blank" rel="noopener noreferrer">
               Traducteur bidirectionnel
             </a>
-            <a href="https://famibelle.github.io/KreyolKeyb/beta_onboarding.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med" target="_blank" rel="noopener noreferrer">
               Klavyé Kréyòl
             </a>
           </div>
