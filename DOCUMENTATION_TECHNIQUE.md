@@ -19,11 +19,14 @@ potomitan.io → DigitalOcean (209.38.106.147)
 potomitan.io → Vercel (76.76.21.21)
 └── Site vitrine (présentation des applications)
 
-app.potomitan.io → DigitalOcean (209.38.106.147)
-└── Application Vue principale (anciennement sur potomitan.io)
+traducteur.potomitan.io → DigitalOcean (209.38.106.147)
+└── Application traducteur principal
+
+transcrire.potomitan.io → DigitalOcean (209.38.106.147)
+└── Application de transcription/validation audio
 
 vwakreol.potomitan.io → DigitalOcean (209.38.106.147)
-└── Application VwaKréyòl
+└── Application VwaKréyòl (enregistrement audio)
 
 dev.potomitan.io → DigitalOcean (209.38.106.147)
 └── Environnement de développement
@@ -113,7 +116,8 @@ Types de badges texte disponibles :
 |--------------|------|-----------------|-----------------|--------|
 | @ (racine) | A | 209.38.106.147 | 76.76.21.21 | Pointer vers Vercel |
 | www | A | 209.38.106.147 | 76.76.21.21 | Pointer vers Vercel |
-| app | A | N/A (nouveau) | 209.38.106.147 | Conserver l'app actuelle |
+| traducteur | A | N/A (nouveau) | 209.38.106.147 | Application traducteur |
+| transcrire | A | N/A (nouveau) | 209.38.106.147 | Application transcription |
 
 **Enregistrements DNS inchangés :**
 - `dev.potomitan.io` → 209.38.106.147
@@ -135,22 +139,22 @@ Types de badges texte disponibles :
 
 **Changement effectué :**
 ```nginx
-# AVANT
-server_name potomitan.io;
-
-# APRÈS
-server_name potomitan.io www.potomitan.io app.potomitan.io;
+# Configuration Nginx pour les sous-domaines
+server_name traducteur.potomitan.io;
+server_name transcrire.potomitan.io;
+server_name vwakreol.potomitan.io;
 ```
 
 **Certificats SSL générés :**
 ```bash
-# Nouveau certificat pour app.potomitan.io
-certbot --nginx -d app.potomitan.io
+# Certificats pour les sous-domaines
+certbot --nginx -d traducteur.potomitan.io
+certbot --nginx -d transcrire.potomitan.io
+certbot --nginx -d vwakreol.potomitan.io
 
-# Résultat :
-# Certificat : /etc/letsencrypt/live/app.potomitan.io/fullchain.pem
-# Clé privée : /etc/letsencrypt/live/app.potomitan.io/privkey.pem
-# Expiration : 18 janvier 2026
+# Résultats :
+# Certificats : /etc/letsencrypt/live/[sous-domaine]/fullchain.pem
+# Clés privées : /etc/letsencrypt/live/[sous-domaine]/privkey.pem
 # Renouvellement automatique : Configuré
 ```
 
@@ -192,10 +196,11 @@ systemctl reload nginx
 |-----|-------------|-------------|--------|
 | https://potomitan.io | Vercel | Site vitrine | ✅ Actif |
 | https://www.potomitan.io | Vercel | Site vitrine (redirection) | ✅ Actif |
-| https://app.potomitan.io | DigitalOcean | App React principale | ✅ Actif |
-| https://potomitan.io/phrases | DigitalOcean | App urgences (legacy) | ✅ Actif |
-| https://potomitan.io/contribuer | DigitalOcean | Hub contributeurs | ✅ Actif |
-| https://vwakreol.potomitan.io | DigitalOcean | VwaKréyòl standalone | ✅ Actif |
+| https://traducteur.potomitan.io | DigitalOcean | Traducteur bidirectionnel français ↔ créole | ✅ Actif |
+| https://traducteur.potomitan.io#urgence | DigitalOcean | Section urgences | ✅ Actif |
+| https://traducteur.potomitan.io#catalogue | DigitalOcean | Catalogue de phrases | ✅ Actif |
+| https://transcrire.potomitan.io | DigitalOcean | Validation transcriptions audio | ✅ Actif |
+| https://vwakreol.potomitan.io | DigitalOcean | VwaKréyòl - Enregistrement audio | ✅ Actif |
 
 ### Développement
 | URL | Hébergement | Application | Statut |
@@ -218,27 +223,27 @@ systemctl reload nginx
 **2. Nos Applications (6 applications)**
 
 **UTILISER (4 apps) :**
-1. **App complète** → https://app.potomitan.io
-   - Interface complète avec traducteur, catégories d'urgence
-   
-2. **Urgence** → https://app.potomitan.io/phrases
-   - Accès rapide phrases d'urgence critiques
-   
-3. **Traducteur** → https://app.potomitan.io/traducteur
-   - Badge : "Bientôt disponible"
-   - Traducteur standalone basé sur API existante
-   
+1. **Irjans sosyétal Kréyòl / Urgences sociétales créoles** → https://traducteur.potomitan.io
+   - Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information)
+
+2. **Urgences / Irjans** → https://traducteur.potomitan.io#urgence
+   - Accès rapide aux phrases d'urgence critiques pour situations de crise
+
+3. **Catalogue / Katalog** → https://traducteur.potomitan.io#catalogue
+   - Parcourez + 1800 expressions et filtrez par catégorie et urgence
+
 4. **Klavyé Kréyòl** → https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard
    - Badge : Badge Google Play Store officiel (image SVG)
    - Disponible sur Android, développement iOS à venir
 
-**CONTRIBUER (2 apps) :**
-5. **Validation transcriptions** → https://app.potomitan.io/contribuer
-   - Badge : "Authentification requise"
-   
-6. **VwaKréyòl** → https://vwakreol.potomitan.io
+**CONTRIBUER (3 apps) :**
+5. **VwaKréyòl** → https://vwakreol.potomitan.io
    - Badge : "Libre accès"
-   - Enrichissement corpus audio + nouvelles traductions
+   - Enrichissement corpus audio + nouvelles phrases traduites en créole
+
+6. **Transcriver le créole - Maké Kréyòl a sa ou tann** → https://transcrire.potomitan.io
+   - Badge : "Disponible"
+   - Validez les transcriptions audio pour améliorer la qualité du corpus
 
 **3. L'Initiative Potomitan**
 - Problématique : 93 secondes perdues par intervention
@@ -316,7 +321,8 @@ git push origin feature/nouvelle-fonctionnalite
 |---------|----------|------------|----------------|
 | potomitan.io | Let's Encrypt | Variable | Auto (Vercel) |
 | www.potomitan.io | Let's Encrypt | Variable | Auto (Vercel) |
-| app.potomitan.io | Let's Encrypt | 18/01/2026 | Auto (Certbot) |
+| traducteur.potomitan.io | Let's Encrypt | Variable | Auto (Certbot) |
+| transcrire.potomitan.io | Let's Encrypt | Variable | Auto (Certbot) |
 | vwakreol.potomitan.io | Let's Encrypt | Variable | Auto (Certbot) |
 | dev.potomitan.io | Let's Encrypt | Variable | Auto (Certbot) |
 
@@ -344,9 +350,11 @@ curl -I https://potomitan.io
 # server: Vercel
 ```
 
-✅ **Application principale DigitalOcean**
+✅ **Applications DigitalOcean**
 ```bash
-curl -I https://app.potomitan.io
+curl -I https://traducteur.potomitan.io
+curl -I https://transcrire.potomitan.io
+curl -I https://vwakreol.potomitan.io
 # HTTP/1.1 200 OK
 # server: nginx/1.26.0 (Ubuntu)
 ```
@@ -355,7 +363,9 @@ curl -I https://app.potomitan.io
 ```bash
 # Tous les domaines ont des certificats SSL valides
 openssl s_client -connect potomitan.io:443 -servername potomitan.io
-openssl s_client -connect app.potomitan.io:443 -servername app.potomitan.io
+openssl s_client -connect traducteur.potomitan.io:443 -servername traducteur.potomitan.io
+openssl s_client -connect transcrire.potomitan.io:443 -servername transcrire.potomitan.io
+openssl s_client -connect vwakreol.potomitan.io:443 -servername vwakreol.potomitan.io
 ```
 
 ✅ **Responsive design**
@@ -402,13 +412,15 @@ dig potomitan.io
 # Navigation privée ou Cmd+Shift+R / Ctrl+F5
 ```
 
-### Problème : app.potomitan.io ne fonctionne plus
+### Problème : Les sous-domaines (traducteur, transcrire, vwakreol) ne fonctionnent plus
 
 **Vérifications :**
 ```bash
-# 1. Vérifier que le DNS pointe vers DigitalOcean
-dig app.potomitan.io
-# Doit retourner : 209.38.106.147
+# 1. Vérifier que les DNS pointent vers DigitalOcean
+dig traducteur.potomitan.io
+dig transcrire.potomitan.io
+dig vwakreol.potomitan.io
+# Doivent tous retourner : 209.38.106.147
 
 # 2. Vérifier que Nginx tourne
 ssh root@209.38.106.147
@@ -462,13 +474,13 @@ systemctl reload nginx
 
 | Date | Changement | Auteur |
 |------|------------|--------|
+| 18/11/2025 | Mise à jour documentation : URLs actuelles (traducteur, transcrire, vwakreol) | Brigitte Démocrite |
 | 18/11/2025 | Ajout photos membres de l'équipe (Team.jsx) | Brigitte Démocrite |
 | 18/11/2025 | Badge Google Play pour Klavyé Kréyòl | Brigitte Démocrite |
 | 18/11/2025 | Mise à jour lien Klavyé Kréyòl vers Google Play Store | Brigitte Démocrite |
 | 20/10/2025 | Création site vitrine + déploiement Vercel | Brigitte Démocrite |
 | 20/10/2025 | Migration potomitan.io → Vercel | Brigitte Démocrite |
-| 20/10/2025 | Création app.potomitan.io sur DigitalOcean | Brigitte Démocrite |
-| 20/10/2025 | Configuration SSL pour app.potomitan.io | Brigitte Démocrite |
+| 20/10/2025 | Configuration des sous-domaines sur DigitalOcean | Brigitte Démocrite |
 
 ---
 
