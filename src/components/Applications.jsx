@@ -2,24 +2,27 @@ import { BookOpen, Edit, Mic } from 'lucide-react';
 
 const Applications = () => {
   const userApps = [
-    {
-      title: 'Irjans sosyétal Kréyòl / Urgences sociétales créoles',
-      description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et phrases essentielles.',
+    { title:<h2>
+       L'urgence en créole !
+       <br />
+      Irjans an kréyòl !
+      </h2>,
+      description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'green',
       link: 'https://traducteur.potomitan.io',
       badge: null
     },
     {
-      title: 'Urgences / Irjans',
-      description: 'Accès rapide aux phrases d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
+      title: <h2>Urgences / Irjans</h2>,
+      description: 'Accès rapide aux expressions  d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'orange',
       link: 'https://traducteur.potomitan.io#urgence',
       badge: null
     },
     {
-    title: 'Catalogue / Katalog',
+    title: <h2>Catalogue / Katalog</h2>,
     description: 'Parcourez + 1800 expressions et filtrez par catégorie et urgence.',
     icon: (
       <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
@@ -48,7 +51,7 @@ const Applications = () => {
       badge: { text: 'Libre accès', type: 'open' }
     },
     {
-      title: 'Transcriver le créole - Maké Kréyòl a sa ou tann',
+      title: 'Transcrivez le créole - Maké Kréyòl a sa ou tann',
       description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
       icon: (
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
@@ -79,7 +82,12 @@ const Applications = () => {
       </p>
 
       <div className="apps-category">
-        <h3>Utilisez Potomitan</h3>
+        <h3>
+  POTOMITAN, l'intelligence artificielle qui parle créole
+
+  <br /> <br></br>
+  Entèlijans atifisyèl ki ka palé kréyòl
+</h3>
         <div className="apps-grid">
           {userApps.map((app, index) => (
             <a 

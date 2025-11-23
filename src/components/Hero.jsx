@@ -7,15 +7,14 @@ const Hero = () => {
         <h2>Potomitan™</h2>
         <p className="hero-subtitle">L'inclusion linguistique pour la Guadeloupe</p>
         <p>
-          Traduction français ↔ créole guadeloupéen pour les urgences sociétales.
-          Une solution d'inclusion linguistique au service de l'égalité territoriale.
+           L'urgence parle créole. Une IA au service de l'inclusion linguistique en Guadeloupe.
         </p>
         <div className="hero-cta">
           <a href="https://traducteur.potomitan.io" className="btn btn-primary">
-            Utilisez Urgences Potomitan !
+            POTOMITAN, l'intelligence artificielle qui parle créole
           </a>
           <a href="https://vwakreol.potomitan.io" className="btn btn-secondary">
-            Contribuez pour aujour'hui et pour demain
+            Contribuez avec Vwakréyòl
           </a>
         </div>
       </div>

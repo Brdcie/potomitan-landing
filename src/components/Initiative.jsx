@@ -56,6 +56,18 @@ const Initiative = () => {
             et renforcement du lien entre citoyens et services publics.
           </p>
         </div>
+        <div className="initiative-block">
+  <h3>Notre Vision</h3>
+  <p>
+    La Guadeloupe est notre <strong>territoire pilote</strong>, le fondement d'une technologie 
+    d'inclusion linguistique qui peut servir l'ensemble des territoires créolophones.
+  </p>
+  <p style={{ marginTop: '1rem' }}>
+    Martinique, Guyane, Réunion, Saint-Martin, Saint-Barthélemy, Haïti, Maurice... <strong>Plus de 30 millions de créolophones </strong> 
+    à base française et anglaise pourraient bénéficier de cette innovation. L'architecture développée 
+    pour le créole guadeloupéen est conçue pour s'adapter aux autres créoles.
+  </p>
+</div>
       </div>
     </section>
   );
