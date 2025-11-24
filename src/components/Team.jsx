@@ -5,25 +5,25 @@ const Team = () => {
     {
       name: 'Brigitte Démocrite',
       role: 'Fondatrice & Experte IA',
-      description: 'Développeuse principale et spécialiste IA. À l\'initiative de Potomitan, elle a développé la majeure partie de l\'application et le traducteur bidirectionnel.',
+      description: 'Brigitte a conçu et développé l\'infrastructure technique complète de POTOMITAN : système de traduction bidirectionnel créole-français, fine-tuning NLLB-200, architecture hybride Python/React/JavaScript avec validation communautaire offline-first. Mathématicienne et PM-développeuse (20 ans en projets tech internationaux, spécialisation IA conversationnelle Coursera et Omdena AI for Good), elle orchestre vision produit et développement des composants critiques.',
       photo: '/photo-brigitte.jpg'
     },
     {
       name: 'Monique Famibelle',
-      role: 'Ambassadrice & Communication',
-      description: 'Ambassadrice officielle de Potomitan, elle porte la voix du projet auprès des communautés et partenaires.',
+      role: 'Ambassadrice & Relations Communautaires',
+      description: 'Monique coordonne l\'ancrage territorial de POTOMITAN : elle organise les sessions "Maké Kréyòl" de validation linguistique communautaire, développe les partenariats éducatifs (lycée Baimbridge) et gère les relations presse. Elle assure le lien entre l\'équipe technique et les communautés créolophones.',
       photo: '/photo-monique.jpeg'
     },
     {
       name: 'Médhi Famibelle',
-      role: 'Expert IA',
-      description: 'Développeur du Klavyé Kréyòl et expert en intelligence artificielle appliquée au créole guadeloupéen.',
+      role: 'Expert Transcription & Contribution Communautaire',
+      description: 'Médhi développe les outils de contribution linguistique : Klavyé Kréyòl (disponible sur Google Play) et interface de transcription audio. Formé à Data Science Tech Institute, il coordonne les sessions "Maké Kréyòl" d\'annotation communautaire et assure la collecte des corpus audio créole.',
       photo: '/photo-medhi.jpeg'
     },
     {
       name: 'Julien Noyer',
       role: 'Développeur Full-stack & UX',
-      description: 'Développeur du module de transcription.',
+      description: 'Julien a développé et mis en production le module de transcription audio de POTOMITAN en Vue.js, avec une interface UX optimisée pour la contribution communautaire. Il représente le projet sur le terrain (intervention lycée Baimbridge) et co-coordonne les sessions "Maké Kréyòl" de validation linguistique.',
       photo: '/photo-julien.jpg'
     }
   ];
