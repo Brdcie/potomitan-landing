@@ -1,0 +1,224 @@
+.back-link {
+  display: inline-block;
+  color: #2ECC71;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  color: #27ae60;
+  transform: translateX(-4px);
+}
+.actualites-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.actualites-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 3px solid #2ECC71;
+}
+
+.actualites-hero h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.actualites-hero .subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.actualite-article {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-date {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.article-tag {
+  background: #2ECC71;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.actualite-article h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.actualite-article h3 {
+  font-size: 1.3rem;
+  color: #34495e;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 4px solid #2ECC71;
+  border-radius: 4px;
+}
+
+.article-section {
+  margin-bottom: 2rem;
+}
+
+.article-section h4 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.article-section h5 {
+  font-size: 1.1rem;
+  color: #2ECC71;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.article-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.article-section ul li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.article-section ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2ECC71;
+  font-weight: bold;
+}
+
+.crisis-block {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #e74c3c;
+}
+
+.team-list li {
+  margin-bottom: 0.75rem;
+}
+
+.vision-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.vision-section h4 {
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.vision-path {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.funding-section {
+  background: #fff3cd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+}
+
+.funding-amount {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.article-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 2px solid #ecf0f1;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: #2ECC71;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #27ae60;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(46, 204, 113, 0.3);
+}
+
+.btn-secondary {
+  background: white;
+  color: #2ECC71;
+  border: 2px solid #2ECC71;
+}
+
+.btn-secondary:hover {
+  background: #2ECC71;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .actualites-hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .actualite-article {
+    padding: 1.5rem;
+  }
+  
+  .article-cta {
+    flex-direction: column;
+  }
+}

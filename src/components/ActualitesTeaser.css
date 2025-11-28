@@ -1,0 +1,139 @@
+.actualites-teaser {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 16px;
+  border-left: 6px solid #2ECC71;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.teaser-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.badge-new {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.teaser-date {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.actualites-teaser h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.teaser-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #34495e;
+  margin-bottom: 2rem;
+}
+
+.teaser-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.highlight-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(46, 204, 113, 0.2);
+}
+
+.highlight-item strong {
+  display: block;
+  font-size: 1.8rem;
+  color: #2ECC71;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.highlight-item span {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  line-height: 1.4;
+}
+
+.btn-read-more {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background: #2ECC71;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-read-more:hover {
+  background: #27ae60;
+  transform: translateX(8px);
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+.btn-read-more::after {
+  content: ' →';
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.btn-read-more:hover::after {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .actualites-teaser {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+  
+  .actualites-teaser h2 {
+    font-size: 1.5rem;
+  }
+  
+  .teaser-highlights {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .highlight-item strong {
+    font-size: 1.5rem;
+  }
+}
