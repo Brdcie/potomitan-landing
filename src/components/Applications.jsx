@@ -2,27 +2,27 @@ import { BookOpen, Edit, Mic } from 'lucide-react';
 
 const Applications = () => {
   const userApps = [
-    { title:<h2>
-       L'urgence en créole !
-       <br />
-      Irjans an kréyòl !
-      </h2>,
-      description: 'Interface complète avec traducteur intégré, catégories d\'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.',
-      icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
-      iconBg: 'green',
-      link: 'https://traducteur.potomitan.io',
-      badge: null
-    },
+   {
+  title: <h2>L'urgence en créole !</h2>,
+  description: "Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.",
+  icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
+  iconBg: 'green',
+  link: 'https://traducteur.potomitan.io',
+  hint: "📱 Application mobile installable",
+  badge: null
+},
+
     {
-      title: <h2>Urgences / Irjans</h2>,
+      title: <h2>Urgences</h2>,
       description: 'Accès rapide aux expressions  d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
       icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
       iconBg: 'orange',
       link: 'https://traducteur.potomitan.io#urgence',
+      hint: "📱 Application mobile installable",
       badge: null
     },
     {
-    title: <h2>Catalogue / Katalog</h2>,
+    title: <h2>Catalogue</h2>,
     description: 'Parcourez + 1800 expressions et filtrez par catégorie et urgence.',
     icon: (
       <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
@@ -32,6 +32,7 @@ const Applications = () => {
     ),
     iconBg: 'transparent',
     link: 'https://traducteur.potomitan.io#catalogue',
+    hint: "📱 Application mobile installable",
     badge: null
   }
   ];
@@ -48,6 +49,7 @@ const Applications = () => {
       ),
       iconBg: 'transparent',
       link: 'https://vwakreol.potomitan.io',
+      hint: "📱 Application mobile installable",
       badge: { text: 'Libre accès', type: 'open' }
     },
     {
@@ -65,7 +67,7 @@ const Applications = () => {
     },
      {
       title: 'Klavyé Kréyòl',
-      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android, développement iOS à venir.',
+      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android.',
       icon: (<img src="/banniereklavyie1024x500.png" alt="Klavyé Kréyòl" style={{ width: '100%', height: 'auto' }} />),
       iconBg: 'transparent',
       link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
@@ -80,13 +82,11 @@ const Applications = () => {
       <p className="section-subtitle">
         Un écosystème complet pour utiliser et enrichir le créole guadeloupéen au quotidien
       </p>
-
       <div className="apps-category">
         <h3>
   POTOMITAN, l'intelligence artificielle qui parle créole
 
   <br /> <br></br>
-  Entèlijans atifisyèl ki ka palé kréyòl
 </h3>
         <div className="apps-grid">
           {userApps.map((app, index) => (
