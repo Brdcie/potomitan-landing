@@ -30,7 +30,7 @@ const Footer = () => {
           <h4>Contribuer</h4>
           <div className="footer-links">
             <a href="https://vwakreol.potomitan.io" target="_blank" rel="noopener noreferrer">
-              VwaKréyòl : Enregistrer des voix créole
+              VwaKréyòl : Enregistrer des voix créoles
             </a>
             <a href="https://transcrire.potomitan.io" target="_blank" rel="noopener noreferrer">
               Valider les transcriptions

@@ -58,14 +58,17 @@ const Team = () => {
           Contribuez à l'enrichissement du créole guadeloupéen via nos applications 
           de contribution communautaire
         </p>
-        <a 
-          href="https://vwakreol.potomitan.io" 
-          className="btn btn-primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contribuer avec VwaKréyòl
-        </a>
+        <a
+            href="https://vwakreol.potomitan.io"
+            className="btn btn-primary"
+          >
+            Contribuez avec VwaKréyòl, <br />
+            Partager votre voix et vos écrits <br /> 
+             <div className="hero-hint">
+          📱 Application mobile installable sur Android et iPhone <br />
+        </div>
+          </a>
+          
       </div>
     </section>
   );

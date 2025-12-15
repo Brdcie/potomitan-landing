@@ -5,36 +5,17 @@ const Applications = () => {
    {
   title: <h2>L'urgence en créole !</h2>,
   description: "Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.",
+  features: [
+      "🆘 Phrases d’urgence (médical, évacuation, secours)",
+      "📖 Catalogue de plus de 1 800 expressions",
+      "⚡ Traduction instantanée"
+    ],
   icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
   iconBg: 'green',
   link: 'https://traducteur.potomitan.io',
-  hint: "📱 Application mobile installable",
-  badge: null
+  badge: { text: '📱 Application mobile installable sur IOS et Androïd', type: 'open' }
 },
 
-    {
-      title: <h2>Urgences</h2>,
-      description: 'Accès rapide aux expressions  d\'urgence critiques pour situations de crise. Traduction instantanée avec audio.',
-      icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,
-      iconBg: 'orange',
-      link: 'https://traducteur.potomitan.io#urgence',
-      hint: "📱 Application mobile installable",
-      badge: null
-    },
-    {
-    title: <h2>Catalogue</h2>,
-    description: 'Parcourez + 1800 expressions et filtrez par catégorie et urgence.',
-    icon: (
-      <div style={{ display: 'flex', gap: '12px', alignItems: 'center', backgroundColor: 'var(--primary-blue)', padding: '1rem', borderRadius: '8px' }}>
-        <BookOpen size={64} color="white" />
-        <img src="/logo-potomitan.svg" alt="Logo" style={{ width: 100, height: 60 }} />
-      </div>
-    ),
-    iconBg: 'transparent',
-    link: 'https://traducteur.potomitan.io#catalogue',
-    hint: "📱 Application mobile installable",
-    badge: null
-  }
   ];
 
   const contributorApps = [
@@ -49,8 +30,7 @@ const Applications = () => {
       ),
       iconBg: 'transparent',
       link: 'https://vwakreol.potomitan.io',
-      hint: "📱 Application mobile installable",
-      badge: { text: 'Libre accès', type: 'open' }
+      badge: { text: '📱 Application mobile installable sur IOS et Androïd', type: 'open' }
     },
     {
       title: 'Transcrivez le créole - Maké Kréyòl a sa ou tann',
@@ -84,11 +64,11 @@ const Applications = () => {
       </p>
       <div className="apps-category">
         <h3>
-  POTOMITAN, l'intelligence artificielle qui parle créole
+  POTOMITAN, l'intelligence artificielle qui parle créoles
 
   <br /> <br></br>
 </h3>
-        <div className="apps-grid">
+       <div className="apps-grid apps-grid-main">
           {userApps.map((app, index) => (
             <a 
               key={index} 
@@ -102,6 +82,13 @@ const Applications = () => {
               </div>
               <h4>{app.title}</h4>
               <p>{app.description}</p>
+               {app.features && (
+      <ul className="application-features">
+        {app.features.map((feature, index) => (
+          <li key={index}>{feature}</li>
+        ))}
+      </ul>
+    )}
               {app.badge && (
                 <span className={`app-badge badge-${app.badge.type}`}>
                   {app.badge.image ? (
@@ -119,7 +106,7 @@ const Applications = () => {
       <div className="apps-category">
         <h3>Contribuer à Potomitan</h3>
         <p style={{ marginBottom: '1.5rem', color: '#95A5A6' }}>
-          Aidez à enrichir le créole guadeloupéen et à améliorer la qualité des traductions
+          Aidez à enrichir les créoles et à améliorer la qualité des traductions
         </p>
         <div className="apps-grid">
           {contributorApps.map((app, index) => (
