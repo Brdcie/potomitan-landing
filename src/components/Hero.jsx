@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className="hero-cta">
           <a
-  href="https://traducteur.potomitan.io/installer"
+  href="https://traducteur.potomitan.io"
   className="btn btn-primary"
 >
   POTOMITAN,<br />
