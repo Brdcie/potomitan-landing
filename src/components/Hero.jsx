@@ -21,7 +21,7 @@ const Hero = () => {
 </a>
 
           <a
-            href="https://vwakreol.potomitan.io/installer"
+            href="https://vwakreol.potomitan.io"
             className="btn btn-primary"
           >
             VwaKréyòl, <br />
