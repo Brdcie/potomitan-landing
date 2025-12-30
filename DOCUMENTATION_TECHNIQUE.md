@@ -230,7 +230,7 @@ systemctl reload nginx
    - Accès rapide aux phrases d'urgence critiques pour situations de crise
 
 3. **Catalogue / Katalog** → https://traducteur.potomitan.io#catalogue
-   - Parcourez + 1800 expressions et filtrez par catégorie et urgence
+   - Parcourez + 2100 expressions et filtrez par catégorie et urgence
 
 4. **Klavyé Kréyòl** → https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard
    - Badge : Badge Google Play Store officiel (image SVG)

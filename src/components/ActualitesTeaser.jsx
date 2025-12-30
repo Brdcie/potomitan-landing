@@ -13,7 +13,7 @@ const ActualitesTeaser = () => {
       <h2>POTOMITAN™ opérationnel</h2>
       
       <p className="teaser-intro">
-        +1800 phrases français-créole validées, traduction &lt;2 secondes, 
+        +2100 phrases français-créole validées, traduction &lt;2 secondes, 
         mode offline. L'IA qui brise les barrières linguistiques systémiques 
         est prête à se déployer en Martinique, Guyane, Saint-Martin et servir 
         2M+ créolophones d'ici 2027.
