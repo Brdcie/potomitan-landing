@@ -113,7 +113,6 @@ html {
   display: inline-block;
 }
 
-
 .hero-container {
   max-width: 900px;
   margin: 0 auto;
@@ -237,6 +236,7 @@ html {
   flex-direction: column;
   align-items: flex-start;
 }
+
 /* Grille principale : 1 app = toute la largeur */
 .apps-grid-main {
   grid-template-columns: 1fr;
@@ -246,16 +246,17 @@ html {
 .apps-grid-main .app-card {
   max-width: 100%;
 }
+
 .apps-grid-main .app-card h4 {
   font-size: 1.7rem;
   line-height: 1.25;
-
-
 }
+
 .apps-grid-main .app-card p {
   font-size: 1.05rem;
   line-height: 1.6;
 }
+
 .apps-grid-main .application-features {
   margin-top: 1rem;
 }
@@ -264,7 +265,6 @@ html {
   font-size: 1.05rem;
   line-height: 1.5;
 }
-
 
 .app-card:hover {
   transform: translateY(-8px);
@@ -321,26 +321,26 @@ html {
 
 .app-badge {
   display: inline-block;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.badge-open {
+  background-color: #E8F5E9;
+  color: #2E7D32;
 }
 
 .badge-auth {
-  background-color: var(--red);
-  color: var(--white);
+  background-color: #FFF3E0;
+  color: #E65100;
 }
 
 .badge-soon {
   background-color: var(--yellow);
   color: var(--dark-blue);
-}
-
-.badge-open {
-  background-color: var(--primary-green);
-  color: var(--white);
 }
 
 .badge-google-play {
@@ -355,6 +355,64 @@ html {
   display: block;
 }
 
+/* Cartes simples pour section Contribuer */
+.apps-grid-simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.app-card-simple {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.app-card-simple:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.app-icon-simple {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.app-card-simple:hover .app-icon-simple {
+  transform: scale(1.05);
+}
+
+.app-card-simple h4 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+  line-height: 1.3;
+}
+
+.app-card-simple p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
 /* Initiative Section */
 .initiative {
   background-color: var(--white);
@@ -365,12 +423,6 @@ html {
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
   margin-top: 2rem;
-}
-
-@media (max-width: 768px) {
-  .initiative-content {
-    grid-template-columns: 1fr;
-  }
 }
 
 .initiative-block {
@@ -537,19 +589,28 @@ html {
     grid-template-columns: 1fr;
   }
 
- .hero-cta {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  .apps-grid-simple {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 
-.hero-cta .btn {
-  min-width: 280px;
-  text-align: center;
-}
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-cta .btn {
+    min-width: 280px;
+    text-align: center;
+  }
 
   .btn {
     width: 100%;
+  }
+
+  .initiative-content {
+    grid-template-columns: 1fr;
   }
 }
