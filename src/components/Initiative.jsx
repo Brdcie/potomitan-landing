@@ -26,7 +26,7 @@ const Initiative = () => {
         <div className="initiative-block">
           <h3>Notre Solution</h3>
           <p>
-            Architecture hybride combinant une base de données validée de <strong>+1800 expressions 
+            Architecture hybride combinant une base de données validée de <strong>+2100 expressions 
             d'urgence</strong> traduites par des locuteurs natifs et une IA spécialisée pour le créole guadeloupéen.
           </p>
           <p style={{ marginTop: '1rem' }}>
@@ -47,7 +47,7 @@ const Initiative = () => {
               <div className="stat-label">Gagnées par intervention</div>
             </div>
             <div className="stat">
-              <div className="stat-number">+1800</div>
+              <div className="stat-number">+2100</div>
               <div className="stat-label">Expressions validées</div>
             </div>
           </div>

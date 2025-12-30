@@ -29,7 +29,7 @@ const Actualites = () => {
         <section className="article-section">
           <h4>Le prototype est opérationnel :</h4>
           <ul>
-            <li>+ de 1800 expressions français-créole guadeloupéen validées par locuteurs natifs</li>
+            <li>+ de 2100 expressions français-créole guadeloupéen validées par locuteurs natifs</li>
             <li>Traduction &lt;2 secondes</li>
             <li>Mode hors ligne pensé pour les réalités caribéennes (connexions instables, cyclones)</li>
             <li>Écosystème de contribution communautaire (Klavyé Kréyòl disponible sur Google Play)</li>
