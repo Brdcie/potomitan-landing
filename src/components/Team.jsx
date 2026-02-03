@@ -4,27 +4,21 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Brigitte Démocrite',
-      role: 'Fondatrice & Experte IA',
-      description: 'Brigitte a conçu et développé l\'infrastructure technique complète de POTOMITAN : système de traduction bidirectionnel créole-français, fine-tuning NLLB-200, architecture hybride Python/React/JavaScript avec validation communautaire offline-first. Mathématicienne et PM-développeuse (20 ans en projets tech internationaux, spécialisation IA conversationnelle Coursera et Omdena AI for Good), elle orchestre vision produit et développement des composants critiques.',
+      role: 'Fondatrice, Directrice Générale et Chef de Projet',
+      description: 'Je pilote POTOMITAN depuis sa conception jusqu\'à sa mise en œuvre opérationnelle. Mon rôle couvre la direction stratégique, la gestion de projet technique, le développement des partenariats institutionnels et la structuration financière de l\'entreprise. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas, m\'ont donné une maîtrise des architectures techniques complexes et du dialogue avec les décideurs institutionnels.',
       photo: '/photo-brigitte.jpg'
     },
     {
       name: 'Monique Famibelle',
-      role: 'Ambassadrice & Relations Communautaires',
-      description: 'Monique coordonne l\'ancrage territorial de POTOMITAN : elle organise les sessions "Maké Kréyòl" de validation linguistique communautaire, développe les partenariats éducatifs (lycée Baimbridge) et gère les relations presse. Elle assure le lien entre l\'équipe technique et les communautés créolophones.',
+      role: 'Ambassadrice Communautaire et Développement Territorial',
+      description: 'J\'assure bénévolement le développement des partenariats territoriaux en Guadeloupe et l\'animation de la communauté de contributeurs VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la, mon ancrage territorial profond et mon réseau étendu dans le tissu associatif, éducatif et institutionnel guadeloupéen facilitent l\'identification des besoins réels des utilisateurs finaux et la validation linguistique du corpus.',
       photo: '/photo-monique.jpeg'
     },
     {
-      name: 'Médhi Famibelle',
-      role: 'Expert Transcription & Contribution Communautaire',
-      description: 'Médhi développe les outils de contribution linguistique : Klavyé Kréyòl (disponible sur Google Play) et interface de transcription audio. Formé à Data Science Tech Institute, il coordonne les sessions "Maké Kréyòl" d\'annotation communautaire et assure la collecte des corpus audio créole.',
-      photo: '/photo-medhi.jpeg'
-    },
-    {
-      name: 'Julien Noyer',
-      role: 'Développeur Full-stack & UX',
-      description: 'Julien a développé et mis en production le module de transcription audio de POTOMITAN en Vue.js, avec une interface UX optimisée pour la contribution communautaire. Il représente le projet sur le terrain (intervention lycée Baimbridge) et co-coordonne les sessions "Maké Kréyòl" de validation linguistique.',
-      photo: '/photo-julien.jpg'
+      name: 'Yisselda Rhoc',
+      role: 'Co-fondatrice et Référente Architecture Numérique',
+      description: 'Je pilote l\'architecture technique et la stratégie numérique de POTOMITAN. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), j\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
+      photo: '/photo-yisselda.jpg'
     }
   ];
 
