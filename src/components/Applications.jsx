@@ -3,7 +3,7 @@ import { BookOpen, Edit, Mic, Keyboard } from 'lucide-react';
 const Applications = () => {
   const userApps = [
    {
-  title: <h2>L'urgence en créole !</h2>,
+  title: "L'urgence en créole !",
   description: "Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.",
   features: [
       "🆘 Phrases d'urgence (médical, évacuation, secours)",
