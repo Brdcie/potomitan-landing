@@ -1,0 +1,221 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+  color: var(--white);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-green);
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-hint {
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Bouton Institutional */
+.btn-institutional {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--white);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.btn-institutional:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Credibility Section */
+.hero-credibility {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero-partners {
+  margin-bottom: 2rem;
+}
+
+.hero-partners-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.hero-partners-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-partner-logo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-partner-logo img {
+  max-height: 60px;
+  max-width: 150px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.hero-partner-logo img:hover {
+  opacity: 1;
+}
+
+.hero-partner-placeholder {
+  background: rgba(255, 255, 255, 0.12);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  min-width: 120px;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+}
+
+.hero-stat {
+  text-align: center;
+  min-width: 120px;
+}
+
+.hero-stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.hero-stat-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
+
+/* Responsive Mobile */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-cta .btn {
+    min-width: 100%;
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
+  }
+
+  .hero-credibility {
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+  }
+
+  .hero-partners-grid {
+    gap: 1rem;
+  }
+
+  .hero-partner-logo {
+    height: 50px;
+  }
+
+  .hero-partner-logo img {
+    max-height: 50px;
+    max-width: 120px;
+  }
+
+  .hero-partner-placeholder {
+    font-size: 0.75rem;
+    padding: 0.75rem 1rem;
+    min-width: 100px;
+  }
+
+  .hero-stats {
+    gap: 1.5rem;
+  }
+
+  .hero-stat {
+    min-width: 90px;
+  }
+
+  .hero-stat-number {
+    font-size: 2rem;
+  }
+
+  .hero-stat-label {
+    font-size: 0.85rem;
+  }
+}

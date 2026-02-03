@@ -94,57 +94,7 @@ html {
   color: var(--primary-green);
 }
 
-/* Hero Section */
-.hero {
-  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
-  color: var(--white);
-  padding: 6rem 2rem;
-  text-align: center;
-}
-
-.hero-hint {
-  margin-top: 1.2rem;
-  font-size: 1rem;
-  font-weight: 500;
-  text-align: center;
-  padding: 0.5rem 0.75rem;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 6px;
-  display: inline-block;
-}
-
-.hero-container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.hero h2 {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.2;
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: var(--primary-green);
-  font-weight: 600;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  line-height: 1.6;
-  opacity: 0.95;
-}
-
-.hero-cta {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
+/* Buttons (Global) */
 .btn {
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -466,55 +416,6 @@ html {
   font-size: 0.95rem;
 }
 
-/* Team Section */
-.team {
-  background-color: var(--light-gray);
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.team-member {
-  background-color: var(--white);
-  border-radius: 12px;
-  padding: 2rem;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.team-member-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 1.5rem;
-  display: block;
-  border: 4px solid var(--primary-green);
-}
-
-.team-member h4 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  color: var(--dark-blue);
-}
-
-.team-member .role {
-  color: var(--primary-green);
-  font-weight: 600;
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-}
-
-.team-member p {
-  color: var(--gray);
-  font-size: 0.9rem;
-  line-height: 1.6;
-}
-
 /* Footer */
 .footer {
   background-color: var(--dark-blue);
@@ -569,18 +470,6 @@ html {
     font-size: 0.9rem;
   }
 
-  .hero h2 {
-    font-size: 2rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
   .section-title {
     font-size: 2rem;
   }
@@ -592,18 +481,6 @@ html {
   .apps-grid-simple {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-  }
-
-  .hero-cta {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .hero-cta .btn {
-    min-width: 280px;
-    text-align: center;
   }
 
   .btn {
