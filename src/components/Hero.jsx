@@ -4,7 +4,7 @@ import './Hero.css';
 const HERO_CTAS = [
   {
     id: 'translate',
-    text: 'Traduire en 93 secondes',
+    text: 'Traduire instantanément',
     href: 'https://traducteur.potomitan.io',
     variant: 'primary'
   },
@@ -44,7 +44,7 @@ const PARTNER_LOGOS = [
 ];
 
 const IMPACT_METRICS = [
-  { id: 'speed', number: '93s', label: 'de traduction' },
+  { id: 'speed', number: '93s', label: 'gagnées en urgence' },
   { id: 'reach', number: '2M+', label: 'créolophones' },
   { id: 'corpus', number: '2100+', label: 'expressions validées' }
 ];
