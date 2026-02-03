@@ -10,7 +10,7 @@ const Team = () => {
     },
     {
       name: 'Monique Famibelle',
-      role: 'Ambassadrice Communautaire et Développement Territorial',
+      role: 'Co-fondatrice, Ambassadrice Communautaire et Développement Territorial',
       description: 'J\'assure bénévolement le développement des partenariats territoriaux en Guadeloupe et l\'animation de la communauté de contributeurs VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la, mon ancrage territorial profond et mon réseau étendu dans le tissu associatif, éducatif et institutionnel guadeloupéen facilitent l\'identification des besoins réels des utilisateurs finaux et la validation linguistique du corpus.',
       photo: '/photo-monique.jpeg'
     },
