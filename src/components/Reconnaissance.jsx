@@ -30,7 +30,7 @@ const VALIDATION_BLOCKS = [
     title: 'Reconnaissance institutionnelle',
     items: [
       "Lab'An Nou (Préfecture de Guadeloupe) : soutien au projet",
-      "Orange Antilles-Guyane : capsule de présentation commandée pour évaluation complémentarité SafetyCase"
+      { text: 'Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
     ]
   },
   {
@@ -38,8 +38,7 @@ const VALIDATION_BLOCKS = [
     icon: Newspaper,
     title: 'Visibilité médiatique',
     items: [
-      'France-Antilles : couverture du projet',
-      'Couverture médias locaux guadeloupéens'
+      { text: 'France-Antilles : couverture du projet', link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php' }
     ]
   }
 ];
@@ -60,7 +59,15 @@ const Reconnaissance = () => {
               <h3 className="validation-title">{block.title}</h3>
               <ul className="validation-list">
                 {block.items.map((item, index) => (
-                  <li key={index}>{item}</li>
+                  <li key={index}>
+                    {typeof item === 'string' ? (
+                      item
+                    ) : (
+                      <a href={item.link} target="_blank" rel="noopener noreferrer" className="validation-link">
+                        {item.text}
+                      </a>
+                    )}
+                  </li>
                 ))}
               </ul>
             </div>
@@ -72,6 +79,12 @@ const Reconnaissance = () => {
         POTOMITAN est actuellement en discussion avec plusieurs services publics
         et collectivités territoriales pour des déploiements pilotes en 2026.
       </p>
+
+      <div className="reconnaissance-news">
+        <span className="news-label">Dernière actualité :</span>
+        <span className="news-title">POTOMITAN opérationnel - Novembre 2025</span>
+        <a href="/actualites" className="news-link">Lire l'article complet →</a>
+      </div>
     </section>
   );
 };

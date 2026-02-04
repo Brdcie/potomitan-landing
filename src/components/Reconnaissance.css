@@ -105,6 +105,46 @@
   border-left: 4px solid var(--primary-blue);
 }
 
+.reconnaissance-news {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+}
+
+.news-label {
+  color: var(--gray);
+}
+
+.news-title {
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin: 0 0.5rem;
+}
+
+.news-link {
+  color: var(--primary-green);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.news-link:hover {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+.validation-link {
+  color: var(--dark-gray);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.validation-link:hover {
+  color: var(--primary-green);
+  text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .validation-grid {
