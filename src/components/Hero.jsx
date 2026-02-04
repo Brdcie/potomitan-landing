@@ -49,6 +49,23 @@ const IMPACT_METRICS = [
   { id: 'corpus', number: '2100+', label: 'expressions validées' }
 ];
 
+const PRESS_MENTIONS = [
+  {
+    id: 'france-antilles',
+    name: 'France-Antilles',
+    description: 'Article Décembre 2025',
+    link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php',
+    type: 'article'
+  },
+  {
+    id: 'orange-video',
+    name: 'Orange Antilles-Guyane',
+    description: 'Capsule vidéo',
+    link: 'https://youtu.be/zaSrC3ZtZ_c?si=ZEtyes1fyV0FmDQd',
+    type: 'video'
+  }
+];
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -96,6 +113,30 @@ const Hero = () => {
                 <div className="hero-stat-number">{metric.number}</div>
                 <div className="hero-stat-label">{metric.label}</div>
               </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Press Mentions */}
+        <div className="hero-press">
+          <p className="hero-press-label">Ils en parlent</p>
+          <div className="hero-press-grid">
+            {PRESS_MENTIONS.map((mention) => (
+              <a
+                key={mention.id}
+                href={mention.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hero-press-item"
+              >
+                <span className="hero-press-icon">
+                  {mention.type === 'video' ? '🎥' : '📰'}
+                </span>
+                <div className="hero-press-content">
+                  <span className="hero-press-name">{mention.name}</span>
+                  <span className="hero-press-desc">{mention.description}</span>
+                </div>
+              </a>
             ))}
           </div>
         </div>
