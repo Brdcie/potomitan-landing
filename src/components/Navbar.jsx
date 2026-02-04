@@ -12,6 +12,7 @@ const Navbar = () => {
           <li><a href="#applications">Applications</a></li>
           <li><a href="#initiative">L'initiative</a></li>
           <li><a href="#equipe">L'équipe</a></li>
+          <li><a href="/actualites">Actualités</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
