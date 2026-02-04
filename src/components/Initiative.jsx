@@ -41,7 +41,7 @@ const Initiative = () => {
             avec les services essentiels.
           </p>
           <p style={{ marginTop: '1rem' }}>
-            <strong>Préservation linguistique</strong> : valoriser et documenter le créole guadeloupéen
+            <strong>Valorisation linguistique</strong> : valoriser et documenter le créole guadeloupéen
             comme patrimoine vivant.
           </p>
           <p style={{ marginTop: '1rem' }}>
