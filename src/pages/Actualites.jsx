@@ -83,8 +83,7 @@ const Actualites = () => {
         </section>
 
         <section className="article-section funding-section">
-          <h4>Nous recherchons :</h4>
-          <p className="funding-amount">500K€ pour le déploiement territorial et l'extension fonctionnelle</p>
+          <p className="funding-amount">Phase de financement en cours pour accélérer le déploiement territorial</p>
         </section>
 
         <div className="article-cta">
