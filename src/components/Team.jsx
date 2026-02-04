@@ -5,20 +5,20 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Brigitte Démocrite',
-      role: 'Fondatrice & CEO',
-      description: '30 ans en gestion de projets IT internationaux (dont direction BNP Paribas). Spécialiste IA conversationnelle et inclusion linguistique.',
+      role: 'Fondatrice, Directrice Générale et Chef de Projet',
+      description: 'Je pilote POTOMITAN depuis sa conception jusqu\'à sa mise en œuvre opérationnelle. Mon rôle couvre la direction stratégique, la gestion de projet technique, le développement des partenariats institutionnels et la structuration financière de l\'entreprise. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas, m\'ont donné une maîtrise des architectures techniques complexes et du dialogue avec les décideurs institutionnels.',
       photo: '/photo-brigitte.jpg'
     },
     {
       name: 'Monique Famibelle',
-      role: 'Co-fondatrice & Ambassadrice Communautaire',
-      description: 'Ancrage territorial en Guadeloupe. Facilite l\'identification linguistique et la validation communautaire auprès des créolophones.',
+      role: 'Ambassadrice Communautaire et Développement Territorial',
+      description: 'J\'assure bénévolement le développement des partenariats territoriaux en Guadeloupe et l\'animation de la communauté de contributeurs VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la, mon ancrage territorial profond et mon réseau étendu dans le tissu associatif, éducatif et institutionnel guadeloupéen facilitent l\'identification des besoins réels des utilisateurs finaux et la validation linguistique du corpus.',
       photo: '/photo-monique.jpeg'
     },
     {
       name: 'Yisselda Rhoc',
-      role: 'Co-fondatrice & Architecture Technique',
-      description: 'Architecte de systèmes critiques basée à New York (BBR Partners). Spécialiste infrastructures IA distribuées et solutions offline.',
+      role: 'Co-fondatrice et Référente Architecture Numérique',
+      description: 'Je pilote l\'architecture technique et la stratégie numérique de POTOMITAN. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), j\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
       photo: '/photo-yisselda.jpg'
     }
   ];
