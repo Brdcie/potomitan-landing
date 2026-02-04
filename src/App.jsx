@@ -2,22 +2,28 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import ActualitesTeaser from './components/ActualitesTeaser';
+import GoogleComparison from './components/GoogleComparison';
+import Impact93Seconds from './components/Impact93Seconds';
+import Reconnaissance from './components/Reconnaissance';
 import Applications from './components/Applications';
-import Initiative from './components/Initiative';
 import Team from './components/Team';
+import Initiative from './components/Initiative';
+import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
-import Actualites from './pages/Actualites'; // ← NOUVEAU
+import Actualites from './pages/Actualites';
 import './index.css';
 
-// Composant pour la page d'accueil
+// Composant pour la page d'accueil - Structure selon spec UX
 const HomePage = () => (
   <>
     <Hero />
-    <ActualitesTeaser />
+    <GoogleComparison />
+    <Impact93Seconds />
+    <Reconnaissance />
     <Applications />
-    <Initiative />
     <Team />
+    <Initiative />
+    <FinalCTA />
   </>
 );
 

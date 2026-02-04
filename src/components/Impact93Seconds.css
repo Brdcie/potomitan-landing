@@ -1,0 +1,127 @@
+/* Impact 93 Seconds Section */
+.impact-section {
+  background: linear-gradient(135deg, var(--dark-blue) 0%, #1a252f 100%);
+  color: var(--white);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.impact-main {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.impact-title {
+  margin-bottom: 2rem;
+}
+
+.impact-number {
+  display: block;
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--primary-orange);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.impact-subtitle {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--white);
+  opacity: 0.95;
+}
+
+.impact-explanation {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+}
+
+.impact-solution {
+  font-size: 1.2rem;
+  color: var(--primary-green);
+  background-color: rgba(46, 204, 113, 0.15);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.impact-solution strong {
+  font-weight: 700;
+}
+
+/* Secondary Metrics */
+.impact-metrics {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.impact-metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 180px;
+}
+
+.metric-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+}
+
+.metric-label {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  max-width: 180px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .impact-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .impact-number {
+    font-size: 3.5rem;
+  }
+
+  .impact-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .impact-explanation {
+    font-size: 1.1rem;
+  }
+
+  .impact-solution {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .impact-metrics {
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .impact-metric {
+    min-width: 140px;
+  }
+
+  .metric-number {
+    font-size: 2rem;
+  }
+
+  .metric-label {
+    font-size: 0.85rem;
+  }
+}

@@ -64,6 +64,53 @@
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
 
+/* Primary CTA Large */
+.btn-primary-large {
+  background-color: var(--primary-green);
+  color: var(--white);
+  padding: 1.5rem 3rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-large:hover {
+  background-color: #27AE60;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(46, 204, 113, 0.4);
+}
+
+.hero-cta-primary {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.hero-cta-secondary {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.hero-link {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.hero-link:hover {
+  opacity: 1;
+  color: var(--white);
+  text-decoration-color: var(--primary-green);
+}
+
 /* Hero Credibility Section */
 .hero-credibility {
   margin-top: 3rem;

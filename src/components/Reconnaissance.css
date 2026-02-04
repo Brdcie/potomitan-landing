@@ -1,0 +1,142 @@
+/* Reconnaissance Section */
+.reconnaissance-section {
+  background-color: var(--light-gray);
+  padding: 5rem 2rem;
+}
+
+.validation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem;
+}
+
+.validation-block {
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.validation-block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.validation-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+/* Different colors for each block */
+.validation-block:nth-child(1) .validation-icon {
+  background-color: rgba(46, 204, 113, 0.15);
+  color: var(--primary-green);
+}
+
+.validation-block:nth-child(2) .validation-icon {
+  background-color: rgba(255, 140, 66, 0.15);
+  color: var(--primary-orange);
+}
+
+.validation-block:nth-child(3) .validation-icon {
+  background-color: rgba(52, 152, 219, 0.15);
+  color: var(--primary-blue);
+}
+
+.validation-block:nth-child(4) .validation-icon {
+  background-color: rgba(155, 89, 182, 0.15);
+  color: #9B59B6;
+}
+
+.validation-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+.validation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.validation-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  line-height: 1.5;
+}
+
+.validation-list li:last-child {
+  margin-bottom: 0;
+}
+
+.validation-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--primary-green);
+}
+
+.reconnaissance-footer {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--dark-gray);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-blue);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .validation-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .reconnaissance-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .validation-block {
+    padding: 1.5rem;
+  }
+
+  .validation-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .validation-title {
+    font-size: 1.1rem;
+  }
+
+  .validation-list li {
+    font-size: 0.9rem;
+  }
+
+  .reconnaissance-footer {
+    font-size: 1rem;
+    padding: 1.25rem 1.5rem;
+  }
+}

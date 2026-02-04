@@ -1,0 +1,111 @@
+/* Final CTA Section */
+.final-cta-section {
+  background: linear-gradient(135deg, var(--dark-blue) 0%, #1a252f 100%);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.final-cta-title {
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.final-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.final-cta-btn {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 240px;
+}
+
+.final-cta-green {
+  background-color: var(--primary-green);
+  color: var(--white);
+}
+
+.final-cta-green:hover {
+  background-color: #27AE60;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+}
+
+.final-cta-blue {
+  background-color: var(--primary-blue);
+  color: var(--white);
+}
+
+.final-cta-blue:hover {
+  background-color: #2980B9;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.final-cta-orange {
+  background-color: var(--primary-orange);
+  color: var(--white);
+}
+
+.final-cta-orange:hover {
+  background-color: #E67E22;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
+}
+
+.final-cta-contact {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+}
+
+.final-cta-contact p {
+  margin-bottom: 0.5rem;
+}
+
+.final-cta-contact a {
+  color: var(--primary-green);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.final-cta-contact a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .final-cta-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .final-cta-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .final-cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .final-cta-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    min-width: auto;
+  }
+}

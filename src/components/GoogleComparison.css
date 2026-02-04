@@ -1,0 +1,187 @@
+/* Google Comparison Section */
+.google-comparison {
+  background-color: var(--white);
+  padding: 4rem 2rem;
+}
+
+.comparison-table {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  background-color: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.comparison-col {
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.comparison-col:last-child {
+  border-right: none;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.comparison-row:last-child {
+  border-bottom: none;
+}
+
+.comparison-cell {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  border-right: 1px solid var(--light-gray);
+  min-height: 80px;
+}
+
+.comparison-cell:last-child {
+  border-right: none;
+}
+
+.creole-phrase {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--dark-blue);
+  background-color: #F8F9FA;
+}
+
+.google-translation {
+  background-color: #FFEBEE;
+  color: var(--dark-gray);
+}
+
+.potomitan-translation {
+  background-color: #E8F5E9;
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+
+.error-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.success-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.comparison-explanation {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark-gray);
+  max-width: 800px;
+  margin: 2rem auto;
+  line-height: 1.6;
+}
+
+.offline-highlight {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.75rem 2rem;
+  background-color: #FFF3E0;
+  border: 2px solid var(--primary-orange);
+  border-radius: 12px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+.offline-highlight strong {
+  color: var(--primary-orange);
+  font-weight: 700;
+}
+
+/* Responsive Mobile */
+@media (max-width: 768px) {
+  .comparison-header {
+    display: none;
+  }
+
+  .comparison-table {
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .comparison-row {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .comparison-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .comparison-cell {
+    border-right: none;
+    border-bottom: 1px solid var(--light-gray);
+    padding: 1.25rem;
+    min-height: auto;
+    position: relative;
+  }
+
+  .comparison-cell:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-cell::before {
+    content: attr(data-label);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+  }
+
+  .creole-phrase::before {
+    content: 'Phrase créole';
+    color: var(--dark-blue);
+  }
+
+  .google-translation::before {
+    content: 'Google Translate';
+    color: #C62828;
+  }
+
+  .potomitan-translation::before {
+    content: 'POTOMITAN';
+    color: #2E7D32;
+  }
+
+  .comparison-explanation {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .offline-highlight {
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin: 1.5rem 1rem;
+  }
+}
