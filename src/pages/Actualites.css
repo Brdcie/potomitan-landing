@@ -198,15 +198,18 @@
   box-shadow: 0 4px 8px rgba(46, 204, 113, 0.3);
 }
 
-.btn-secondary {
-  background: white;
-  color: #2ECC71;
-  border: 2px solid #2ECC71;
+.actualite-article .btn-secondary {
+  background: #3498DB !important;
+  color: white !important;
+  border: 2px solid #3498DB !important;
 }
 
-.btn-secondary:hover {
-  background: #2ECC71;
-  color: white;
+.actualite-article .btn-secondary:hover {
+  background: #2980B9 !important;
+  border-color: #2980B9 !important;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
 }
 
 @media (max-width: 768px) {

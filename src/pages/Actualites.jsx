@@ -14,6 +14,51 @@ const Actualites = () => {
 
       <article className="actualite-article">
         <div className="article-header">
+          <span className="article-date">13 janvier 2026</span>
+          <span className="article-tag">Médias</span>
+        </div>
+
+        <h2>CAPSULE VIDÉO ORANGE ANTILLES-GUYANE</h2>
+        <h3>POTOMITAN présenté dans l'écosystème SafetyCase</h3>
+
+        <p className="intro">
+          Orange Antilles-Guyane a commandé une capsule vidéo présentant POTOMITAN et sa complémentarité
+          avec SafetyCase, leur solution de communications de crise. Cette reconnaissance par un acteur
+          télécoms de premier plan (1300 salariés + 2500 emplois indirects) valide l'approche infrastructure
+          critique de POTOMITAN pour les situations d'urgence.
+        </p>
+
+        <div className="article-cta">
+          <a href="https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Voir la capsule
+          </a>
+        </div>
+      </article>
+
+      <article className="actualite-article">
+        <div className="article-header">
+          <span className="article-date">31 décembre 2025</span>
+          <span className="article-tag">Médias</span>
+        </div>
+
+        <h2>COUVERTURE FRANCE-ANTILLES</h2>
+        <h3>"POTOMITAN, l'IA qui parle créole"</h3>
+
+        <p className="intro">
+          France-Antilles publie un article détaillé sur POTOMITAN, présentant la problématique des
+          barrières linguistiques dans les urgences et l'inclusion administrative en Guadeloupe.
+          L'article met en lumière l'approche communautaire du projet et son architecture technique offline-first.
+        </p>
+
+        <div className="article-cta">
+          <a href="https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Lire l'article
+          </a>
+        </div>
+      </article>
+
+      <article className="actualite-article">
+        <div className="article-header">
           <span className="article-date">Novembre 2025</span>
           <span className="article-tag">Opérationnel</span>
         </div>

@@ -30,7 +30,7 @@ const VALIDATION_BLOCKS = [
     title: 'Reconnaissance institutionnelle',
     items: [
       "Lab'An Nou (Préfecture de Guadeloupe) : soutien au projet",
-      { text: 'Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
+      { text: '📹 Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
     ]
   },
   {
@@ -38,7 +38,7 @@ const VALIDATION_BLOCKS = [
     icon: Newspaper,
     title: 'Visibilité médiatique',
     items: [
-      { text: 'France-Antilles : couverture du projet', link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php' }
+      { text: '📰 France-Antilles : couverture du projet', link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php' }
     ]
   }
 ];
