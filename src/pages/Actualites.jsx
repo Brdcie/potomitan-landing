@@ -65,23 +65,6 @@ const Actualites = () => {
           </p>
         </section>
 
-        <section className="article-section team-section">
-          <h4>Équipe :</h4>
-          <ul className="team-list">
-            <li><strong>Brigitte Démocrite</strong> - Fondatrice, Directrice Générale et Chef de Projet : Pilote POTOMITAN depuis sa conception jusqu'à sa mise en œuvre opérationnelle. 20 ans de direction de projets IT chez BNP Paribas, spécialisation IA et Machine Learning.</li>
-            <li><strong>Monique Famibelle</strong> - Co-fondatrice, Ambassadrice Communautaire et Développement Territorial : Assure le développement des partenariats territoriaux en Guadeloupe et l'animation de la communauté VwaKréyòl. Secrétaire générale de l'association Zyé a mangrov'la.</li>
-            <li><strong>Yisselda Rhoc</strong> - Co-fondatrice et Référente Architecture Numérique : Pilote l'architecture technique et la stratégie numérique. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), expertise en systèmes critiques et IA.</li>
-          </ul>
-        </section>
-
-        <section className="article-section vision-section">
-          <h4>Vision 2027 :</h4>
-          <p className="vision-path">
-            Guadeloupe → Martinique → Guyane → Saint-Martin<br/>
-            <strong>2M+ créolophones servis</strong>
-          </p>
-        </section>
-
         <section className="article-section funding-section">
           <p className="funding-amount">Phase de financement en cours pour accélérer le déploiement territorial</p>
         </section>
