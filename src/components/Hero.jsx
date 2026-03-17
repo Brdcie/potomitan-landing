@@ -25,8 +25,8 @@ const Hero = () => {
           <a href="#reconnaissance" className="hero-link">
             Vous êtes une institution ? En savoir plus
           </a>
-          <a href="https://vwakreol.potomitan.io" className="hero-link">
-            Vous parlez créole ? Contribuer
+          <a href="https://vwakreol.potomitan.io" className="btn btn-contribuer">
+            🎙️ Vous parlez créole ? Contribuer
           </a>
         </div>
       </div>

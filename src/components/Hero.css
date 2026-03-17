@@ -111,6 +111,25 @@
   text-decoration-color: var(--primary-green);
 }
 
+.btn-contribuer {
+  background-color: var(--primary-orange);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-contribuer:hover {
+  background-color: #e67e22;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 140, 66, 0.4);
+}
+
 /* Hero Credibility Section */
 .hero-credibility {
   margin-top: 3rem;
