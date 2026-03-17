@@ -74,6 +74,15 @@ npm run preview  # Preview du build
 - Monique Famibelle - Co-fondatrice & Ambassadrice Communautaire
 - Yisselda Rhoc - Co-fondatrice & Architecture Technique
 
+## Historique des sessions
+
+### Session 2026-03-17
+
+- Responsive mobile : header Navbar en colonne sur petits écrans (logo + liens en dessous)
+- Hero : lien texte "Vous parlez créole ? Contribuer" remplacé par bouton orange visible (`btn-contribuer`)
+- Fichiers modifiés : `src/index.css`, `src/components/Hero.jsx`, `src/components/Hero.css`
+- Commit `49947da`
+
 ## Notes importantes
 
 - Le déploiement est automatique sur Vercel après push sur `main`
