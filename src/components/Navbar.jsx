@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={handleLinkClick}>
           <img src="/logo-potomitan.svg" alt="Logo Potomitan" />
-          <h1>POTOMITAN</h1>
+          <span className="navbar-logo-text">POTOMITAN</span>
         </Link>
 
         <button

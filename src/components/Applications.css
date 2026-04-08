@@ -73,10 +73,18 @@
 }
 
 .app-main-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.4rem 0;
   font-size: 0.95rem;
   color: var(--text-dark);
   line-height: 1.5;
+}
+
+.app-main-features li svg {
+  flex-shrink: 0;
+  color: var(--leaf);
 }
 
 .app-main-cta {

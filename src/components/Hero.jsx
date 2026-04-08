@@ -12,16 +12,16 @@ const Hero = () => {
         <p className="hero-quote-translation">
           — Quand tu souffres, c'est en créole que tu appelles
         </p>
-        <div className="hero-scroll-indicator" aria-hidden="true">
+        <a href="#comparaison" className="hero-scroll-indicator" aria-label="Découvrir la suite">
           <span className="hero-scroll-text">Découvrir</span>
           <span className="hero-chevron">↓</span>
-        </div>
+        </a>
       </div>
 
       {/* Screen 2: The product */}
       <div className="hero-screen hero-screen-product">
         <div className="hero-product-content">
-          <h2 className="hero-product-title">Potomitan</h2>
+          <h1 className="hero-product-title">Potomitan</h1>
           <p className="hero-product-subtitle">
             Traduction instantanée français ↔ créole guadeloupéen
           </p>

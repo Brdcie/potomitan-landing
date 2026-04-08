@@ -118,6 +118,20 @@
   transform: translateX(4px);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .badge-new {
+    animation: none;
+  }
+
+  .btn-read-more:hover {
+    transform: none;
+  }
+
+  .btn-read-more:hover::after {
+    transform: none;
+  }
+}
+
 @media (max-width: 768px) {
   .actualites-teaser {
     margin: 2rem 1rem;

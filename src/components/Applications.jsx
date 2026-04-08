@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mic, Edit, Keyboard } from 'lucide-react';
+import { Mic, Edit, Keyboard, ShieldAlert, BookOpen, Zap } from 'lucide-react';
 import './Applications.css';
 
 const contributorApps = [
@@ -59,9 +59,9 @@ const Applications = () => {
               (Médical, Évacuation, Secours, Information) et expressions essentielles.
             </p>
             <ul className="app-main-features">
-              <li>🆘 Phrases d'urgence (médical, évacuation, secours)</li>
-              <li>📖 Catalogue de plus de 1 800 expressions</li>
-              <li>⚡ Traduction instantanée</li>
+              <li><ShieldAlert size={16} strokeWidth={2} aria-hidden="true" /> Phrases d'urgence (médical, évacuation, secours)</li>
+              <li><BookOpen size={16} strokeWidth={2} aria-hidden="true" /> Catalogue de plus de 1 800 expressions</li>
+              <li><Zap size={16} strokeWidth={2} aria-hidden="true" /> Traduction instantanée</li>
             </ul>
             <span className="app-main-cta">Tester maintenant</span>
           </div>

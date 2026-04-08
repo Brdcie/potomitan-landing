@@ -44,6 +44,7 @@
   align-items: center;
   gap: 0.5rem;
   animation: bounce 2s ease-in-out infinite;
+  text-decoration: none;
 }
 
 .hero-scroll-text {
@@ -137,6 +138,13 @@
 
 .hero-btn-contribuer:hover {
   background-color: var(--ember-hover);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-scroll-indicator {
+    animation: none;
+  }
 }
 
 /* Responsive */

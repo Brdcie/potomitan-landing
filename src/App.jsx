@@ -30,11 +30,16 @@ const HomePage = () => (
 function App() {
   return (
     <div className="App">
+      <a href="#main-content" className="skip-link">
+        Aller au contenu principal
+      </a>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/actualites" element={<Actualites />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/actualites" element={<Actualites />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

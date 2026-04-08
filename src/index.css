@@ -35,6 +35,39 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Focus styles for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--leaf);
+  outline-offset: 2px;
+}
+
+/* Dark sections: lighter focus ring */
+.hero :focus-visible,
+.reconnaissance-section-dark :focus-visible,
+.team-section-dark :focus-visible,
+.final-cta-section-dark :focus-visible,
+.footer-dark :focus-visible {
+  outline-color: var(--gold);
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--deep-green);
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
 /* Navbar */
 .navbar {
   background-color: var(--deep-green);
@@ -43,7 +76,6 @@ html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-container {
@@ -67,7 +99,7 @@ html {
   width: 50px;
 }
 
-.navbar-logo h1 {
+.navbar-logo-text {
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 400;
@@ -240,7 +272,7 @@ html {
     width: 36px;
   }
 
-  .navbar-logo h1 {
+  .navbar-logo-text {
     font-size: 1.1rem;
   }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { X, Check } from 'lucide-react';
 import './GoogleComparison.css';
 
 const COMPARISON_EXAMPLES = [
@@ -40,11 +41,11 @@ const GoogleComparison = () => {
                 <p className="comparison-creole">{example.creole}</p>
                 <div className="comparison-results">
                   <p className="comparison-google">
-                    <span className="comparison-icon">❌</span>
+                    <X size={16} strokeWidth={2.5} className="comparison-icon" aria-hidden="true" />
                     {example.google}
                   </p>
                   <p className="comparison-potomitan">
-                    <span className="comparison-icon">✓</span>
+                    <Check size={16} strokeWidth={2.5} className="comparison-icon" aria-hidden="true" />
                     {example.potomitan}
                   </p>
                 </div>
