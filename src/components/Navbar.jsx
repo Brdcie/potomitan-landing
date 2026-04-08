@@ -31,6 +31,9 @@ const Navbar = () => {
 
   const handleLinkClick = () => {
     setMenuOpen(false);
+    if (isHome) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
 
   return (
