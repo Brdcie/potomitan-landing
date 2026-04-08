@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import GoogleComparison from './components/GoogleComparison';
-import Impact93Seconds from './components/Impact93Seconds';
 import Reconnaissance from './components/Reconnaissance';
 import Applications from './components/Applications';
 import Team from './components/Team';
@@ -18,7 +17,6 @@ const HomePage = () => (
   <>
     <Hero />
     <GoogleComparison />
-    <Impact93Seconds />
     <Reconnaissance />
     <Applications />
     <Team />
