@@ -7,7 +7,7 @@ const contributorApps = [
     title: 'VwaKréyòl',
     description: 'Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
     icon: Mic,
-    iconColor: '#FFC107',
+    iconColor: '#b89a3a',
     colorName: 'yellow',
     link: 'https://vwakreol.potomitan.io',
     badge: { text: 'Application mobile installable sur IOS et Android', type: 'open' }
@@ -16,7 +16,7 @@ const contributorApps = [
     title: 'Maké Kréyòl',
     description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
     icon: Edit,
-    iconColor: '#3498DB',
+    iconColor: '#4a7a8a',
     colorName: 'blue',
     link: 'https://transcrire.potomitan.io',
     badge: { text: 'Disponible', type: 'auth' }
@@ -25,7 +25,7 @@ const contributorApps = [
     title: 'Klavyé Kréyòl',
     description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android.',
     icon: Keyboard,
-    iconColor: '#2ecc71',
+    iconColor: '#5a9a6e',
     colorName: 'green',
     link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
     badge: { type: 'google-play', image: '/google-play-badge-fr.svg' }

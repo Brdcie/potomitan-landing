@@ -24,7 +24,7 @@ const SECONDARY_METRICS = [
 
 const GoogleComparison = () => {
   return (
-    <section className="comparison-section">
+    <section id="comparaison" className="comparison-section">
       <div className="comparison-container">
         {/* Left column: the problem */}
         <div className="comparison-left">

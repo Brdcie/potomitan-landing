@@ -9,12 +9,14 @@ import Team from './components/Team';
 import Initiative from './components/Initiative';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import SectionNav from './components/SectionNav';
 import Actualites from './pages/Actualites';
 import './index.css';
 
 // Composant pour la page d'accueil - Structure selon spec UX
 const HomePage = () => (
   <>
+    <SectionNav />
     <Hero />
     <GoogleComparison />
     <Reconnaissance />

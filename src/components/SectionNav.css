@@ -1,0 +1,87 @@
+/* Section navigation — right side, desktop only */
+.section-nav {
+  position: fixed;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-end;
+  transition: all 0.3s ease;
+}
+
+.section-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.section-nav-line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  transition: all 0.3s ease;
+}
+
+.section-nav-label {
+  opacity: 0;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.section-nav-item:hover .section-nav-label,
+.section-nav-item.active .section-nav-label {
+  opacity: 1;
+}
+
+.section-nav-item.active .section-nav-line {
+  width: 32px;
+}
+
+/* On dark backgrounds: gold lines */
+.section-nav-on-dark .section-nav-line {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.section-nav-on-dark .section-nav-item.active .section-nav-line,
+.section-nav-on-dark .section-nav-item:hover .section-nav-line {
+  background-color: var(--gold);
+}
+
+.section-nav-on-dark .section-nav-label {
+  color: var(--gold);
+}
+
+/* On light backgrounds: dark lines */
+.section-nav-on-light .section-nav-line {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.section-nav-on-light .section-nav-item.active .section-nav-line,
+.section-nav-on-light .section-nav-item:hover .section-nav-line {
+  background-color: var(--text-dark);
+}
+
+.section-nav-on-light .section-nav-label {
+  color: var(--text-dark);
+}
+
+/* Hidden on mobile */
+@media (max-width: 768px) {
+  .section-nav {
+    display: none;
+  }
+}

@@ -3,11 +3,11 @@
   --deep-green: #0d1f15;
   --cream: #faf6f0;
   --gold: #e8d5b7;
-  --leaf: #2ecc71;
-  --leaf-hover: #27ae60;
-  --ember: #FF8C42;
-  --ember-hover: #e67e22;
-  --mist: rgba(125, 206, 160, 0.4);
+  --leaf: #5a9a6e;
+  --leaf-hover: #4a8a5e;
+  --ember: #c4703a;
+  --ember-hover: #b0622f;
+  --mist: rgba(90, 154, 110, 0.35);
   --text-light: rgba(255, 255, 255, 0.6);
   --text-dark: #1a3a2a;
   --text-muted: #666;
@@ -108,7 +108,7 @@ html {
 
 .btn-primary {
   background-color: var(--leaf);
-  color: var(--deep-green);
+  color: white;
 }
 
 .btn-primary:hover {

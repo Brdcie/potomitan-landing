@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       {/* Screen 1: The quote */}
       <div className="hero-screen hero-screen-quote">
         <blockquote className="hero-quote">

@@ -24,7 +24,7 @@ const CTA_BUTTONS = [
 
 const FinalCTA = () => {
   return (
-    <section className="final-cta-section-dark">
+    <section id="cta-final" className="final-cta-section-dark">
       <h2 className="final-cta-title-dark">Prêt à agir ?</h2>
 
       <div className="final-cta-buttons-dark">

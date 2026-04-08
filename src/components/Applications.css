@@ -82,7 +82,7 @@
 .app-main-cta {
   display: inline-block;
   background-color: var(--leaf);
-  color: var(--deep-green);
+  color: white;
   padding: 0.9rem 2rem;
   border-radius: 8px;
   font-weight: 600;
@@ -129,9 +129,9 @@
   /* border-top-color handled by data-color selectors */
 }
 
-.app-contributor-card[data-color="yellow"]:hover { border-top-color: #FFC107; }
-.app-contributor-card[data-color="blue"]:hover { border-top-color: #3498DB; }
-.app-contributor-card[data-color="green"]:hover { border-top-color: #2ecc71; }
+.app-contributor-card[data-color="yellow"]:hover { border-top-color: #b89a3a; }
+.app-contributor-card[data-color="blue"]:hover { border-top-color: #4a7a8a; }
+.app-contributor-card[data-color="green"]:hover { border-top-color: #5a9a6e; }
 
 .app-contributor-icon {
   width: 48px;
