@@ -2,18 +2,18 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer id="contact" className="footer">
-      <div className="footer-container">
-        <div className="footer-section">
+    <footer id="contact" className="footer-dark">
+      <div className="footer-container-dark">
+        <div className="footer-section-dark">
           <h4>Potomitan</h4>
           <p>
             Traduction français ↔ créole guadeloupéen pour les urgences sociétales.
             L'inclusion linguistique au service de l'égalité territoriale.
           </p>
         </div>
-        <div className="footer-section">
+        <div className="footer-section-dark">
           <h4>Nos Applications</h4>
-          <div className="footer-links">
+          <div className="footer-links-dark">
             <a href="https://traducteur.potomitan.io#urgence" target="_blank" rel="noopener noreferrer">
               Urgence
             </a>
@@ -25,10 +25,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        <div className="footer-section">
+        <div className="footer-section-dark">
           <h4>Contribuer</h4>
-          <div className="footer-links">
+          <div className="footer-links-dark">
             <a href="https://vwakreol.potomitan.io" target="_blank" rel="noopener noreferrer">
               VwaKréyòl : Enregistrer des voix créoles
             </a>
@@ -37,17 +36,15 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        <div className="footer-section">
+        <div className="footer-section-dark">
           <h4>Contact</h4>
           <p>
             <a href="mailto:contact@potomitan.io">contact@potomitan.io</a>
           </p>
         </div>
       </div>
-
-      <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Potomitan™ - Tous droits réservés</p>
+      <div className="footer-bottom-dark">
+        <p>&copy; {new Date().getFullYear()} Potomitan&trade; — Tous droits réservés</p>
       </div>
     </footer>
   );
