@@ -37,17 +37,17 @@ html {
 
 /* Navbar */
 .navbar {
-  background-color: var(--dark-blue);
-  color: var(--white);
+  background-color: var(--deep-green);
+  color: var(--gold);
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -59,7 +59,7 @@ html {
   align-items: center;
   gap: 1rem;
   text-decoration: none;
-  color: var(--white);
+  color: var(--gold);
 }
 
 .navbar-logo img {
@@ -68,9 +68,10 @@ html {
 }
 
 .navbar-logo h1 {
+  font-family: var(--font-heading);
   font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--primary-green);
+  font-weight: 400;
+  color: var(--gold);
 }
 
 .navbar-menu {
@@ -80,14 +81,15 @@ html {
 }
 
 .navbar-menu a {
-  color: var(--white);
+  color: var(--text-light);
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.95rem;
   transition: color 0.3s ease;
 }
 
 .navbar-menu a:hover {
-  color: var(--primary-green);
+  color: var(--gold);
 }
 
 /* Buttons (Global) */
@@ -95,6 +97,7 @@ html {
   padding: 1rem 2rem;
   font-size: 1.1rem;
   font-weight: 600;
+  font-family: var(--font-body);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -104,49 +107,82 @@ html {
 }
 
 .btn-primary {
-  background-color: var(--primary-green);
-  color: var(--white);
+  background-color: var(--leaf);
+  color: var(--deep-green);
 }
 
 .btn-primary:hover {
-  background-color: #27AE60;
+  background-color: var(--leaf-hover);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(46, 204, 113, 0.4);
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: var(--white);
-  border: 2px solid var(--white);
+  color: var(--gold);
+  border: 1px solid var(--gold);
 }
 
 .btn-secondary:hover {
-  background-color: var(--white);
-  color: var(--dark-blue);
+  background-color: rgba(232, 213, 183, 0.1);
+  color: var(--gold);
 }
 
 /* Sections */
 .section {
-  padding: 4rem 2rem;
-  max-width: 1200px;
+  padding: 6rem 2rem;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
+.section-full {
+  padding: 6rem 2rem;
+  max-width: 100%;
+}
+
 .section-title {
+  font-family: var(--font-heading);
   font-size: 2.5rem;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 1rem;
-  color: var(--dark-blue);
+  color: var(--text-dark);
+}
+
+.section-title-light {
+  color: var(--gold);
 }
 
 .section-subtitle {
   text-align: center;
-  font-size: 1.2rem;
-  color: var(--gray);
+  font-size: 1.1rem;
+  color: var(--text-muted);
   margin-bottom: 3rem;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.7;
+}
+
+.section-subtitle-light {
+  color: var(--text-light);
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.section-label-dark {
+  color: var(--mist);
+}
+
+.section-label-light {
+  color: var(--text-muted);
 }
 
 /* Applications Section */
@@ -487,24 +523,20 @@ html {
     flex-wrap: wrap;
   }
 
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  .section-full {
+    padding: 3rem 1.5rem;
+  }
+
   .section-title {
     font-size: 2rem;
   }
 
-  .apps-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .apps-grid-simple {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
   .btn {
     width: 100%;
-  }
-
-  .initiative-content {
-    grid-template-columns: 1fr;
+    text-align: center;
   }
 }
