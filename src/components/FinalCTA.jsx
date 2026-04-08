@@ -6,33 +6,33 @@ const CTA_BUTTONS = [
     id: 'test',
     text: 'Tester le traducteur',
     href: 'https://traducteur.potomitan.io',
-    variant: 'green'
+    variant: 'leaf'
   },
   {
     id: 'deploy',
     text: 'Déployer dans votre structure',
     href: 'mailto:contact@potomitan.io?subject=Demande de déploiement POTOMITAN',
-    variant: 'blue'
+    variant: 'ember'
   },
   {
     id: 'contribute',
     text: 'Enrichir le corpus créole',
     href: 'https://vwakreol.potomitan.io',
-    variant: 'orange'
+    variant: 'outline'
   }
 ];
 
 const FinalCTA = () => {
   return (
-    <section className="section final-cta-section">
-      <h2 className="final-cta-title">Prêt à agir ?</h2>
+    <section id="cta-final" className="final-cta-section-dark">
+      <h2 className="final-cta-title-dark">Prêt à agir ?</h2>
 
-      <div className="final-cta-buttons">
+      <div className="final-cta-buttons-dark">
         {CTA_BUTTONS.map((cta) => (
           <a
             key={cta.id}
             href={cta.href}
-            className={`final-cta-btn final-cta-${cta.variant}`}
+            className={`final-cta-btn-dark final-cta-${cta.variant}`}
             target={cta.href.startsWith('http') ? '_blank' : undefined}
             rel={cta.href.startsWith('http') ? 'noopener noreferrer' : undefined}
           >
@@ -41,11 +41,9 @@ const FinalCTA = () => {
         ))}
       </div>
 
-      <div className="final-cta-contact">
+      <div className="final-cta-contact-dark">
         <p>Vous avez d'autres questions ?</p>
-        <a href="mailto:contact@potomitan.io">
-          Contactez-nous : contact@potomitan.io
-        </a>
+        <a href="mailto:contact@potomitan.io">contact@potomitan.io</a>
       </div>
     </section>
   );

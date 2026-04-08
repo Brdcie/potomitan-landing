@@ -1,182 +1,157 @@
-/* Reconnaissance Section */
-.reconnaissance-section {
-  background-color: var(--light-gray);
-  padding: 5rem 2rem;
+/* Reconnaissance — dark single column */
+.reconnaissance-section-dark {
+  background-color: var(--deep-green);
+  padding: 6rem 2rem;
 }
 
-.validation-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.reconnaissance-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.validation-stack {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-  max-width: 1100px;
-  margin: 0 auto 3rem;
+  margin-top: 0.5rem;
 }
 
-.validation-block {
-  background-color: var(--white);
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.validation-block-dark {
+  border-left: 3px solid var(--leaf);
+  padding: 1.5rem 2rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 0;
 }
 
-.validation-block:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-}
-
-.validation-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
+.validation-header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 1.25rem;
-}
-
-/* Different colors for each block */
-.validation-block:nth-child(1) .validation-icon {
-  background-color: rgba(46, 204, 113, 0.15);
-  color: var(--primary-green);
-}
-
-.validation-block:nth-child(2) .validation-icon {
-  background-color: rgba(255, 140, 66, 0.15);
-  color: var(--primary-orange);
-}
-
-.validation-block:nth-child(3) .validation-icon {
-  background-color: rgba(52, 152, 219, 0.15);
-  color: var(--primary-blue);
-}
-
-.validation-block:nth-child(4) .validation-icon {
-  background-color: rgba(155, 89, 182, 0.15);
-  color: #9B59B6;
-}
-
-.validation-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--dark-blue);
+  gap: 0.75rem;
   margin-bottom: 1rem;
 }
 
-.validation-list {
+.validation-icon-dark {
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.validation-title-dark {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--gold);
+}
+
+.validation-list-dark {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.validation-list li {
+.validation-list-dark li {
   position: relative;
-  padding-left: 1.5rem;
-  margin-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  margin-bottom: 0.6rem;
   font-size: 0.95rem;
-  color: var(--dark-gray);
-  line-height: 1.5;
+  color: var(--text-light);
+  line-height: 1.6;
 }
 
-.validation-list li:last-child {
+.validation-list-dark li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--mist);
+}
+
+.validation-list-dark li:last-child {
   margin-bottom: 0;
 }
 
-.validation-list li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.5rem;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--primary-green);
+.validation-link-dark {
+  color: var(--text-light);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
 }
 
-.reconnaissance-footer {
-  text-align: center;
-  font-size: 1.1rem;
-  color: var(--dark-gray);
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 1.5rem 2rem;
-  background-color: var(--white);
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-blue);
+.validation-link-dark:hover {
+  color: var(--gold);
+  text-decoration-color: var(--gold);
 }
 
-.reconnaissance-news {
+.reconnaissance-footer-dark {
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: var(--text-light);
   text-align: center;
+  line-height: 1.7;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reconnaissance-news-dark {
   margin-top: 2rem;
-  font-size: 0.95rem;
-  color: var(--dark-gray);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1.25rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
 }
 
-.news-label {
-  color: var(--gray);
-}
-
-.news-title {
+.news-badge {
+  font-size: 0.75rem;
   font-weight: 600;
-  color: var(--dark-blue);
-  margin: 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--deep-green);
+  background-color: var(--gold);
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
 }
 
-.news-link {
-  color: var(--primary-green);
+.news-text {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.news-link-dark {
+  color: var(--leaf);
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.95rem;
   transition: color 0.3s ease;
 }
 
-.news-link:hover {
-  color: var(--primary-blue);
-  text-decoration: underline;
-}
-
-.validation-link {
-  color: var(--dark-gray);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.validation-link:hover {
-  color: var(--primary-green);
-  text-decoration: underline;
+.news-link-dark:hover {
+  color: var(--gold);
 }
 
 /* Responsive */
-@media (max-width: 900px) {
-  .validation-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
-
 @media (max-width: 768px) {
-  .reconnaissance-section {
+  .reconnaissance-section-dark {
     padding: 3rem 1.5rem;
   }
 
-  .validation-block {
-    padding: 1.5rem;
+  .validation-block-dark {
+    padding: 1.25rem 1.5rem;
   }
 
-  .validation-icon {
-    width: 50px;
-    height: 50px;
-  }
-
-  .validation-title {
+  .validation-title-dark {
     font-size: 1.1rem;
   }
 
-  .validation-list li {
+  .validation-list-dark li {
     font-size: 0.9rem;
   }
 
-  .reconnaissance-footer {
-    font-size: 1rem;
-    padding: 1.25rem 1.5rem;
+  .reconnaissance-news-dark {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }

@@ -1,62 +1,96 @@
-/* Team Section */
-.team {
-  background-color: var(--light-gray);
+/* Team — dark editorial */
+.team-section-dark {
+  background-color: var(--deep-green);
+  padding: 6rem 2rem;
 }
 
-.team-grid {
+.team-container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: 0.3fr 0.7fr;
+  gap: 4rem;
+  align-items: start;
 }
 
-.team-member {
-  background-color: var(--white);
-  border-radius: 12px;
-  padding: 2rem;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.team-header {
+  position: sticky;
+  top: 100px;
+}
+
+.team-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--gold);
+  line-height: 1.3;
+}
+
+.team-members {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  gap: 3rem;
 }
 
-.team-member-photo {
-  width: 150px;
-  height: 150px;
+.team-member-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.team-member-photo-dark {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1.5rem;
-  display: block;
-  border: 4px solid var(--primary-green);
+  flex-shrink: 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.team-member h4 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  color: var(--dark-blue);
+.team-member-text {
+  flex: 1;
 }
 
-.team-member .role {
-  color: var(--primary-green);
-  font-weight: 600;
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
+.team-member-name {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--gold);
+  margin-bottom: 0.3rem;
 }
 
-.team-member p {
-  color: var(--gray);
+.team-member-role {
+  color: var(--mist);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.team-member-bio {
+  color: var(--text-light);
   font-size: 0.9rem;
-  line-height: 1.6;
-  flex-grow: 1;
+  line-height: 1.7;
 }
 
-.team-tagline {
-  text-align: center;
-  font-size: 1.1rem;
-  font-style: italic;
-  color: var(--dark-gray);
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+/* Responsive */
+@media (max-width: 768px) {
+  .team-section-dark {
+    padding: 3rem 1.5rem;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .team-header {
+    position: static;
+  }
+
+  .team-member-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
 }

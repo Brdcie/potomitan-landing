@@ -3,22 +3,22 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import GoogleComparison from './components/GoogleComparison';
-import Impact93Seconds from './components/Impact93Seconds';
 import Reconnaissance from './components/Reconnaissance';
 import Applications from './components/Applications';
 import Team from './components/Team';
 import Initiative from './components/Initiative';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import SectionNav from './components/SectionNav';
 import Actualites from './pages/Actualites';
 import './index.css';
 
 // Composant pour la page d'accueil - Structure selon spec UX
 const HomePage = () => (
   <>
+    <SectionNav />
     <Hero />
     <GoogleComparison />
-    <Impact93Seconds />
     <Reconnaissance />
     <Applications />
     <Team />
@@ -30,11 +30,16 @@ const HomePage = () => (
 function App() {
   return (
     <div className="App">
+      <a href="#main-content" className="skip-link">
+        Aller au contenu principal
+      </a>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/actualites" element={<Actualites />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/actualites" element={<Actualites />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

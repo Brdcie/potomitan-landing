@@ -1,0 +1,86 @@
+/* Initiative — vertical narrative */
+.initiative-section {
+  background-color: var(--cream);
+  padding: 6rem 2rem;
+}
+
+.initiative-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.initiative-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.initiative-block-narrative {
+  padding: 2rem 0;
+}
+
+.initiative-block-narrative h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.initiative-block-narrative p {
+  color: var(--text-muted);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.initiative-block-narrative p + p {
+  margin-top: 1rem;
+}
+
+.initiative-block-narrative strong {
+  color: var(--text-dark);
+}
+
+.initiative-separator {
+  width: 40px;
+  height: 2px;
+  border: none;
+  margin: 0;
+}
+
+.initiative-separator-leaf {
+  background-color: var(--leaf);
+}
+
+.initiative-separator-ember {
+  background-color: var(--ember);
+}
+
+.initiative-big-number {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--leaf);
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.initiative-big-label {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .initiative-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .initiative-block-narrative h3 {
+    font-size: 1.3rem;
+  }
+
+  .initiative-big-number {
+    font-size: 2.5rem;
+  }
+}

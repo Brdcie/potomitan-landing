@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(du -sh /home/xgueret/Workspace/99-temp/potomitan-landing/*)",
+      "Bash(/home/xgueret/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/brainstorming/scripts/start-server.sh:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git commit:*)",
+      "Bash(pnpm run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_click"
+    ]
+  }
+}

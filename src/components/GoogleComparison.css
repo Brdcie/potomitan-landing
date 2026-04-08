@@ -1,187 +1,163 @@
-/* Google Comparison Section */
-.google-comparison {
-  background-color: var(--white);
-  padding: 4rem 2rem;
+/* Comparison + Impact — merged section */
+.comparison-section {
+  background-color: var(--cream);
+  padding: 6rem 2rem;
 }
 
-.comparison-table {
-  max-width: 1000px;
-  margin: 0 auto 2rem;
-  background-color: var(--white);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.comparison-header {
+.comparison-container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background-color: var(--dark-blue);
-  color: var(--white);
-  font-weight: 600;
-  font-size: 1.1rem;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 3rem;
+  align-items: start;
 }
 
-.comparison-col {
-  padding: 1.25rem 1.5rem;
-  text-align: center;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+.comparison-title {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--text-dark);
+  line-height: 1.3;
+  margin-bottom: 2.5rem;
 }
 
-.comparison-col:last-child {
-  border-right: none;
-}
-
-.comparison-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-bottom: 1px solid var(--light-gray);
-}
-
-.comparison-row:last-child {
-  border-bottom: none;
-}
-
-.comparison-cell {
-  padding: 1.5rem;
+.comparison-examples {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  border-right: 1px solid var(--light-gray);
-  min-height: 80px;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-.comparison-cell:last-child {
-  border-right: none;
+.comparison-example {
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--leaf);
 }
 
-.creole-phrase {
+.comparison-creole {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+}
+
+.comparison-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.comparison-google {
+  color: #c0392b;
+  font-size: 0.95rem;
+  text-decoration: line-through;
+  text-decoration-color: rgba(192, 57, 43, 0.4);
+}
+
+.comparison-potomitan {
+  color: var(--leaf);
+  font-size: 0.95rem;
   font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--dark-blue);
-  background-color: #F8F9FA;
 }
 
-.google-translation {
-  background-color: #FFEBEE;
-  color: var(--dark-gray);
+.comparison-icon {
+  margin-right: 0.5rem;
 }
 
-.potomitan-translation {
-  background-color: #E8F5E9;
-  color: var(--dark-blue);
-  font-weight: 500;
-}
-
-.error-icon {
-  font-size: 1.25rem;
-  flex-shrink: 0;
-}
-
-.success-icon {
-  font-size: 1.25rem;
-  flex-shrink: 0;
-}
-
-.comparison-explanation {
-  text-align: center;
-  font-size: 1.2rem;
-  color: var(--dark-gray);
-  max-width: 800px;
-  margin: 2rem auto;
-  line-height: 1.6;
-}
-
-.offline-highlight {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 1.75rem 2rem;
-  background-color: #FFF3E0;
-  border: 2px solid var(--primary-orange);
-  border-radius: 12px;
-  font-size: 1.1rem;
+.comparison-offline {
+  font-size: 1rem;
+  color: var(--text-muted);
   line-height: 1.7;
-  color: var(--dark-blue);
+  padding: 1.25rem 1.5rem;
+  background-color: rgba(196, 112, 58, 0.08);
+  border-left: 3px solid var(--ember);
+  border-radius: 0 2px 2px 0;
+}
+
+.comparison-offline strong {
+  color: var(--ember);
+}
+
+.impact-inset {
+  background-color: var(--deep-green);
+  border-radius: 4px;
+  padding: 2.5rem 2rem;
   text-align: center;
 }
 
-.offline-highlight strong {
-  color: var(--primary-orange);
-  font-weight: 700;
+.impact-number {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  color: var(--leaf);
+  line-height: 1;
+  margin-bottom: 0.5rem;
 }
 
-/* Responsive Mobile */
+.impact-label {
+  display: block;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.impact-explanation {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.impact-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.impact-metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metric-number {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--gold);
+  line-height: 1.2;
+}
+
+.metric-label {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .comparison-header {
-    display: none;
+  .comparison-section {
+    padding: 3rem 1.5rem;
   }
 
-  .comparison-table {
-    box-shadow: none;
-    background-color: transparent;
+  .comparison-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
-  .comparison-row {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--white);
-    border-radius: 12px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+  .comparison-title {
+    font-size: 1.8rem;
   }
 
-  .comparison-row:last-child {
-    margin-bottom: 0;
+  .comparison-creole {
+    font-size: 1.2rem;
   }
 
-  .comparison-cell {
-    border-right: none;
-    border-bottom: 1px solid var(--light-gray);
-    padding: 1.25rem;
-    min-height: auto;
-    position: relative;
-  }
-
-  .comparison-cell:last-child {
-    border-bottom: none;
-  }
-
-  .comparison-cell::before {
-    content: attr(data-label);
-    font-weight: 600;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    display: block;
-    margin-bottom: 0.5rem;
-    opacity: 0.7;
-  }
-
-  .creole-phrase::before {
-    content: 'Phrase créole';
-    color: var(--dark-blue);
-  }
-
-  .google-translation::before {
-    content: 'Google Translate';
-    color: #C62828;
-  }
-
-  .potomitan-translation::before {
-    content: 'POTOMITAN';
-    color: #2E7D32;
-  }
-
-  .comparison-explanation {
-    font-size: 1rem;
-    padding: 0 1rem;
-  }
-
-  .offline-highlight {
-    font-size: 1rem;
-    padding: 1.5rem;
-    margin: 1.5rem 1rem;
+  .impact-number {
+    font-size: 4rem;
   }
 }

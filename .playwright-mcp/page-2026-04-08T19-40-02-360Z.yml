@@ -1,0 +1,264 @@
+- generic [ref=e3]:
+  - navigation "Navigation principale" [ref=e4]:
+    - generic [ref=e5]:
+      - link "Logo Potomitan POTOMITAN" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Logo Potomitan" [ref=e7]
+        - heading "POTOMITAN" [level=1] [ref=e8]
+      - button "Ouvrir le menu" [ref=e9] [cursor=pointer]
+      - list:
+        - listitem [ref=e13]:
+          - link "Applications" [ref=e14] [cursor=pointer]:
+            - /url: "#applications"
+        - listitem [ref=e15]:
+          - link "L'initiative" [ref=e16] [cursor=pointer]:
+            - /url: "#initiative"
+        - listitem [ref=e17]:
+          - link "L'équipe" [ref=e18] [cursor=pointer]:
+            - /url: "#equipe"
+        - listitem [ref=e19]:
+          - link "Actualités" [ref=e20] [cursor=pointer]:
+            - /url: /actualites
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: "#contact"
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - blockquote [ref=e25]: "\"Lè ou malad, sé an kréyòl ou ka kriyé\""
+      - paragraph [ref=e26]: — Quand tu souffres, c'est en créole que tu appelles
+      - generic [ref=e27]:
+        - generic [ref=e28]: Découvrir
+        - generic [ref=e29]: ↓
+    - generic [ref=e31]:
+      - heading "Potomitan" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Traduction instantanée français ↔ créole guadeloupéen
+      - paragraph [ref=e34]: Fonctionne sans connexion. Validé par des locuteurs natifs. Pour les urgences, les services publics et l'emploi.
+      - link "Tester maintenant" [ref=e36] [cursor=pointer]:
+        - /url: https://traducteur.potomitan.io
+      - generic [ref=e37]:
+        - link "Vous êtes une institution ? En savoir plus" [ref=e38] [cursor=pointer]:
+          - /url: "#reconnaissance"
+        - link "Vous parlez créole ? Contribuer" [ref=e39] [cursor=pointer]:
+          - /url: https://vwakreol.potomitan.io
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]: Le problème
+      - heading "Google traduit des mots. Potomitan comprend une langue." [level=2] [ref=e44]:
+        - text: Google traduit des mots.
+        - text: Potomitan comprend une langue.
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: Kè-la ka bat
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: ❌Le cœur bat
+            - paragraph [ref=e50]: ✓J'ai des palpitations
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Bon, pa ni pwoblèm
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: ❌Bon, pas de problème
+            - paragraph [ref=e55]: ✓D'accord, pas de problème
+      - paragraph [ref=e56]:
+        - strong [ref=e57]: "Et surtout :"
+        - text: POTOMITAN fonctionne offline. Pendant un cyclone, quand les réseaux tombent, Google Translate ne sert à rien.
+    - generic [ref=e59]:
+      - generic [ref=e60]: "93"
+      - generic [ref=e61]: secondes perdues par intervention d'urgence en Guadeloupe
+      - paragraph [ref=e62]: Dans un contexte médical critique, ces secondes peuvent faire la différence entre la vie et la mort.
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: "3000"
+          - generic [ref=e66]: expressions validées par locuteurs natifs
+        - generic [ref=e67]:
+          - generic [ref=e68]: 2M+
+          - generic [ref=e69]: créolophones dans les 4 DOM
+        - generic [ref=e70]:
+          - generic [ref=e71]: <2s
+          - generic [ref=e72]: temps de traduction
+  - generic [ref=e74]:
+    - generic [ref=e75]: Ce qui valide Potomitan
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - img [ref=e79]
+          - heading "Maturité technique" [level=3] [ref=e82]
+        - list [ref=e83]:
+          - listitem [ref=e84]: — 3000 expressions validées par locuteurs natifs guadeloupéens
+          - listitem [ref=e85]: — Traduction bidirectionnelle français ↔ créole
+          - listitem [ref=e86]: — Architecture offline fonctionnelle
+          - listitem [ref=e87]: — Temps de réponse < 2 secondes
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - img [ref=e90]
+          - heading "Ancrage communautaire" [level=3] [ref=e95]
+        - list [ref=e96]:
+          - listitem [ref=e97]: "— VwaKréyòl : plateforme de contribution communautaire active"
+          - listitem [ref=e98]: — Validation linguistique par locuteurs natifs
+          - listitem [ref=e99]: — Sessions Maké Kréyòl (marquage collaboratif)
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - img [ref=e102]
+          - heading "Reconnaissance institutionnelle" [level=3] [ref=e106]
+        - list [ref=e107]:
+          - listitem [ref=e108]: "— Lab'An Nou (Préfecture de Guadeloupe) : soutien au projet"
+          - listitem [ref=e109]:
+            - text: —
+            - 'link "Orange Antilles-Guyane : capsule vidéo" [ref=e110] [cursor=pointer]':
+              - /url: https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - img [ref=e113]
+          - heading "Visibilité médiatique" [level=3] [ref=e116]
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - text: —
+            - 'link "France-Antilles : couverture du projet" [ref=e119] [cursor=pointer]':
+              - /url: https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php
+    - paragraph [ref=e120]: POTOMITAN est actuellement en discussion avec plusieurs services publics et collectivités territoriales pour des déploiements pilotes en 2026.
+    - generic [ref=e121]:
+      - generic [ref=e122]: Dernière actualité
+      - generic [ref=e123]: POTOMITAN opérationnel — Novembre 2025
+      - link "Lire l'article complet →" [ref=e124] [cursor=pointer]:
+        - /url: /actualites
+  - generic [ref=e126]:
+    - generic [ref=e127]: L'écosystème
+    - heading "POTOMITAN, l'intelligence artificielle qui parle créole" [level=2] [ref=e128]
+    - link "Logo Potomitan Application mobile installable sur IOS et Android L'urgence en créole ! Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles. 🆘 Phrases d'urgence (médical, évacuation, secours) 📖 Catalogue de plus de 1 800 expressions ⚡ Traduction instantanée Tester maintenant" [ref=e129] [cursor=pointer]:
+      - /url: https://traducteur.potomitan.io
+      - generic [ref=e130]:
+        - img "Logo Potomitan" [ref=e131]
+        - generic [ref=e132]: Application mobile installable sur IOS et Android
+      - generic [ref=e133]:
+        - heading "L'urgence en créole !" [level=3] [ref=e134]
+        - paragraph [ref=e135]: Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.
+        - list [ref=e136]:
+          - listitem [ref=e137]: 🆘 Phrases d'urgence (médical, évacuation, secours)
+          - listitem [ref=e138]: 📖 Catalogue de plus de 1 800 expressions
+          - listitem [ref=e139]: ⚡ Traduction instantanée
+        - generic [ref=e140]: Tester maintenant
+    - generic [ref=e141]: Contribuer
+    - paragraph [ref=e142]: Aidez à enrichir les créoles et à améliorer la qualité des traductions
+    - generic [ref=e143]:
+      - link "VwaKréyòl Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte. Application mobile installable sur IOS et Android" [ref=e144] [cursor=pointer]:
+        - /url: https://vwakreol.potomitan.io
+        - img [ref=e146]
+        - heading "VwaKréyòl" [level=4] [ref=e149]
+        - paragraph [ref=e150]: Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.
+        - generic [ref=e151]: Application mobile installable sur IOS et Android
+      - link "Maké Kréyòl Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité. Disponible" [ref=e152] [cursor=pointer]:
+        - /url: https://transcrire.potomitan.io
+        - img [ref=e154]
+        - heading "Maké Kréyòl" [level=4] [ref=e157]
+        - paragraph [ref=e158]: Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.
+        - generic [ref=e159]: Disponible
+      - link "Klavyé Kréyòl Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android. Télécharger sur Google Play" [ref=e160] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med
+        - img [ref=e162]
+        - heading "Klavyé Kréyòl" [level=4] [ref=e164]
+        - paragraph [ref=e165]: Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android.
+        - img "Télécharger sur Google Play" [ref=e167]
+  - generic [ref=e169]:
+    - generic [ref=e170]:
+      - generic [ref=e171]: L'équipe
+      - heading "Par et pour les communautés créoles" [level=2] [ref=e172]
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - img "Brigitte Démocrite" [ref=e175]
+        - generic [ref=e176]:
+          - heading "Brigitte Démocrite" [level=3] [ref=e177]
+          - paragraph [ref=e178]: Fondatrice, Directrice Générale et Chef de Projet
+          - paragraph [ref=e179]: Pilote POTOMITAN depuis sa conception. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas.
+      - generic [ref=e180]:
+        - img "Monique Famibelle" [ref=e181]
+        - generic [ref=e182]:
+          - heading "Monique Famibelle" [level=3] [ref=e183]
+          - paragraph [ref=e184]: Ambassadrice Communautaire et Développement Territorial
+          - paragraph [ref=e185]: Développement des partenariats territoriaux en Guadeloupe et animation de la communauté VwaKréyòl. Secrétaire générale de l'association Zyé a mangrov'la.
+      - generic [ref=e186]:
+        - img "Yisselda Rhoc" [ref=e187]
+        - generic [ref=e188]:
+          - heading "Yisselda Rhoc" [level=3] [ref=e189]
+          - paragraph [ref=e190]: Co-fondatrice et Référente Architecture Numérique
+          - paragraph [ref=e191]: Architecture technique et stratégie numérique. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), Master IA de Sorbonne Université.
+  - generic [ref=e193]:
+    - generic [ref=e194]: Notre vision
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - heading "La Problématique" [level=3] [ref=e197]
+        - paragraph [ref=e198]:
+          - text: Lors d'urgences en Guadeloupe,
+          - strong [ref=e199]: 75% des personnes en situation de stress communiquent principalement en créole
+          - text: ", leur langue maternelle. Cette réalité crée un obstacle critique entre citoyens et services publics."
+        - paragraph [ref=e200]: Au-delà des urgences, cette barrière linguistique affecte l'accès aux droits, à l'emploi et aux services administratifs pour toute une population.
+      - separator [ref=e201]
+      - generic [ref=e202]:
+        - heading "Notre Approche" [level=3] [ref=e203]
+        - paragraph [ref=e204]:
+          - text: POTOMITAN est né d'une
+          - strong [ref=e205]: co-construction communautaire
+          - text: ": chaque expression est validée par des locuteurs natifs guadeloupéens, garantissant authenticité et pertinence."
+        - paragraph [ref=e206]:
+          - text: Notre technologie est conçue
+          - strong [ref=e207]: par et pour les communautés créoles
+          - text: ", pas imposée de l'extérieur."
+      - separator [ref=e208]
+      - generic [ref=e209]:
+        - heading "Impact Social" [level=3] [ref=e210]
+        - paragraph [ref=e211]:
+          - strong [ref=e212]: Inclusion citoyenne
+          - text: ": permettre à chacun de communiquer dans sa langue avec les services essentiels."
+        - paragraph [ref=e213]:
+          - strong [ref=e214]: Valorisation linguistique
+          - text: ": documenter le créole guadeloupéen comme patrimoine vivant."
+        - paragraph [ref=e215]:
+          - strong [ref=e216]: Égalité territoriale
+          - text: ": réduire la fracture entre territoires hexagonaux et ultramarins."
+      - separator [ref=e217]
+      - generic [ref=e218]:
+        - heading "Notre Vision" [level=3] [ref=e219]
+        - paragraph [ref=e220]:
+          - text: La Guadeloupe est notre
+          - strong [ref=e221]: territoire pilote
+          - text: ", le fondement d'une technologie d'inclusion linguistique qui peut servir l'ensemble des territoires créolophones."
+        - paragraph [ref=e222]: Martinique, Guyane, Réunion, puis Haïti, Maurice...
+        - generic [ref=e223]: 30 millions
+        - text: de créolophones à base française et anglaise pourraient bénéficier de cette innovation.
+  - generic [ref=e224]:
+    - heading "Prêt à agir ?" [level=2] [ref=e225]
+    - generic [ref=e226]:
+      - link "Tester le traducteur" [ref=e227] [cursor=pointer]:
+        - /url: https://traducteur.potomitan.io
+      - link "Déployer dans votre structure" [ref=e228] [cursor=pointer]:
+        - /url: mailto:contact@potomitan.io?subject=Demande de déploiement POTOMITAN
+      - link "Enrichir le corpus créole" [ref=e229] [cursor=pointer]:
+        - /url: https://vwakreol.potomitan.io
+    - generic [ref=e230]:
+      - paragraph [ref=e231]: Vous avez d'autres questions ?
+      - link "contact@potomitan.io" [ref=e232] [cursor=pointer]:
+        - /url: mailto:contact@potomitan.io
+  - contentinfo [ref=e233]:
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - heading "Potomitan" [level=4] [ref=e236]
+        - paragraph [ref=e237]: Traduction français ↔ créole guadeloupéen pour les urgences sociétales. L'inclusion linguistique au service de l'égalité territoriale.
+      - generic [ref=e238]:
+        - heading "Nos Applications" [level=4] [ref=e239]
+        - generic [ref=e240]:
+          - link "Urgence" [ref=e241] [cursor=pointer]:
+            - /url: https://traducteur.potomitan.io#urgence
+          - link "Traducteur bidirectionnel" [ref=e242] [cursor=pointer]:
+            - /url: https://traducteur.potomitan.io
+          - link "Klavyé Kréyòl" [ref=e243] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med
+      - generic [ref=e244]:
+        - heading "Contribuer" [level=4] [ref=e245]
+        - generic [ref=e246]:
+          - 'link "VwaKréyòl : Enregistrer des voix créoles" [ref=e247] [cursor=pointer]':
+            - /url: https://vwakreol.potomitan.io
+          - link "Valider les transcriptions" [ref=e248] [cursor=pointer]:
+            - /url: https://transcrire.potomitan.io
+      - generic [ref=e249]:
+        - heading "Contact" [level=4] [ref=e250]
+        - paragraph [ref=e251]:
+          - link "contact@potomitan.io" [ref=e252] [cursor=pointer]:
+            - /url: mailto:contact@potomitan.io
+    - paragraph [ref=e254]: © 2026 Potomitan™ — Tous droits réservés
