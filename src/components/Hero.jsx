@@ -13,7 +13,8 @@ const Hero = () => {
           — Quand tu souffres, c'est en créole que tu appelles
         </p>
         <div className="hero-scroll-indicator" aria-hidden="true">
-          <span className="hero-chevron">&#8964;</span>
+          <span className="hero-scroll-text">Découvrir</span>
+          <span className="hero-chevron">↓</span>
         </div>
       </div>
 

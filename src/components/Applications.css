@@ -12,21 +12,21 @@
 /* Main app card */
 .app-main-card {
   background-color: white;
-  border-radius: 16px;
+  border-radius: 4px;
   padding: 3rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   display: grid;
   grid-template-columns: 0.4fr 0.6fr;
   gap: 3rem;
   align-items: center;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.3s ease;
+  transition: border-color 0.3s ease;
   margin-bottom: 4rem;
 }
 
 .app-main-card:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border-color: var(--leaf);
 }
 
 .app-main-logo {
@@ -44,10 +44,11 @@
 .app-main-badge {
   font-size: 0.8rem;
   font-weight: 500;
-  color: #2E7D32;
-  background-color: #E8F5E9;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  color: var(--text-muted);
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.4rem 0.8rem;
+  border-radius: 2px;
   text-align: center;
 }
 
@@ -92,8 +93,6 @@
 
 .app-main-cta:hover {
   background-color: var(--leaf-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.4);
 }
 
 /* Contributor apps */
@@ -115,20 +114,19 @@
 
 .app-contributor-card {
   background-color: white;
-  border-radius: 12px;
+  border-radius: 4px;
   padding: 2rem 1.5rem;
   text-decoration: none;
   color: inherit;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: border-color 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 3px solid transparent;
   display: flex;
   flex-direction: column;
-  border-top: 3px solid transparent;
 }
 
 .app-contributor-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  /* border-top-color handled by data-color selectors */
 }
 
 .app-contributor-card[data-color="yellow"]:hover { border-top-color: #FFC107; }
@@ -136,9 +134,9 @@
 .app-contributor-card[data-color="green"]:hover { border-top-color: #2ecc71; }
 
 .app-contributor-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,21 +161,23 @@
 
 .app-contributor-badge {
   display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  font-size: 0.8rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 2px;
+  font-size: 0.75rem;
   font-weight: 500;
   margin-top: auto;
 }
 
 .badge-open {
-  background-color: #E8F5E9;
-  color: #2E7D32;
+  background-color: transparent;
+  color: var(--text-muted);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .badge-auth {
-  background-color: #FFF3E0;
-  color: #E65100;
+  background-color: transparent;
+  color: var(--text-muted);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .badge-google-play {

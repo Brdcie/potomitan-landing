@@ -26,7 +26,7 @@
   font-size: 1.05rem;
   font-weight: 600;
   font-family: var(--font-body);
-  border-radius: 8px;
+  border-radius: 4px;
   text-decoration: none;
   transition: all 0.3s ease;
   min-width: 220px;
@@ -40,8 +40,6 @@
 
 .final-cta-leaf:hover {
   background-color: var(--leaf-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
 }
 
 .final-cta-ember {
@@ -51,8 +49,6 @@
 
 .final-cta-ember:hover {
   background-color: var(--ember-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
 }
 
 .final-cta-outline {
@@ -63,7 +59,6 @@
 
 .final-cta-outline:hover {
   background-color: rgba(232, 213, 183, 0.1);
-  transform: translateY(-2px);
 }
 
 .final-cta-contact-dark {

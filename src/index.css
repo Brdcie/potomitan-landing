@@ -43,7 +43,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-container {
@@ -99,7 +99,7 @@ html {
   font-weight: 600;
   font-family: var(--font-body);
   border: none;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
@@ -113,8 +113,6 @@ html {
 
 .btn-primary:hover {
   background-color: var(--leaf-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.4);
 }
 
 .btn-secondary {

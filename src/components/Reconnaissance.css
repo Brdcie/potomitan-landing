@@ -20,7 +20,7 @@
   border-left: 3px solid var(--leaf);
   padding: 1.5rem 2rem;
   background-color: rgba(255, 255, 255, 0.03);
-  border-radius: 0 8px 8px 0;
+  border-radius: 0;
 }
 
 .validation-header {
@@ -101,7 +101,7 @@
   flex-wrap: wrap;
   padding: 1.25rem 1.5rem;
   background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
+  border-radius: 2px;
 }
 
 .news-badge {
