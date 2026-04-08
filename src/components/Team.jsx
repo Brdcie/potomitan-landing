@@ -1,55 +1,54 @@
 import React from 'react';
 import './Team.css';
 
+const teamMembers = [
+  {
+    name: 'Brigitte Démocrite',
+    role: 'Fondatrice, Directrice Générale et Chef de Projet',
+    description: 'Pilote POTOMITAN depuis sa conception. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas.',
+    photo: '/photo-brigitte.jpg'
+  },
+  {
+    name: 'Monique Famibelle',
+    role: 'Ambassadrice Communautaire et Développement Territorial',
+    description: 'Développement des partenariats territoriaux en Guadeloupe et animation de la communauté VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la.',
+    photo: '/photo-monique.jpeg'
+  },
+  {
+    name: 'Yisselda Rhoc',
+    role: 'Co-fondatrice et Référente Architecture Numérique',
+    description: 'Architecture technique et stratégie numérique. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), Master IA de Sorbonne Université.',
+    photo: '/photo-yisselda.jpg'
+  }
+];
+
 const Team = () => {
-  const teamMembers = [
-    {
-      name: 'Brigitte Démocrite',
-      role: 'Fondatrice, Directrice Générale et Chef de Projet',
-      description: 'Je pilote POTOMITAN depuis sa conception jusqu\'à sa mise en œuvre opérationnelle. Mon rôle couvre la direction stratégique, la gestion de projet technique, le développement des partenariats institutionnels et la structuration financière de l\'entreprise. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas, m\'ont donné une maîtrise des architectures techniques complexes et du dialogue avec les décideurs institutionnels.',
-      photo: '/photo-brigitte.jpg'
-    },
-    {
-      name: 'Monique Famibelle',
-      role: 'Ambassadrice Communautaire et Développement Territorial',
-      description: 'J\'assure bénévolement le développement des partenariats territoriaux en Guadeloupe et l\'animation de la communauté de contributeurs VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la, mon ancrage territorial profond et mon réseau étendu dans le tissu associatif, éducatif et institutionnel guadeloupéen facilitent l\'identification des besoins réels des utilisateurs finaux et la validation linguistique du corpus.',
-      photo: '/photo-monique.jpeg'
-    },
-    {
-      name: 'Yisselda Rhoc',
-      role: 'Co-fondatrice et Référente Architecture Numérique',
-      description: 'Je pilote l\'architecture technique et la stratégie numérique de POTOMITAN. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), j\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
-      photo: '/photo-yisselda.jpg'
-    }
-  ];
-
   return (
-    <section id="equipe" className="section team">
-      <h2 className="section-title">L'Équipe Potomitan</h2>
-      <p className="section-subtitle">
-        Une équipe passionnée au service de l'inclusion linguistique
-      </p>
+    <section id="equipe" className="team-section-dark">
+      <div className="team-container">
+        <div className="team-header">
+          <span className="section-label section-label-dark">L'équipe</span>
+          <h2 className="team-title">Par et pour les communautés créoles</h2>
+        </div>
 
-      <div className="team-grid">
-        {teamMembers.map((member, index) => (
-          <div key={index} className="team-member">
-            {member.photo && (
+        <div className="team-members">
+          {teamMembers.map((member) => (
+            <div key={member.name} className="team-member-row">
               <img
                 src={member.photo}
                 alt={member.name}
-                className="team-member-photo"
+                className="team-member-photo-dark"
+                loading="lazy"
               />
-            )}
-            <h4>{member.name}</h4>
-            <p className="role">{member.role}</p>
-            <p>{member.description}</p>
-          </div>
-        ))}
+              <div className="team-member-text">
+                <h3 className="team-member-name">{member.name}</h3>
+                <p className="team-member-role">{member.role}</p>
+                <p className="team-member-bio">{member.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-
-      <p className="team-tagline">
-        Une équipe complémentaire, par et pour les communautés créoles.
-      </p>
     </section>
   );
 };
