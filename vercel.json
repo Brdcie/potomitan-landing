@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/vwakreol",
+      "destination": "https://vwakreol.potomitan.io",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
