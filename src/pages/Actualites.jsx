@@ -14,6 +14,37 @@ const Actualites = () => {
 
       <article className="actualite-article">
         <div className="article-header">
+          <span className="article-date">27 avril 2026</span>
+          <span className="article-tag">Institutionnel</span>
+        </div>
+
+        <h2>PRÉSENTATION DOTHÉMARE — LAB'AN NOU</h2>
+        <h3>POTOMITAN présenté devant les acteurs institutionnels de Guadeloupe</h3>
+
+        <p className="intro">
+          À l'invitation de Lab'An Nou, le laboratoire d'innovation de la Préfecture de Guadeloupe,
+          POTOMITAN a été présenté le 27 avril 2026 devant un public réunissant Préfecture, SDIS,
+          Conseil Départemental, DEETS et Rectorat. Cette rencontre a confirmé la réalité du besoin
+          sur le terrain et ouvert des discussions concrètes pour la suite : une visite du centre de
+          secours du SDIS et un projet pilote avec le Conseil Départemental.
+        </p>
+
+        <section className="article-section funding-section">
+          <p className="funding-amount">
+            Rien n'est encore signé, mais la dynamique est lancée : le créole n'est pas un obstacle
+            à contourner, c'est une langue à intégrer dans les systèmes.
+          </p>
+        </section>
+
+        <div className="article-cta">
+          <a href="https://youtube.com/shorts/zaSrC3ZtZ_c" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Voir la vidéo du projet
+          </a>
+        </div>
+      </article>
+
+      <article className="actualite-article">
+        <div className="article-header">
           <span className="article-date">13 janvier 2026</span>
           <span className="article-tag">Médias</span>
         </div>
