@@ -89,7 +89,7 @@ const Reconnaissance = () => {
 
       <div className="reconnaissance-news">
         <span className="news-label">Dernière actualité :</span>
-        <span className="news-title">POTOMITAN opérationnel - Novembre 2025</span>
+        <span className="news-title">Présentation Dothémare — Lab'An Nou, 27 avril 2026</span>
         <a href="/actualites" className="news-link">Lire l'article complet →</a>
       </div>
     </section>
