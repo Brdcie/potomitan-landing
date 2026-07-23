@@ -48,6 +48,13 @@ const Reconnaissance = () => {
     <section id="reconnaissance" className="section reconnaissance-section">
       <h2 className="section-title">Ce qui valide POTOMITAN</h2>
 
+      <p className="reconnaissance-intro">
+        Les urgences sont notre premier cas d'usage. La même infrastructure d'inclusion
+        linguistique peut demain servir l'orientation, l'accès aux droits ou l'insertion
+        professionnelle — partout où le créole guadeloupéen est aujourd'hui ignoré par les
+        outils numériques.
+      </p>
+
       <div className="validation-grid">
         {VALIDATION_BLOCKS.map((block) => {
           const IconComponent = block.icon;

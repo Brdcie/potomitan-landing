@@ -93,6 +93,19 @@
   background-color: var(--primary-green);
 }
 
+.reconnaissance-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--dark-gray);
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  padding: 1.5rem 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-blue);
+  line-height: 1.6;
+}
+
 .reconnaissance-footer {
   text-align: center;
   font-size: 1.1rem;

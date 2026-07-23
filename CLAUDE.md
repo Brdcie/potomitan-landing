@@ -83,6 +83,18 @@ npm run preview  # Preview du build
 - Fichiers modifiés : `src/index.css`, `src/components/Hero.jsx`, `src/components/Hero.css`
 - Commit `49947da`
 
+### Session 2026-07-21
+
+- Hero : lien texte "Vous êtes une institution ? En savoir plus" ne ressortait pas comme un bouton — il utilisait `hero-link` (simple lien souligné) alors que la classe `btn-institutional` (bordure blanche, fond translucide) existait déjà en CSS sans être utilisée nulle part. Remplacé par `className="btn btn-institutional"`.
+- Fichier modifié : `src/components/Hero.jsx`
+- Commit `c7a4983`, déployé sur Vercel
+- `node_modules`/`package-lock.json` régénérés en local suite à un bug npm connu (`@rollup/rollup-darwin-arm64` manquant) — `package-lock.json` volontairement non commité (diff de résolution de versions sans rapport avec le changement)
+
+### Session 2026-07-23
+
+- Reconnaissance : ajout d'un paragraphe d'intro ("infrastructure d'inclusion linguistique") avant la grille de validation, pour relier le cas d'usage urgences à l'orientation, l'accès aux droits et l'insertion professionnelle
+- Fichiers modifiés : `src/components/Reconnaissance.jsx`, `src/components/Reconnaissance.css` (nouvelle classe `.reconnaissance-intro`)
+
 ## Notes importantes
 
 - Le déploiement est automatique sur Vercel après push sur `main`
