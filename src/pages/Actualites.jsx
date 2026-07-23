@@ -37,8 +37,8 @@ const Actualites = () => {
         </section>
 
         <div className="article-cta">
-          <a href="https://youtube.com/shorts/zaSrC3ZtZ_c" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Voir la vidéo du projet
+          <a href="mailto:contact@potomitan.io" className="btn-secondary">
+            Vous représentez une institution ? Contactez-nous
           </a>
         </div>
       </article>
