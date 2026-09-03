@@ -37,7 +37,7 @@ const Impact93Seconds = () => {
       </div>
 
       <p className="impact-vision">
-        Vision 2027 : 2 M+ créolophones servis, de la Caraïbe à l'Océan Indien.
+        Vision 2027 : servir les territoires créolophones, de la Caraïbe à l'Océan Indien.
       </p>
     </section>
   );
