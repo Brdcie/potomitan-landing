@@ -7,7 +7,7 @@ const Applications = () => {
   description: "Interface complète avec traducteur intégré, catégories d'urgence (Médical, Évacuation, Secours, Information) et expressions essentielles.",
   features: [
       "🆘 Phrases d'urgence (médical, évacuation, secours)",
-      "📖 Catalogue de plus de 1 800 expressions",
+      "📖 Catalogue de plus de 4 958 expressions",
       "⚡ Traduction instantanée"
     ],
   icon: <img src="/logo-potomitan.svg" alt="Logo Potomitan" style={{ width: 32, height: 32 }} />,

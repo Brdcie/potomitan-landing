@@ -2,8 +2,8 @@ import React from 'react';
 import './Impact93Seconds.css';
 
 const SECONDARY_METRICS = [
-  { id: 'expressions', number: '3000', label: 'expressions validées par locuteurs natifs' },
-  { id: 'reach', number: '2M+', label: 'créolophones dans les 4 DOM' },
+  { id: 'expressions', number: '4 958', label: 'expressions validées par locuteurs natifs' },
+  { id: 'reach', number: '1,3M+', label: 'personnes maîtrisant un créole à base française en Guadeloupe, Martinique et à La Réunion (DGLFLF, 2022)' },
   { id: 'speed', number: '<2s', label: 'temps de traduction' }
 ];
 
@@ -12,14 +12,14 @@ const Impact93Seconds = () => {
     <section id="impact" className="section impact-section">
       <div className="impact-main">
         <h2 className="impact-title">
-          <span className="impact-number">93 secondes</span>
-          <span className="impact-subtitle">perdues par intervention d'urgence</span>
+          <span className="impact-subtitle">La communication essentielle en créole guadeloupéen,</span>
+          <span className="impact-subtitle">même lorsque le réseau ne répond plus.</span>
         </h2>
 
         <p className="impact-explanation">
-          À cause de la barrière linguistique français-créole, chaque intervention d'urgence
-          en Guadeloupe perd en moyenne 93 secondes. Dans un contexte médical critique,
-          ces secondes peuvent faire la différence entre la vie et la mort.
+          Accueil et triage en urgence, consignes de sécurité en cas de cyclone, orientation
+          administrative et accès aux droits : trois situations où l'incompréhension
+          linguistique retarde une réponse déjà critique.
         </p>
 
         <p className="impact-solution">
@@ -35,6 +35,10 @@ const Impact93Seconds = () => {
           </div>
         ))}
       </div>
+
+      <p className="impact-vision">
+        Vision 2027 : 2 M+ créolophones servis, de la Caraïbe à l'Océan Indien.
+      </p>
     </section>
   );
 };

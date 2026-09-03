@@ -118,7 +118,9 @@ const Actualites = () => {
           <div className="crisis-block">
             <h5>Urgences vitales</h5>
             <p>
-              93 secondes perdues par intervention quand les secours ne comprennent pas le créole. 
+              Samu-Urgences de France recommande de décrocher le maximum d'appels en moins d'une
+              minute (DREES, <em>Études et Résultats</em> n°1325, janvier 2025) — un objectif que la
+              barrière linguistique met en péril quand les secours ne comprennent pas le créole.
               "Kè-la ka bat" → "J'ai des palpitations cardiaques" : chaque seconde compte.
             </p>
           </div>

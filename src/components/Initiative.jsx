@@ -12,9 +12,10 @@ const Initiative = () => {
         <div className="initiative-block">
           <h3>La Problématique</h3>
           <p>
-            Lors d'urgences en Guadeloupe, <strong>75% des personnes en situation de stress
-            communiquent principalement en créole</strong>, leur langue maternelle.
-            Cette réalité crée un obstacle critique entre citoyens et services publics.
+            En situation de stress ou d'urgence, les Guadeloupéens créolophones reviennent
+            naturellement à leur langue maternelle. Or <strong>87% des Guadeloupéens déclarent
+            maîtriser le créole</strong> (DGLFLF, Ministère de la Culture, 2022) : cette réalité
+            crée un obstacle critique entre citoyens et services publics.
           </p>
           <p style={{ marginTop: '1rem' }}>
             Au-delà des urgences, cette barrière linguistique affecte l'accès aux droits,
@@ -53,12 +54,17 @@ const Initiative = () => {
         <div className="initiative-block">
           <h3>Notre Vision</h3>
           <p>
-            La Guadeloupe est notre <strong>territoire pilote</strong>, le fondement d'une technologie
-            d'inclusion linguistique qui peut servir l'ensemble des territoires créolophones.
+            La Guadeloupe est notre <strong>territoire pilote</strong>, le fondement d'une
+            infrastructure d'inclusion linguistique qui peut servir l'ensemble des territoires
+            créolophones.
           </p>
           <p style={{ marginTop: '1rem' }}>
-            Martinique, Guyane, Réunion, puis Haïti, Maurice... <strong>Plus de 30 millions de créolophones</strong>
-            à base française et anglaise pourraient bénéficier de cette innovation.
+            <strong>Plus de 1,3 million de personnes</strong> maîtrisent un créole à base française
+            en Guadeloupe, Martinique et à La Réunion (DGLFLF, Ministère de la Culture, 2022).
+            À l'échelle mondiale, les créoles à base française — Haïti, Antilles, océan Indien —
+            sont parlés par <strong>plus de 15 millions de personnes</strong>. Vision 2027 : étendre
+            cette infrastructure à la Guyane, Haïti, Maurice et aux autres territoires créolophones,
+            de la Caraïbe à l'Océan Indien.
           </p>
         </div>
       </div>

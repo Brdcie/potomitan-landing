@@ -26,10 +26,10 @@
 
 .impact-subtitle {
   display: block;
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: var(--white);
-  opacity: 0.95;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-orange);
+  line-height: 1.3;
 }
 
 .impact-explanation {
@@ -85,6 +85,14 @@
   max-width: 180px;
 }
 
+.impact-vision {
+  margin: 2.5rem auto 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .impact-section {
@@ -96,7 +104,7 @@
   }
 
   .impact-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .impact-explanation {

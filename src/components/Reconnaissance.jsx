@@ -8,7 +8,7 @@ const VALIDATION_BLOCKS = [
     icon: Cpu,
     title: 'Maturité technique',
     items: [
-      '3000 expressions validées par locuteurs natifs guadeloupéens',
+      '4 958 expressions validées par locuteurs natifs guadeloupéens',
       'Traduction bidirectionnelle français ↔ créole',
       'Architecture offline fonctionnelle',
       'Temps de réponse < 2 secondes'
