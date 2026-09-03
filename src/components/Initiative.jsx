@@ -54,17 +54,17 @@ const Initiative = () => {
         <div className="initiative-block">
           <h3>Notre Vision</h3>
           <p>
-            La Guadeloupe est notre <strong>territoire pilote</strong>, le fondement d'une
-            infrastructure d'inclusion linguistique qui peut servir l'ensemble des territoires
-            créolophones.
+            La Guadeloupe est notre <strong>territoire pilote</strong> : POTOMITAN traduit
+            aujourd'hui le créole guadeloupéen, le fondement d'une infrastructure d'inclusion
+            linguistique pensée pour servir, à terme, l'ensemble des territoires créolophones.
           </p>
           <p style={{ marginTop: '1rem' }}>
             <strong>Plus de 1,3 million de personnes</strong> maîtrisent un créole à base française
             en Guadeloupe, Martinique et à La Réunion (DGLFLF, Ministère de la Culture, 2022).
             À l'échelle mondiale, les créoles à base française — Haïti, Antilles, océan Indien —
             sont parlés par <strong>plus de 15 millions de personnes</strong>. Vision 2027 : étendre
-            cette infrastructure à la Guyane, Haïti, Maurice et aux autres territoires créolophones,
-            de la Caraïbe à l'Océan Indien.
+            cette infrastructure à la Martinique, la Guyane, La Réunion et aux autres territoires
+            créolophones, de la Caraïbe à l'Océan Indien.
           </p>
         </div>
       </div>
