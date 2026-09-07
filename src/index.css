@@ -463,6 +463,21 @@ html {
   font-size: 0.9rem;
 }
 
+.footer-legal-links {
+  margin-top: 0.6rem;
+}
+
+.footer-legal-links a {
+  color: var(--light-gray);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-legal-links a:hover {
+  color: var(--primary-green);
+  border-bottom-color: var(--primary-green);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .navbar-container {

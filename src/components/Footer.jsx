@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -48,6 +49,11 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Potomitan™ - Tous droits réservés</p>
+        <div className="footer-legal-links">
+          <Link to="/cgu">CGU</Link>
+          <span aria-hidden="true"> · </span>
+          <Link to="/mentions-legales">Mentions légales</Link>
+        </div>
       </div>
     </footer>
   );

@@ -116,15 +116,15 @@ CoCreate Pitch 2026), qui a détecté ces incohérences sans accès aux fichiers
 
 ## 🔜 Points ouverts pour la prochaine session (pause du 02/09/2026)
 
-- **Incohérences déployées sciemment le 03/09/2026 — à corriger dans une prochaine session** (Brigitte
-  a choisi de committer/déployer sans les corriger, décision assumée) :
-  - `Initiative.jsx` cite « plus de 15 millions » de créolophones mondiaux, `Impact93Seconds.jsx` cite
-    « Vision 2027 : 2 M+ créolophones servis » — deux chiffres différents sans lien ni explication
-    entre eux sur la même landing page.
-  - `Initiative.jsx` inclut La Réunion dans le chiffre « 1,3M+ » présenté comme un territoire
-    aujourd'hui couvert, alors que le rapport stratégique CoCreate Pitch (`Appels à projet/
-    CoCreate_Pitch/Rapport_Strategique_Potomitan.md`, § extensibilité) dit explicitement que le
-    réunionnais n'a que « quelques tests exploratoires », pas une couverture démontrée — à harmoniser.
+- ✅ **Périmètre produit clarifié dans Initiative.jsx (03/09/2026)** — la section « Notre Vision »
+  dit maintenant explicitement que POTOMITAN traduit aujourd'hui le créole guadeloupéen ; le chiffre
+  démographique « 1,3M+ » (Guadeloupe/Martinique/Réunion, DGLFLF 2022) reste correct mais n'est plus
+  lu comme une couverture produit — Martinique et Réunion sont passées dans la liste « Vision 2027 »
+  des territoires visés, cohérent avec le rapport stratégique CoCreate Pitch qui ne documente que
+  « quelques tests exploratoires » sur le réunionnais.
+- ✅ **Chiffre mondial harmonisé (03/09/2026)** — « Vision 2027 : 2 M+ créolophones servis »
+  (Impact93Seconds.jsx) retiré, remplacé par une formulation sans chiffre, cohérente avec le « 15
+  millions+ » sourcé d'Initiative.jsx.
 - **Sources et méthodes des chiffres du site** — pas encore d'endroit centralisé. Le « 1,3M+ » est
   sourcé inline dans son label (DGLFLF 2022), mais à trancher : garder ce système partout, ou créer
   une note/page dédiée type § 11 du rapport stratégique Accio Work (`Appels à projet/CoCreate_Pitch/
