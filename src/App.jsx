@@ -10,6 +10,7 @@ import Team from './components/Team';
 import Initiative from './components/Initiative';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Actualites from './pages/Actualites';
 import MentionsLegales from './pages/MentionsLegales';
 import CGU from './pages/CGU';
@@ -32,6 +33,7 @@ const HomePage = () => (
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
