@@ -18,7 +18,7 @@ const Team = () => {
     {
       name: 'Yisselda Rhoc',
       role: 'Cofondatrice, conseillère en stratégie et architecture technologiques',
-      description: 'J\'accompagne POTOMITAN de mes conseils sur son architecture technique et sa stratégie numérique. J\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
+      description: 'J\'interviens auprès de POTOMITAN comme conseillère en stratégie et en architecture technologiques. J\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
       photo: '/photo-yisselda.jpg'
     }
   ];
