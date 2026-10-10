@@ -17,8 +17,8 @@ const Team = () => {
     },
     {
       name: 'Yisselda Rhoc',
-      role: 'Co-fondatrice et Référente Architecture Numérique',
-      description: 'Je pilote l\'architecture technique et la stratégie numérique de POTOMITAN. Vice-Présidente Ingénieure Senior chez BBR Partners (New York), j\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
+      role: 'Cofondatrice, conseillère en stratégie et architecture technologiques',
+      description: 'Je pilote l\'architecture technique et la stratégie numérique de POTOMITAN. J\'apporte plus de dix ans d\'expertise en ingénierie logicielle et architecture de systèmes critiques. Titulaire d\'un Master en Informatique spécialisé en Intelligence Artificielle de Sorbonne Université, je valide les choix d\'architecture majeurs et garantis la robustesse technique de la solution.',
       photo: '/photo-yisselda.jpg'
     }
   ];

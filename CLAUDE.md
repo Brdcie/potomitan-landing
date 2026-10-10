@@ -71,8 +71,8 @@ npm run preview  # Preview du build
 ## Équipe actuelle
 
 - Brigitte Démocrite - Fondatrice & CEO
-- Monique Famibelle - Co-fondatrice & Ambassadrice Communautaire
-- Yisselda Rhoc - Co-fondatrice & Architecture Technique
+- Monique Famibelle - Ambassadrice Communautaire et Développement Territorial (bénévole, pas cofondatrice : le capital est réparti entre Brigitte et Yisselda)
+- Yisselda Rhoc - Cofondatrice, conseillère en stratégie et architecture technologiques (intitulé choisi par elle le 10/10/2026)
 
 ## Historique des sessions
 
