@@ -44,6 +44,11 @@ const Footer = () => {
           <p>
             <a href="mailto:contact@potomitan.io">contact@potomitan.io</a>
           </p>
+          <div className="footer-links">
+            <a href="https://www.linkedin.com/company/potomitan" target="_blank" rel="noopener noreferrer">
+              Suivre POTOMITAN sur LinkedIn
+            </a>
+          </div>
         </div>
       </div>
 
