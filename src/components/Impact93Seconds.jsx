@@ -2,7 +2,7 @@ import React from 'react';
 import './Impact93Seconds.css';
 
 const SECONDARY_METRICS = [
-  { id: 'expressions', number: '4 958', label: 'expressions validées par locuteurs natifs' },
+  { id: 'expressions', number: '4 958', label: 'expressions relues par des locuteurs natifs' },
   { id: 'reach', number: '1,3M+', label: 'personnes maîtrisant un créole à base française en Guadeloupe, Martinique et à La Réunion (DGLFLF, 2022)' },
   { id: 'speed', number: '<2s', label: 'temps de traduction' }
 ];

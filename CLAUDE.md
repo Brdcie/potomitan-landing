@@ -193,6 +193,25 @@ stress, terrain) + le chiffre de maîtrise générale du créole en Guadeloupe (
   ce total — famille linguistique différente (base lexicale anglaise), hors périmètre POTOMITAN
   aujourd'hui. Ne jamais les additionner aux chiffres français sans le préciser explicitement.
 
+## Revue UX du 23/10/2026 — corrections, une étape à la fois
+
+Rapport : `../.claude/skills/revue-ux-potomitan-workspace/iteration-1/landing-agente-mairie/with_skill/outputs/rapport.md`.
+Méthode décidée le 01/11/2026 : chaque étape passe par une branche d'aperçu Vercel (pas `main`),
+Brigitte teste sur iPhone et Android, puis on fusionne. L'aperçu se trouve dans le tableau de bord
+Vercel, « Recent Previews » → « Preview ».
+
+- ✅ **Étape 1 — en ligne le 01/11/2026** (commit `f08366b`) : « Vous êtes une institution ? Nous
+  contacter » mène à `#nous-contacter` (section « Prêt à agir ? », adresse + e-mail pré-rempli) au
+  lieu de `#reconnaissance` (20 défilements avant une adresse). `scroll-margin-top` sur les ancres
+  (90 px, 145 px sous 768 px) : les titres ne passent plus sous le menu collé. Testé sur iPhone ;
+  ⚠️ test Android à faire sur potomitan.io.
+- Étapes restantes : ② chiffre « 4 958 expressions validées » (formulation de la fiche UX :
+  « 4 958 expressions, dont 590 pas encore ouvertes à l'enregistrement », recompter avant) ;
+  ③ contraste du premier écran et menu collé sur mobile ; ④ titre du premier écran ;
+  ⑤ affirmations publiques (Lab'An Nou, « pilotes en 2026 », Klavyé sous « Nos Applications »,
+  libellé « Déployer ») ; ⑥ ménage (photos Julien/Medhi dans `public/`, `ActualitesTeaser.jsx`,
+  mention « 93 secondes » de la structure ci-dessus). Transcrire : hors série, séance « Droits ».
+
 ## Notes importantes
 
 - Le déploiement est automatique sur Vercel après push sur `main`
