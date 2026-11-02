@@ -203,14 +203,19 @@ Vercel, « Recent Previews » → « Preview ».
 - ✅ **Étape 1 — en ligne le 01/11/2026** (commit `f08366b`) : « Vous êtes une institution ? Nous
   contacter » mène à `#nous-contacter` (section « Prêt à agir ? », adresse + e-mail pré-rempli) au
   lieu de `#reconnaissance` (20 défilements avant une adresse). `scroll-margin-top` sur les ancres
-  (90 px, 145 px sous 768 px) : les titres ne passent plus sous le menu collé. Testé sur iPhone ;
-  ⚠️ test Android à faire sur potomitan.io.
-- Étapes restantes : ② chiffre « 4 958 expressions validées » (formulation de la fiche UX :
-  « 4 958 expressions, dont 590 pas encore ouvertes à l'enregistrement », recompter avant) ;
-  ③ contraste du premier écran et menu collé sur mobile ; ④ titre du premier écran ;
+  (90 px, 145 px sous 768 px) : les titres ne passent plus sous le menu collé. Testé sur iPhone et
+  Android (01/11).
+- ✅ **Étape 2 — en ligne le 01/11/2026** (commit `a2a176d`). Recompté sur la prod ce jour :
+  4 958 expressions, dont 590 en `collecte: false`. Choix de Brigitte : « relues » plutôt que
+  « validées » (vrai pour toutes), « plus de » retiré devant 4 958. **Écriture épicène décidée par
+  Brigitte** (plus de femmes que d'hommes parmi les relectrices) : « créolophones » et
+  « créolophones de Guadeloupe », jamais « locuteurs natifs » ni « créolophones guadeloupéens » ;
+  « 87 % de la population guadeloupéenne ». La page Actualités (texte daté) est laissée telle quelle.
+- Étapes restantes : ③ contraste du premier écran et menu collé sur mobile ; ④ titre du premier écran ;
   ⑤ affirmations publiques (Lab'An Nou, « pilotes en 2026 », Klavyé sous « Nos Applications »,
   libellé « Déployer ») ; ⑥ ménage (photos Julien/Medhi dans `public/`, `ActualitesTeaser.jsx`,
-  mention « 93 secondes » de la structure ci-dessus). Transcrire : hors série, séance « Droits ».
+  mention « 93 secondes » de la structure ci-dessus) ; ⑦ écriture inclusive sur toute la page
+  (reste notamment « entre citoyens et services publics », Initiative). Transcrire : hors série, séance « Droits ».
 
 ## Notes importantes
 
