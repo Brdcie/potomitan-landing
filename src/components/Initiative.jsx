@@ -13,7 +13,7 @@ const Initiative = () => {
           <h3>La Problématique</h3>
           <p>
             En situation de stress ou d'urgence, les créolophones de Guadeloupe reviennent
-            naturellement à leur langue maternelle. Or <strong>87% des Guadeloupéens déclarent
+            naturellement à leur langue maternelle. Or <strong>87% de la population guadeloupéenne déclare
             maîtriser le créole</strong> (DGLFLF, Ministère de la Culture, 2022) : cette réalité
             crée un obstacle critique entre citoyens et services publics.
           </p>
