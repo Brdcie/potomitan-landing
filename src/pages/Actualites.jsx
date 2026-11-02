@@ -14,6 +14,28 @@ const Actualites = () => {
 
       <article className="actualite-article">
         <div className="article-header">
+          <span className="article-date">8 septembre 2026</span>
+          <span className="article-tag">Médias</span>
+        </div>
+
+        <h2>INTERVIEW RCI — ENTREPRISES PEYI</h2>
+        <h3>POTOMITAN sur RCI Guadeloupe</h3>
+
+        <p className="intro">
+          Portrait de POTOMITAN dans Entreprises Peyi, sur RCI Guadeloupe, le 8 septembre 2026.
+          Brigitte Démocrite y explique pourquoi se comprendre en créole compte, aux urgences
+          comme à la mairie.
+        </p>
+
+        <div className="article-cta">
+          <a href="https://rci.fm/guadeloupe/emission/Entreprises-peyi-GP/Entreprises-Peyi-POTOMITAN-avec-Brigitte-DEMOCRITE-sa-fondatrice" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Écouter le replay
+          </a>
+        </div>
+      </article>
+
+      <article className="actualite-article">
+        <div className="article-header">
           <span className="article-date">27 avril 2026</span>
           <span className="article-tag">Institutionnel</span>
         </div>
