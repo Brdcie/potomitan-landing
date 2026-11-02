@@ -196,9 +196,11 @@ stress, terrain) + le chiffre de maîtrise générale du créole en Guadeloupe (
 ## Revue UX du 23/10/2026 — corrections, une étape à la fois
 
 Rapport : `../.claude/skills/revue-ux-potomitan-workspace/iteration-1/landing-agente-mairie/with_skill/outputs/rapport.md`.
-Méthode décidée le 01/11/2026 : chaque étape passe par une branche d'aperçu Vercel (pas `main`),
+Méthode décidée le 01/11/2026 : une étape passe par une branche d'aperçu Vercel (pas `main`),
 Brigitte teste sur iPhone et Android, puis on fusionne. L'aperçu se trouve dans le tableau de bord
-Vercel, « Recent Previews » → « Preview ».
+Vercel, « Recent Previews » → « Preview ». **Ajusté le jour même** : l'aperçu seulement pour ce qui
+se verrait ou serait repris (titre du premier écran, textes sur les partenaires) ; couleurs, mise en
+page, ménage et formulations déjà validées partent directement en ligne (retour arrière en une minute).
 
 - ✅ **Étape 1 — en ligne le 01/11/2026** (commit `f08366b`) : « Vous êtes une institution ? Nous
   contacter » mène à `#nous-contacter` (section « Prêt à agir ? », adresse + e-mail pré-rempli) au
@@ -211,7 +213,16 @@ Vercel, « Recent Previews » → « Preview ».
   Brigitte** (plus de femmes que d'hommes parmi les relectrices) : « créolophones » et
   « créolophones de Guadeloupe », jamais « locuteurs natifs » ni « créolophones guadeloupéens » ;
   « 87 % de la population guadeloupéenne ». La page Actualités (texte daté) est laissée telle quelle.
-- Étapes restantes : ③ contraste du premier écran et menu collé sur mobile ; ④ titre du premier écran ;
+- ✅ **Étape 3 — en ligne le 01/11/2026** (commit `9dd7fe7`) : sous-titre du premier écran en
+  blanc ; bouton « Tester maintenant » en `#1E8449` (4,7:1 avec le blanc, contre 2,1:1 ; survol
+  `#196F3D`) ; sous 768 px, menu non collé (`position: static`, `scroll-margin-top: 0`) et liens à
+  44 px de haut. Contrepartie : menu de 164 px au premier écran (136 avant), à compenser à l'étape 4
+  (vide du haut du hero). Non traité : description blanche sur le bleu clair du dégradé (~3:1),
+  il faudrait foncer le dégradé de marque. Testé sur iPhone (aperçu) et Android (mode clair, bon).
+  En mode sombre, Chrome Android assombrissait lui-même la page (couleurs criardes) : ajout de
+  `color-scheme: only light` (meta dans `index.html` + `html` dans `index.css`), le site garde ses
+  couleurs. Pas de vrai thème sombre prévu.
+- Étapes restantes : ④ titre du premier écran ;
   ⑤ affirmations publiques (Lab'An Nou, « pilotes en 2026 », Klavyé sous « Nos Applications »,
   libellé « Déployer ») ; ⑥ ménage (photos Julien/Medhi dans `public/`, `ActualitesTeaser.jsx`,
   mention « 93 secondes » de la structure ci-dessus) ; ⑦ écriture inclusive sur toute la page
