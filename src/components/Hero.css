@@ -284,12 +284,19 @@
 
 /* Responsive Mobile */
 @media (max-width: 768px) {
+  /* Moins de vide en haut : les trois boutons remontent dans le premier écran */
+  .hero {
+    padding: 2.5rem 1.25rem 2rem;
+  }
+
   .hero h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
   }
 
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
 
   .hero p {

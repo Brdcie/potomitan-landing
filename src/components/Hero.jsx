@@ -5,12 +5,10 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-container">
-        <h2>Potomitan™</h2>
-        <p className="hero-subtitle">L'inclusion linguistique pour la Guadeloupe</p>
-
-        <p className="hero-description">
-          POTOMITAN traduit instantanément français-créole pour les urgences,
-          les services publics et l'emploi. Fonctionne sans connexion.
+        <h2>Se comprendre en créole, aux urgences comme à la mairie</h2>
+        <p className="hero-subtitle">
+          Traduction français ↔ créole guadeloupéen pour les urgences, l'accueil
+          et les services publics, même sans réseau.
         </p>
 
         {/* Primary CTA */}
