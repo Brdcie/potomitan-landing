@@ -29,7 +29,7 @@ const VALIDATION_BLOCKS = [
     icon: Building2,
     title: 'Reconnaissance institutionnelle',
     items: [
-      "Lab'An Nou (Préfecture de Guadeloupe) : soutien au projet",
+      "Présenté au Lab'An Nou (Préfecture) devant le SDIS, le Département, la DEETS et le Rectorat, avril 2026",
       { text: '📹 Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
     ]
   },
@@ -83,8 +83,8 @@ const Reconnaissance = () => {
       </div>
 
       <p className="reconnaissance-footer">
-        POTOMITAN est actuellement en discussion avec plusieurs services publics
-        et collectivités territoriales pour des déploiements pilotes en 2026.
+        POTOMITAN propose aux services publics et aux collectivités des
+        expérimentations à périmètre et durée définis.
       </p>
 
       <div className="reconnaissance-news">

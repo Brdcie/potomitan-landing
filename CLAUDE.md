@@ -222,8 +222,14 @@ page, ménage et formulations déjà validées partent directement en ligne (ret
   En mode sombre, Chrome Android assombrissait lui-même la page (couleurs criardes) : ajout de
   `color-scheme: only light` (meta dans `index.html` + `html` dans `index.css`), le site garde ses
   couleurs. Pas de vrai thème sombre prévu.
-- Étapes restantes : ④ titre du premier écran ;
-  ⑤ affirmations publiques (Lab'An Nou, « pilotes en 2026 », Klavyé sous « Nos Applications »,
+- ✅ **Étape 4 — en ligne le 01/11/2026** (commit `2cebdb9`) : titre du hero « Se comprendre en
+  créole, aux urgences comme à la mairie » (fait écho à la phrase VwaKréyòl du 01/11), sous-titre
+  « Traduction français ↔ créole guadeloupéen pour les urgences, l'accueil et les services publics,
+  même sans réseau. » (Brigitte a préféré ce périmètre large, répétition d'« urgences » assumée).
+  Phrase de description et « Potomitan™ » en titre retirés (le nom est dans le menu). Hero mobile :
+  `padding: 2.5rem 1.25rem 2rem`, boutons remontés de 85 px. Écarté : titre « Traduction… » seul
+  (A), « Le traducteur… des services publics » (C).
+- Étapes restantes : ⑤ affirmations publiques (Lab'An Nou, « pilotes en 2026 », Klavyé sous « Nos Applications »,
   libellé « Déployer ») ; ⑥ ménage (photos Julien/Medhi dans `public/`, `ActualitesTeaser.jsx`,
   mention « 93 secondes » de la structure ci-dessus) ; ⑦ écriture inclusive sur toute la page
   (reste notamment « entre citoyens et services publics », Initiative). Transcrire : hors série, séance « Droits ».

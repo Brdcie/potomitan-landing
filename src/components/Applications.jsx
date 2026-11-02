@@ -37,11 +37,20 @@ const Applications = () => {
     },
     {
       title: 'Klavyé Kréyòl',
-      description: 'Clavier créole pour saisie facilitée en créole guadeloupéen. Disponible sur Android.',
+      description: "Clavier créole guadeloupéen de Medhi Famibelle, intégré à l'écosystème POTOMITAN. Disponible sur Android.",
       icon: Keyboard,
       iconColor: '#00D1B2', // Vert (ta couleur primaire)
       link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
       badge: { type: 'google-play', image: '/google-play-badge-fr.svg' }
+    },
+    {
+      // Lien provisoire vers le catalogue Keyman, à remplacer par annoumake.fr quand la page d'installation existera
+      title: 'AnnouMaké',
+      description: 'Clavier créole guadeloupéen pour ordinateur (Windows, Mac, Linux), créé par POTOMITAN. Essayez-le dans votre navigateur, sans rien installer.',
+      icon: Keyboard,
+      iconColor: '#2C3E50',
+      link: 'https://keyman.com/fr/keyboards/potomitan_gcf',
+      badge: { text: 'Écrire en créole sur votre ordinateur', type: 'open' }
     }
   ];
 

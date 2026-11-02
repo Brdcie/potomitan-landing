@@ -10,8 +10,8 @@ const CTA_BUTTONS = [
   },
   {
     id: 'deploy',
-    text: 'Déployer dans votre structure',
-    href: 'mailto:contact@potomitan.io?subject=Demande de déploiement POTOMITAN',
+    text: 'Demander une présentation pour votre service',
+    href: 'mailto:contact@potomitan.io?subject=Demande de présentation POTOMITAN',
     variant: 'blue'
   },
   {

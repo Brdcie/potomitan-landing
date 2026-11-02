@@ -21,8 +21,17 @@ const Footer = () => {
             <a href="https://traducteur.potomitan.io" target="_blank" rel="noopener noreferrer">
               Traducteur bidirectionnel
             </a>
+            <a href="https://keyman.com/fr/keyboards/potomitan_gcf" target="_blank" rel="noopener noreferrer">
+              AnnouMaké : clavier pour ordinateur
+            </a>
+          </div>
+        </div>
+
+        <div className="footer-section">
+          <h4>Écosystème</h4>
+          <div className="footer-links">
             <a href="https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med" target="_blank" rel="noopener noreferrer">
-              Klavyé Kréyòl
+              Klavyé Kréyòl (Android)
             </a>
           </div>
         </div>
