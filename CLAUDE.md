@@ -253,10 +253,17 @@ page, ménage et formulations déjà validées partent directement en ligne (ret
   communiquer » (Initiative) ; Équipe : « le dialogue avec les institutions » (Brigitte), « communauté
   de contributrices et contributeurs VwaKréyòl » et « besoins réels du public » (Monique, accepté par
   Brigitte). Règle pour la suite : pas de masculin générique, voir l'étape 2.
-- Étape restante : ⑧ article Actualités du
-  27/04 (Lab'An Nou) : « visite du centre de secours du SDIS et projet pilote avec le Conseil
-  Départemental » présentés comme acquis, alors que ce sont des intentions orales non confirmées.
-  Transcrire : hors série, séance « Droits ».
+- ✅ **Étape 8 — en ligne le 02/11/2026**, page Actualités, choix de Brigitte : article Lab'An Nou
+  du 27/04 réduit à « Cette rencontre a confirmé la réalité du besoin sur le terrain » (plus de
+  visite SDIS ni de pilote Département présentés comme acquis ; « Rien n'est encore signé » retiré
+  de l'encadré). Article Orange : « Orange Antilles-Guyane a commandé une capsule vidéo présentant
+  POTOMITAN… La capsule a dépassé 79 000 vues » — commandée et payée par Orange, **facturée par BrD
+  Compagnie** (SAS pas encore immatriculée) : ne jamais écrire « commandé à POTOMITAN ». Retirés :
+  « 1300 salariés + 2500 emplois indirects » (non sourcé) et « valide l'approche ». Article de
+  novembre 2025 laissé tel quel (archive datée).
+- **Revue UX du 23/10 close le 02/11/2026** (étapes 1 à 8). Reste hors série : Transcrire (séance
+  « Droits ») ; ajout KOUDMEN après le 03/11 (agenda du maître) ; lien AnnouMaké à basculer vers
+  `annoumake.fr`.
 
 ## Notes importantes
 
