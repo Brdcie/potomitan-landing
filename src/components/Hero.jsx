@@ -22,8 +22,8 @@ const Hero = () => {
 
         {/* Secondary CTAs as text links */}
         <div className="hero-cta-secondary">
-          <a href="#reconnaissance" className="btn btn-institutional">
-            Vous êtes une institution ? En savoir plus
+          <a href="#nous-contacter" className="btn btn-institutional">
+            Vous êtes une institution ? Nous contacter
           </a>
           <a href="https://vwakreol.potomitan.io" className="btn btn-contribuer">
             🎙️ Vous parlez créole ? Contribuer

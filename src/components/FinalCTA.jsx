@@ -24,7 +24,7 @@ const CTA_BUTTONS = [
 
 const FinalCTA = () => {
   return (
-    <section className="section final-cta-section">
+    <section id="nous-contacter" className="section final-cta-section">
       <h2 className="final-cta-title">Prêt à agir ?</h2>
 
       <div className="final-cta-buttons">
