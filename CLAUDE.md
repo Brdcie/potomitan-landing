@@ -23,9 +23,9 @@ src/
 │   ├── Navbar.jsx       # Navigation
 │   ├── Hero.jsx         # Section hero avec CTA principal
 │   ├── GoogleComparison.jsx  # Comparaison POTOMITAN vs Google Translate
-│   ├── Impact93Seconds.jsx   # Section impact (93 secondes)
+│   ├── Impact93Seconds.jsx   # Section impact (chiffres clés ; le nom du fichier est historique, plus aucun « 93 secondes »)
 │   ├── Reconnaissance.jsx    # Validation (technique, communautaire, institutionnel, médiatique)
-│   ├── Applications.jsx      # Écosystème (traducteur, VwaKréyòl, Maké, Klavyé)
+│   ├── Applications.jsx      # Écosystème (traducteur, VwaKréyòl, Maké, Klavyé, AnnouMaké)
 │   ├── Team.jsx              # Équipe (3 membres)
 │   ├── Initiative.jsx        # Problématique et vision
 │   ├── FinalCTA.jsx          # CTAs de fin de page
@@ -229,10 +229,30 @@ page, ménage et formulations déjà validées partent directement en ligne (ret
   Phrase de description et « Potomitan™ » en titre retirés (le nom est dans le menu). Hero mobile :
   `padding: 2.5rem 1.25rem 2rem`, boutons remontés de 85 px. Écarté : titre « Traduction… » seul
   (A), « Le traducteur… des services publics » (C).
-- Étapes restantes : ⑤ affirmations publiques (Lab'An Nou, « pilotes en 2026 », Klavyé sous « Nos Applications »,
-  libellé « Déployer ») ; ⑥ ménage (photos Julien/Medhi dans `public/`, `ActualitesTeaser.jsx`,
-  mention « 93 secondes » de la structure ci-dessus) ; ⑦ écriture inclusive sur toute la page
-  (reste notamment « entre citoyens et services publics », Initiative). Transcrire : hors série, séance « Droits ».
+- ✅ **Étape 5 — en ligne le 02/11/2026** (commits `36beb37`, `49a01e4`), formulations choisies par
+  Brigitte : Lab'An Nou « Présenté au Lab'An Nou (Préfecture) devant le SDIS, le Département, la
+  DEETS et le Rectorat, avril 2026 » (plus de « soutien ») ; « POTOMITAN propose aux services publics
+  et aux collectivités des expérimentations à périmètre et durée définis » (plus de « pilotes en
+  2026 ») ; carte Klavyé « Clavier créole guadeloupéen de Medhi Famibelle, intégré à l'écosystème
+  POTOMITAN », rangé sous « Écosystème » dans le pied de page ; **AnnouMaké ajouté** (carte dans
+  « Contribuer » + « Nos Applications » du pied de page), lien provisoire
+  `https://keyman.com/fr/keyboards/potomitan_gcf` → **à remplacer par `annoumake.fr`** quand la page
+  d'installation existera (une rubrique « Outils » serait alors plus juste que « Contribuer ») ;
+  bouton « Demander une présentation pour votre service » (objet « Demande de présentation
+  POTOMITAN »). Sessions Maké Kréyòl gardées (deux ou trois ont eu lieu). Ajout hors revue :
+  article Actualités « Interview RCI — Entreprises Peyi » (8/09/2026, lien replay) et encart
+  « Dernière actualité » de l'accueil pointé dessus.
+- ⏳ **Après le 03/11/2026** : Brigitte est nommée membre d'honneur de l'initiative Koudmen ce
+  jour-là. Ajouter une ligne dans « Reconnaissance institutionnelle » une fois la nomination faite
+  (nom exact de l'initiative et rattachement éventuel au Lab'An Nou à confirmer).
+- ✅ **Étape 6 — en ligne le 02/11/2026** : supprimés `public/photo-julien.jpg`, `public/photo-medhi.jpeg`
+  (lisibles en ligne, non affichés) et `ActualitesTeaser.jsx/.css` (jamais importé, contenait « 93 secondes »,
+  « 2M+ », « 500K€ ») ; structure ci-dessus mise à jour.
+- Étapes restantes : ⑦ écriture inclusive sur toute la page
+  (reste notamment « entre citoyens et services publics », Initiative) ; ⑧ article Actualités du
+  27/04 (Lab'An Nou) : « visite du centre de secours du SDIS et projet pilote avec le Conseil
+  Départemental » présentés comme acquis, alors que ce sont des intentions orales non confirmées.
+  Transcrire : hors série, séance « Droits ».
 
 ## Notes importantes
 
