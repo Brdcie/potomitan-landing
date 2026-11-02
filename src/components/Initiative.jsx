@@ -27,7 +27,7 @@ const Initiative = () => {
           <h3>Notre Approche</h3>
           <p>
             POTOMITAN est né d'une <strong>co-construction communautaire</strong> : chaque expression
-            est validée par des créolophones guadeloupéens, garantissant authenticité et pertinence.
+            est validée par des créolophones de Guadeloupe, garantissant authenticité et pertinence.
           </p>
           <p style={{ marginTop: '1rem' }}>
             Notre technologie est conçue <strong>par et pour les communautés créoles</strong>,
