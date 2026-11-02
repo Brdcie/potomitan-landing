@@ -6,13 +6,13 @@ const Team = () => {
     {
       name: 'Brigitte Démocrite',
       role: 'Fondatrice, Directrice Générale et Chef de Projet',
-      description: 'Je pilote POTOMITAN depuis sa conception jusqu\'à sa mise en œuvre opérationnelle. Mon rôle couvre la direction stratégique, la gestion de projet technique, le développement des partenariats institutionnels et la structuration financière de l\'entreprise. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas, m\'ont donné une maîtrise des architectures techniques complexes et du dialogue avec les décideurs institutionnels.',
+      description: 'Je pilote POTOMITAN depuis sa conception jusqu\'à sa mise en œuvre opérationnelle. Mon rôle couvre la direction stratégique, la gestion de projet technique, le développement des partenariats institutionnels et la structuration financière de l\'entreprise. Vingt ans de direction de projets IT internationaux, dont plusieurs années comme Directrice de projets IT chez BNP Paribas, m\'ont donné une maîtrise des architectures techniques complexes et du dialogue avec les institutions.',
       photo: '/photo-brigitte.jpg'
     },
     {
       name: 'Monique Famibelle',
       role: 'Ambassadrice Communautaire et Développement Territorial',
-      description: 'J\'assure bénévolement le développement des partenariats territoriaux en Guadeloupe et l\'animation de la communauté de contributeurs VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la, mon ancrage territorial profond et mon réseau étendu dans le tissu associatif, éducatif et institutionnel guadeloupéen facilitent l\'identification des besoins réels des utilisateurs finaux et la validation linguistique du corpus.',
+      description: 'J\'assure bénévolement le développement des partenariats territoriaux en Guadeloupe et l\'animation de la communauté de contributrices et contributeurs VwaKréyòl. Secrétaire générale de l\'association Zyé a mangrov\'la, mon ancrage territorial profond et mon réseau étendu dans le tissu associatif, éducatif et institutionnel guadeloupéen facilitent l\'identification des besoins réels du public et la validation linguistique du corpus.',
       photo: '/photo-monique.jpeg'
     },
     {

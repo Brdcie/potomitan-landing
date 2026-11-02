@@ -248,8 +248,12 @@ page, ménage et formulations déjà validées partent directement en ligne (ret
 - ✅ **Étape 6 — en ligne le 02/11/2026** : supprimés `public/photo-julien.jpg`, `public/photo-medhi.jpeg`
   (lisibles en ligne, non affichés) et `ActualitesTeaser.jsx/.css` (jamais importé, contenait « 93 secondes »,
   « 2M+ », « 500K€ ») ; structure ci-dessus mise à jour.
-- Étapes restantes : ⑦ écriture inclusive sur toute la page
-  (reste notamment « entre citoyens et services publics », Initiative) ; ⑧ article Actualités du
+- ✅ **Étape 7 — en ligne le 02/11/2026** : écriture inclusive sur la page d'accueil, choix de
+  Brigitte : « entre la population et les services publics », « permettre à toute personne de
+  communiquer » (Initiative) ; Équipe : « le dialogue avec les institutions » (Brigitte), « communauté
+  de contributrices et contributeurs VwaKréyòl » et « besoins réels du public » (Monique, accepté par
+  Brigitte). Règle pour la suite : pas de masculin générique, voir l'étape 2.
+- Étape restante : ⑧ article Actualités du
   27/04 (Lab'An Nou) : « visite du centre de secours du SDIS et projet pilote avec le Conseil
   Départemental » présentés comme acquis, alors que ce sont des intentions orales non confirmées.
   Transcrire : hors série, séance « Droits ».

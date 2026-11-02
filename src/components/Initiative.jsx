@@ -15,7 +15,7 @@ const Initiative = () => {
             En situation de stress ou d'urgence, les créolophones de Guadeloupe reviennent
             naturellement à leur langue maternelle. Or <strong>87% de la population guadeloupéenne déclare
             maîtriser le créole</strong> (DGLFLF, Ministère de la Culture, 2022) : cette réalité
-            crée un obstacle critique entre citoyens et services publics.
+            crée un obstacle critique entre la population et les services publics.
           </p>
           <p style={{ marginTop: '1rem' }}>
             Au-delà des urgences, cette barrière linguistique affecte l'accès aux droits,
@@ -38,7 +38,7 @@ const Initiative = () => {
         <div className="initiative-block">
           <h3>Impact Social</h3>
           <p>
-            <strong>Inclusion citoyenne</strong> : permettre à chacun de communiquer dans sa langue
+            <strong>Inclusion citoyenne</strong> : permettre à toute personne de communiquer dans sa langue
             avec les services essentiels.
           </p>
           <p style={{ marginTop: '1rem' }}>
