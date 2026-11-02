@@ -20,7 +20,7 @@ const VALIDATION_BLOCKS = [
     title: 'Ancrage communautaire',
     items: [
       'VwaKréyòl : plateforme de contribution communautaire active',
-      'Validation linguistique par locuteurs natifs',
+      'Validation linguistique par des créolophones',
       'Sessions Maké Kréyòl (marquage collaboratif)'
     ]
   },
