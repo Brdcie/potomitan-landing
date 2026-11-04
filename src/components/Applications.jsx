@@ -1,4 +1,4 @@
-import { BookOpen, Edit, Mic, Keyboard } from 'lucide-react';
+import { Mic, Keyboard } from 'lucide-react';
 
 const Applications = () => {
   const userApps = [
@@ -27,14 +27,11 @@ const Applications = () => {
       link: 'https://vwakreol.potomitan.io',
       badge: { text: '📱 Application mobile installable sur IOS et Androïd', type: 'open' }
     },
-    {
-      title: 'Transcrivez le créole - Maké Kréyòl a sa ou tann',
-      description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
-      icon: Edit,
-      iconColor: '#3498DB', // Bleu
-      link: 'https://transcrire.potomitan.io',
-      badge: { text: 'Disponible', type: 'auth' }
-    },
+    // Transcrire masqué le 04/11/2026 (extraits de tiers, en attente de la séance « Droits »). Pour le remettre :
+    // { title: 'Transcrivez le créole - Maké Kréyòl a sa ou tann',
+    //   description: 'Validez les transcriptions audio pour améliorer la qualité du corpus. Authentification requise pour garantir la fiabilité.',
+    //   icon: Edit, iconColor: '#3498DB', link: 'https://transcrire.potomitan.io',
+    //   badge: { text: 'Disponible', type: 'auth' } },
     {
       // Lien provisoire vers le catalogue Keyman, à remplacer par annoumake.fr quand la page d'installation existera
       title: 'AnnouMaké',

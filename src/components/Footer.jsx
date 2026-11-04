@@ -42,9 +42,10 @@ const Footer = () => {
             <a href="https://vwakreol.potomitan.io" target="_blank" rel="noopener noreferrer">
               VwaKréyòl : Enregistrer des voix créoles
             </a>
+            {/* Transcrire masqué le 04/11/2026 (séance « Droits ») :
             <a href="https://transcrire.potomitan.io" target="_blank" rel="noopener noreferrer">
               Valider les transcriptions
-            </a>
+            </a> */}
           </div>
         </div>
 
