@@ -370,12 +370,17 @@ footer[id] {
   flex-grow: 1;
 }
 
-.app-screenshot {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
+/* Image à la place de l'icône (AnnouMaké) : même hauteur que les icônes, titres alignés */
+.app-icon-image {
+  height: 80px;
+  width: auto;
+  border-radius: 12px;
   margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.app-card-simple:hover .app-icon-image {
+  transform: scale(1.05);
 }
 
 /* Initiative Section */

@@ -119,22 +119,23 @@ const Applications = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div 
-                  className="app-icon-simple" 
-                  style={{ backgroundColor: app.iconColor }}
-                >
-                  <IconComponent size={40} strokeWidth={2} color="white" />
-                </div>
-                <h4>{app.title}</h4>
-                <p>{app.description}</p>
-                {app.image && (
+                {app.image ? (
                   <img
-                    className="app-screenshot"
+                    className="app-icon-image"
                     src={app.image.src}
                     alt={app.image.alt}
                     loading="lazy"
                   />
+                ) : (
+                  <div
+                    className="app-icon-simple"
+                    style={{ backgroundColor: app.iconColor }}
+                  >
+                    <IconComponent size={40} strokeWidth={2} color="white" />
+                  </div>
                 )}
+                <h4>{app.title}</h4>
+                <p>{app.description}</p>
                 {app.badge && (
                   <span className={`app-badge badge-${app.badge.type}`}>
                     {app.badge.image ? (
