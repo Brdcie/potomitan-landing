@@ -36,21 +36,22 @@ const Applications = () => {
       badge: { text: 'Disponible', type: 'auth' }
     },
     {
-      title: 'Klavyé Kréyòl',
-      description: "Clavier créole guadeloupéen de Medhi Famibelle, intégré à l'écosystème POTOMITAN. Disponible sur Android.",
-      icon: Keyboard,
-      iconColor: '#00D1B2', // Vert (ta couleur primaire)
-      link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
-      badge: { type: 'google-play', image: '/google-play-badge-fr.svg' }
-    },
-    {
       // Lien provisoire vers le catalogue Keyman, à remplacer par annoumake.fr quand la page d'installation existera
       title: 'AnnouMaké',
       description: 'Clavier créole guadeloupéen pour ordinateur (Windows, Mac, Linux), créé par POTOMITAN. Essayez-le dans votre navigateur, sans rien installer.',
       icon: Keyboard,
       iconColor: '#2C3E50',
       link: 'https://keyman.com/fr/keyboards/potomitan_gcf',
+      image: { src: '/annoumake-clavier.png', alt: 'Le clavier AnnouMaké affiché dans le navigateur : disposition AZERTY avec les touches è, ò, ù, à, é' },
       badge: { text: 'Écrire en créole sur votre ordinateur', type: 'open' }
+    },
+    {
+      title: 'Klavyé Kréyòl',
+      description: "Clavier créole guadeloupéen de Medhi Famibelle, intégré à l'écosystème POTOMITAN. Disponible sur Android.",
+      icon: Keyboard,
+      iconColor: '#00D1B2', // Vert (ta couleur primaire)
+      link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
+      badge: { type: 'google-play', image: '/google-play-badge-fr.svg' }
     }
   ];
 
@@ -126,6 +127,14 @@ const Applications = () => {
                 </div>
                 <h4>{app.title}</h4>
                 <p>{app.description}</p>
+                {app.image && (
+                  <img
+                    className="app-screenshot"
+                    src={app.image.src}
+                    alt={app.image.alt}
+                    loading="lazy"
+                  />
+                )}
                 {app.badge && (
                   <span className={`app-badge badge-${app.badge.type}`}>
                     {app.badge.image ? (
