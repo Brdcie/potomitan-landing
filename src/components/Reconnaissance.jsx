@@ -29,6 +29,7 @@ const VALIDATION_BLOCKS = [
     icon: Building2,
     title: 'Reconnaissance institutionnelle',
     items: [
+      "Membre d'honneur de l'initiative KOUDMEN, novembre 2026",
       "Présenté au Lab'An Nou (Préfecture) devant le SDIS, le Département, la DEETS et le Rectorat, avril 2026",
       { text: '📹 Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
     ]
