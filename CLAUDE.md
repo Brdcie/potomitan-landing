@@ -242,9 +242,8 @@ page, ménage et formulations déjà validées partent directement en ligne (ret
   POTOMITAN »). Sessions Maké Kréyòl gardées (deux ou trois ont eu lieu). Ajout hors revue :
   article Actualités « Interview RCI — Entreprises Peyi » (8/09/2026, lien replay) et encart
   « Dernière actualité » de l'accueil pointé dessus.
-- ⏳ **Après le 03/11/2026** : Brigitte est nommée membre d'honneur de l'initiative Koudmen ce
-  jour-là. Ajouter une ligne dans « Reconnaissance institutionnelle » une fois la nomination faite
-  (nom exact de l'initiative et rattachement éventuel au Lab'An Nou à confirmer).
+- ✅ **KOUDMEN ajouté le 04/11/2026** (voir session 2026-11-04) : nomination de membre
+  d'honneur faite le 03/11. Rattachement éventuel de KOUDMEN au Lab'An Nou non précisé sur le site.
 - ✅ **Étape 6 — en ligne le 02/11/2026** : supprimés `public/photo-julien.jpg`, `public/photo-medhi.jpeg`
   (lisibles en ligne, non affichés) et `ActualitesTeaser.jsx/.css` (jamais importé, contenait « 93 secondes »,
   « 2M+ », « 500K€ ») ; structure ci-dessus mise à jour.
@@ -261,9 +260,19 @@ page, ménage et formulations déjà validées partent directement en ligne (ret
   Compagnie** (SAS pas encore immatriculée) : ne jamais écrire « commandé à POTOMITAN ». Retirés :
   « 1300 salariés + 2500 emplois indirects » (non sourcé) et « valide l'approche ». Article de
   novembre 2025 laissé tel quel (archive datée).
-- **Revue UX du 23/10 close le 02/11/2026** (étapes 1 à 8). Reste hors série : Transcrire (séance
-  « Droits ») ; ajout KOUDMEN après le 03/11 (agenda du maître) ; lien AnnouMaké à basculer vers
+- **Revue UX du 23/10 close le 02/11/2026** (étapes 1 à 8). Reste hors série : Transcrire (masqué le
+  04/11, séance « Droits ») ; ~~ajout KOUDMEN~~ fait le 04/11 ; lien AnnouMaké à basculer vers
   `annoumake.fr`.
+
+## Session 2026-11-04
+
+- Carte AnnouMaké (« Contribuer ») : capture du clavier Keyman ajoutée (`public/annoumake-clavier.png`,
+  champ `image` + classe `.app-screenshot`) et carte placée **avant** Klavyé Kréyòl (choix de Brigitte).
+  Commit `010ee4c`. Corrigé le jour même (commit suivant) : l'image (recadrée sur le clavier seul) **remplace l'icône** à 80 px de haut (`.app-icon-image`), au lieu de s'ajouter sous la description.
+- **Module Transcrire masqué** (carte « Contribuer » et lien du pied de page, mis en commentaire pour le
+  remettre facilement) : extraits radio/TV de tiers, en attente de la séance « Droits ».
+- **KOUDMEN ajouté** dans « Reconnaissance institutionnelle », en tête : « Membre d'honneur de l'initiative
+  KOUDMEN, novembre 2026 » (nomination faite le 03/11, intitulé validé par Brigitte). Commit `9669149`.
 
 ## Notes importantes
 
