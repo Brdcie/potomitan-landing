@@ -30,6 +30,7 @@ const VALIDATION_BLOCKS = [
     title: 'Reconnaissance institutionnelle',
     items: [
       "Membre d'honneur de l'initiative KOUDMEN, novembre 2026",
+      "Sollicité par les urgences du centre hospitalier de Basse-Terre pour traduire en créole le message d'accueil de leur visiophone, novembre 2026",
       "Présenté au Lab'An Nou (Préfecture) devant le SDIS, le Département, la DEETS et le Rectorat, avril 2026",
       { text: '📹 Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
     ]
@@ -39,6 +40,7 @@ const VALIDATION_BLOCKS = [
     icon: Newspaper,
     title: 'Visibilité médiatique',
     items: [
+      "📰 France-Antilles, 10 novembre 2026 : « Potomitan, l'IA créole pour faciliter l'accès aux droits et aux secours »",
       { text: '📰 France-Antilles : couverture du projet', link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php' }
     ]
   }
