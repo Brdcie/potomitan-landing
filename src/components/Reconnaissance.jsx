@@ -1,11 +1,11 @@
 import React from 'react';
-import { Cpu, Users, Building2, Newspaper } from 'lucide-react';
+import { Languages, HeartHandshake, Landmark, Megaphone, Video, Newspaper } from 'lucide-react';
 import './Reconnaissance.css';
 
 const VALIDATION_BLOCKS = [
   {
     id: 'technique',
-    icon: Cpu,
+    icon: Languages,
     title: 'Maturité technique',
     items: [
       '4 958 expressions relues par des créolophones de Guadeloupe',
@@ -16,7 +16,7 @@ const VALIDATION_BLOCKS = [
   },
   {
     id: 'communautaire',
-    icon: Users,
+    icon: HeartHandshake,
     title: 'Ancrage communautaire',
     items: [
       'VwaKréyòl : plateforme de contribution communautaire active',
@@ -26,22 +26,22 @@ const VALIDATION_BLOCKS = [
   },
   {
     id: 'institutionnel',
-    icon: Building2,
+    icon: Landmark,
     title: 'Reconnaissance institutionnelle',
     items: [
       "Membre d'honneur de l'initiative KOUDMEN, novembre 2026",
       "Sollicité par les urgences du centre hospitalier de Basse-Terre pour traduire en créole le message d'accueil de leur visiophone, novembre 2026",
       "Présenté au Lab'An Nou (Préfecture) devant le SDIS, le Département, la DEETS et le Rectorat, avril 2026",
-      { text: '📹 Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
+      { icon: Video, text: 'Orange Antilles-Guyane : capsule vidéo', link: 'https://youtu.be/zaSrC3ZtZ_c?si=yscQXVXi0AlUqvi_' }
     ]
   },
   {
     id: 'mediatique',
-    icon: Newspaper,
+    icon: Megaphone,
     title: 'Visibilité médiatique',
     items: [
-      "📰 France-Antilles, 10 novembre 2026 : « Potomitan, l'IA créole pour faciliter l'accès aux droits et aux secours »",
-      { text: '📰 France-Antilles : couverture du projet', link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php' }
+      { icon: Newspaper, text: "France-Antilles, 10 novembre 2026 : « Potomitan, l'IA créole pour faciliter l'accès aux droits et aux secours »" },
+      { icon: Newspaper, text: 'France-Antilles : couverture du projet', link: 'https://hexagone.franceantilles.fr/actualite/sciences-et-recherche/potomitan-lia-qui-parle-creole-1063339.php' }
     ]
   }
 ];
@@ -64,21 +64,29 @@ const Reconnaissance = () => {
           return (
             <div key={block.id} className="validation-block">
               <div className="validation-icon">
-                <IconComponent size={32} strokeWidth={1.5} />
+                <IconComponent size={30} strokeWidth={2} />
               </div>
               <h3 className="validation-title">{block.title}</h3>
               <ul className="validation-list">
-                {block.items.map((item, index) => (
-                  <li key={index}>
-                    {typeof item === 'string' ? (
-                      item
-                    ) : (
-                      <a href={item.link} target="_blank" rel="noopener noreferrer" className="validation-link">
-                        {item.text}
-                      </a>
-                    )}
-                  </li>
-                ))}
+                {block.items.map((item, index) => {
+                  if (typeof item === 'string') return <li key={index}>{item}</li>;
+                  const ItemIcon = item.icon;
+                  const content = (
+                    <>
+                      {ItemIcon && <ItemIcon size={16} strokeWidth={2} className="validation-item-icon" aria-hidden="true" />}
+                      {item.text}
+                    </>
+                  );
+                  return (
+                    <li key={index}>
+                      {item.link ? (
+                        <a href={item.link} target="_blank" rel="noopener noreferrer" className="validation-link">
+                          {content}
+                        </a>
+                      ) : content}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           );

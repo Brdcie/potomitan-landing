@@ -35,25 +35,34 @@
   margin-bottom: 1.25rem;
 }
 
-/* Different colors for each block */
+/* Pastille pleine aux couleurs de la marque, icône blanche */
+.validation-icon {
+  color: var(--white, #fff);
+  box-shadow: 0 6px 16px rgba(44, 62, 80, 0.15);
+}
+
 .validation-block:nth-child(1) .validation-icon {
-  background-color: rgba(46, 204, 113, 0.15);
-  color: var(--primary-green);
+  background: linear-gradient(135deg, #2ECC71, #1E8449);
 }
 
 .validation-block:nth-child(2) .validation-icon {
-  background-color: rgba(255, 140, 66, 0.15);
-  color: var(--primary-orange);
+  background: linear-gradient(135deg, #FF8C42, #E06A1B);
 }
 
 .validation-block:nth-child(3) .validation-icon {
-  background-color: rgba(52, 152, 219, 0.15);
-  color: var(--primary-blue);
+  background: linear-gradient(135deg, #3498DB, #1F6FA8);
 }
 
 .validation-block:nth-child(4) .validation-icon {
-  background-color: rgba(155, 89, 182, 0.15);
-  color: #9B59B6;
+  background: linear-gradient(135deg, #34495E, #2C3E50);
+}
+
+/* Petite icône devant une ligne (remplace les emojis) */
+.validation-item-icon {
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 0.4rem;
+  color: var(--primary-blue);
 }
 
 .validation-title {
