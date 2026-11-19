@@ -1,15 +1,13 @@
 import { Keyboard } from 'lucide-react';
 
-// Icône VwaKréyòl dessinée le 19/11/2026 : bulle de parole avec une onde sonore (« ta voix »),
-// même grille et même trait que les icônes lucide.
-const VoiceBubble = ({ size = 24, strokeWidth = 2, color = 'currentColor' }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none"
-    stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.45L3 20.5l1.55-5.4A8.5 8.5 0 1 1 21 11.5z" />
-    <path d="M8.5 10v3" />
-    <path d="M11.5 8v7" />
-    <path d="M14.5 9.5v4" />
-    <path d="M17 11v1" />
+// Icône VwaKréyòl (19/11/2026, choix E de Brigitte) : le logo POTOMITAN dont le cercle devient
+// une bulle de parole (poteau-mitan et double hélice à l'intérieur), sur fond blanc bordé de jaune.
+const VoiceLogo = ({ size = 56 }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 200 200" aria-hidden="true">
+    <path d="M79.4,163.7 A72,72 0 1 0 41.6,132 L28,180 Z" fill="none" stroke="#3498DB" strokeWidth="10" strokeLinejoin="round" />
+    <rect x="96" y="44" width="16" height="104" rx="2" fill="#2C3E50" />
+    <path d="M104,46 Q130,71 104,96 Q78,121 104,146" stroke="#F1C40F" strokeWidth="8" fill="none" strokeLinecap="round" />
+    <path d="M104,146 Q130,121 104,96 Q78,71 104,46" stroke="#E74C3C" strokeWidth="8" fill="none" strokeLinecap="round" />
   </svg>
 );
 
@@ -35,8 +33,9 @@ const Applications = () => {
     {
       title: 'VwaKréyòl',
       description: 'Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
-      icon: VoiceBubble,
-      iconColor: '#FFC107', // Jaune
+      icon: VoiceLogo,
+      iconColor: '#FFFFFF',
+      iconBorder: '3px solid #FFC107', // Jaune
       link: 'https://vwakreol.potomitan.io',
       badge: { text: '📱 Application mobile installable sur IOS et Androïd', type: 'open' }
     },
@@ -139,9 +138,11 @@ const Applications = () => {
                 ) : (
                   <div
                     className="app-icon-simple"
-                    style={{ backgroundColor: app.iconColor }}
+                    style={{ backgroundColor: app.iconColor, border: app.iconBorder, boxSizing: 'border-box' }}
                   >
-                    <IconComponent size={40} strokeWidth={2} color="white" />
+                    {IconComponent === VoiceLogo
+                      ? <VoiceLogo size={60} />
+                      : <IconComponent size={40} strokeWidth={2} color="white" />}
                   </div>
                 )}
                 <h4>{app.title}</h4>
