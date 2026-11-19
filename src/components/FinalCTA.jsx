@@ -4,7 +4,7 @@ import './FinalCTA.css';
 const CTA_BUTTONS = [
   {
     id: 'test',
-    text: 'Tester le traducteur',
+    text: 'Ouvrir le traducteur',
     href: 'https://traducteur.potomitan.io',
     variant: 'green'
   },

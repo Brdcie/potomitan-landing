@@ -191,7 +191,7 @@ const Actualites = () => {
 
         <div className="article-cta">
           <a href="https://linktr.ee/potomitan.io" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Tester maintenant
+            Ouvrir le traducteur
           </a>
           <a href="mailto:contact@potomitan.io" className="btn-secondary">
             Financement/partenariats

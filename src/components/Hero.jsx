@@ -14,7 +14,7 @@ const Hero = () => {
         {/* Primary CTA */}
         <div className="hero-cta-primary">
           <a href="https://traducteur.potomitan.io" className="btn btn-primary-large">
-            Tester maintenant
+            Ouvrir le traducteur
           </a>
         </div>
 
