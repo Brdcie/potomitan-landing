@@ -1,4 +1,17 @@
-import { Mic, Keyboard } from 'lucide-react';
+import { Keyboard } from 'lucide-react';
+
+// Icône VwaKréyòl dessinée le 19/11/2026 : bulle de parole avec une onde sonore (« ta voix »),
+// même grille et même trait que les icônes lucide.
+const VoiceBubble = ({ size = 24, strokeWidth = 2, color = 'currentColor' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none"
+    stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.45L3 20.5l1.55-5.4A8.5 8.5 0 1 1 21 11.5z" />
+    <path d="M8.5 10v3" />
+    <path d="M11.5 8v7" />
+    <path d="M14.5 9.5v4" />
+    <path d="M17 11v1" />
+  </svg>
+);
 
 const Applications = () => {
   const userApps = [
@@ -22,7 +35,7 @@ const Applications = () => {
     {
       title: 'VwaKréyòl',
       description: 'Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
-      icon: Mic,
+      icon: VoiceBubble,
       iconColor: '#FFC107', // Jaune
       link: 'https://vwakreol.potomitan.io',
       badge: { text: '📱 Application mobile installable sur IOS et Androïd', type: 'open' }
