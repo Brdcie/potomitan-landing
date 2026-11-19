@@ -56,8 +56,8 @@ const Applications = () => {
     {
       title: 'Klavyé Kréyòl',
       description: "Clavier créole guadeloupéen de Medhi Famibelle, intégré à l'écosystème POTOMITAN. Disponible sur Android.",
-      // Icône de l'app sur Google Play (récupérée le 19/11/2026)
-      logo: { src: '/klavye-kreyol-icon.png', alt: 'Icône de l\'application Klavyé Kréyòl' },
+      // Image tirée de la bande-annonce de Klavyé Kréyòl (choix de Brigitte, 19/11/2026)
+      logo: { src: '/klavye-kreyol-trailer.jpg', alt: 'Une jeune personne écrit sur son téléphone avec Klavyé Kréyòl' },
       link: 'https://play.google.com/store/apps/details?id=com.potomitan.kreyolkeyboard&utm_source=emea_Med',
       badge: { type: 'google-play', image: '/google-play-badge-fr.svg' }
     }
@@ -135,8 +135,8 @@ const Applications = () => {
                     loading="lazy"
                   />
                 ) : app.logo ? (
-                  <div className="app-icon-simple" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E5E8EB', boxSizing: 'border-box', overflow: 'hidden' }}>
-                    <img src={app.logo.src} alt={app.logo.alt} width="72" height="72" loading="lazy" />
+                  <div className="app-icon-simple" style={{ overflow: 'hidden' }}>
+                    <img src={app.logo.src} alt={app.logo.alt} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 ) : (
                   <div
