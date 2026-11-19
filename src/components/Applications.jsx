@@ -1,10 +1,10 @@
 import { Keyboard } from 'lucide-react';
 
-// Icône VwaKréyòl (19/11/2026, choix E de Brigitte) : le logo POTOMITAN dont le cercle devient
-// une bulle de parole (poteau-mitan et double hélice à l'intérieur), sur fond blanc bordé de jaune.
+// Icône VwaKréyòl (19/11/2026, choix de Brigitte) : le logo POTOMITAN dont le cercle devient
+// une bulle de parole blanche (poteau-mitan et double hélice à l'intérieur), sur fond orange.
 const VoiceLogo = ({ size = 56 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 200 200" aria-hidden="true">
-    <path d="M79.4,163.7 A72,72 0 1 0 41.6,132 L28,180 Z" fill="none" stroke="#3498DB" strokeWidth="10" strokeLinejoin="round" />
+    <path d="M79.4,163.7 A72,72 0 1 0 41.6,132 L28,180 Z" fill="#FFFFFF" stroke="#FFFFFF" strokeWidth="6" strokeLinejoin="round" />
     <rect x="96" y="44" width="16" height="104" rx="2" fill="#2C3E50" />
     <path d="M104,46 Q130,71 104,96 Q78,121 104,146" stroke="#F1C40F" strokeWidth="8" fill="none" strokeLinecap="round" />
     <path d="M104,146 Q130,121 104,96 Q78,71 104,46" stroke="#E74C3C" strokeWidth="8" fill="none" strokeLinecap="round" />
@@ -34,8 +34,7 @@ const Applications = () => {
       title: 'VwaKréyòl',
       description: 'Enrichissez le corpus audio ou proposez de nouvelles phrases traduites en créole guadeloupéen. Contribution libre et ouverte.',
       icon: VoiceLogo,
-      iconColor: '#FFFFFF',
-      iconBorder: '3px solid #FFC107', // Jaune
+      iconColor: '#FF8C42', // Orange de la marque (bouton « Contribuer »)
       link: 'https://vwakreol.potomitan.io',
       badge: { text: '📱 Application mobile installable sur IOS et Androïd', type: 'open' }
     },

@@ -100,7 +100,7 @@ const Reconnaissance = () => {
 
       <div className="reconnaissance-news">
         <span className="news-label">Dernière actualité :</span>
-        <span className="news-title">Interview RCI — Entreprises Peyi, 8 septembre 2026</span>
+        <span className="news-title">Article France-Antilles, 10 novembre 2026</span>
         <a href="/actualites" className="news-link">Lire l'article complet →</a>
       </div>
     </section>

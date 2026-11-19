@@ -14,6 +14,29 @@ const Actualites = () => {
 
       <article className="actualite-article">
         <div className="article-header">
+          <span className="article-date">10 novembre 2026</span>
+          <span className="article-tag">Médias</span>
+        </div>
+
+        <h2>ARTICLE FRANCE-ANTILLES</h2>
+        <h3>« Potomitan, l'IA créole pour faciliter l'accès aux droits et aux secours »</h3>
+
+        <p className="intro">
+          France-Antilles Guadeloupe consacre une page à POTOMITAN dans son édition du 10 novembre 2026,
+          rubrique Data &amp; Informatique, sous la plume de Joanne Blanc. L'article présente le traducteur,
+          les phrases préparées pour les professionnels de terrain, le fonctionnement hors connexion,
+          et lance un appel aux voix pour enrichir le corpus avec VwaKréyòl.
+        </p>
+
+        <div className="article-cta">
+          <a href="https://vwakreol.potomitan.io/" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Prêter ma voix sur VwaKréyòl
+          </a>
+        </div>
+      </article>
+
+      <article className="actualite-article">
+        <div className="article-header">
           <span className="article-date">8 septembre 2026</span>
           <span className="article-tag">Médias</span>
         </div>
